@@ -1,0 +1,22 @@
+CREATE TABLE RESPONSABLE (
+	NIF TEXT(9),
+	ROPO TEXT(20)
+);
+
+
+CREATE TABLE CODIGOOPERACION (
+	codigo INTEGER,
+	descripcion TEXT(200)
+);
+
+insert into CODIGOOPERACION(codigo,descripcion) 
+	values
+		(1,'Compra en España (suministrador)'),
+        	(2,'Venta en España (suministrador)'),
+		(3,'Importación UE (suministrador)'),
+		(4,'Importación no UE (suministrador)'),
+		(5,'Exportación UE (suministrador)'),
+		(6,'Exportación no UE (suministrador)'),
+		(7,'Adquisición (tratamientos)'),
+		(8,'Aplicación (tratamientos)');
+
