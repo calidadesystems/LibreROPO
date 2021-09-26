@@ -12,7 +12,7 @@ CREATE TABLE CODIGOOPERACION (
 insert into CODIGOOPERACION(codigo,descripcion) 
 	values
 		(1,'Compra en España (suministrador)'),
-        	(2,'Venta en España (suministrador)'),
+        (2,'Venta en España (suministrador)'),
 		(3,'Importación UE (suministrador)'),
 		(4,'Importación no UE (suministrador)'),
 		(5,'Exportación UE (suministrador)'),
@@ -21,14 +21,24 @@ insert into CODIGOOPERACION(codigo,descripcion)
 		(8,'Aplicación (tratamientos)');
 
 
+CREATE TABLE UNIDAD(
+		codigo INTEGER,
+	descripcion TEXT(3)
+);
 
-CREATE TABLE Paises(
+insert into UNIDAD(codigo,descripcion) 
+	values
+		(1,'g.'),
+        (2,'Kg.');
+
+
+CREATE TABLE PAIS(
 	identificador TEXT(2),
 	pais TEXT(200)
 );
 
 
-insert into Paises(identificador,pais) 
+insert into PAIS(identificador,pais) 
 	values
 		('AD','Andorra'),
 		('AE','Emiratos Árabes Unidos'),
