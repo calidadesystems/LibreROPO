@@ -9300,17 +9300,71 @@ create table CLIENTE(
 	DireccionDestino TEXT(255),
 	CodPostalDestino TEXT(5),
 	PaisDestino	TEXT(2),
-	ProvinciaDestino	TEXT(2)
+	ProvinciaDestino	TEXT(2),
+	LocalidadDestino	TEXT(3)
+
 );
 
+create table CONFIGURACION(
+	clave text(20),
+	valor text(255)
+
+);
+
+
+create table CLIENTE(
+	NIFDestino TEXT(20),
+	ROPODestino TEXT(20),
+	EntidadDestino TEXT(200),
+	CorreoElectronicoDestino TEXT(255),
+	TelefonoDestino	TEXT(10),
+	FaxDestino		TEXT(20),
+	DireccionDestino TEXT(255),
+	CodPostalDestino TEXT(5),
+	PaisDestino	TEXT(2),
+	ProvinciaDestino	TEXT(2),
+	LocalidadDestino	TEXT(3),
+
+);
+
+create table AUTORIZADOCLIENTE(
+	NIFDestino TEXT(20),
+	NIFPersonaAutorizada TEXT(20),
+	NombrePersonaAutorizada TEXT(255),
+	PrimerApellidoPersonaAutorizada TEXT(255),
+	SegundoApellidoPersonaAutorizada TEXT(255),
+	EmpresaExplotacionUsuarioProfesional  TEXT(255)	
+);
 
 		
 create table REGISTRO(
-	TIPO INTEGER,
+	id_registro INTEGER,
 	fecha TEXT,
-	NIFResponsable TEXT(9),
 	CODIGOOPERACION INTEGER,
-	
+	NIFDestino TEXT(20),
+	NIFPersonaAutorizada  TEXT(20)
 );
+
+
+
+create table PRODUCTO(
+	id_producto INTEGER,
+	NumeroRegistro TEXT(255),
+	NombreComercial TEXT(255),
+	Capacidad INTEGER,
+	UNIDAD INTEGER,
+	ImportacionParalela TEXT(1),
+	DenominacionComun TEXT(1),
+	CultivoTratamiento TEXT(255)
+);
+
+create table REGISTRO_PRODUCTO(
+	id_registro INTEGER,
+	id_producto INTEGER,
+	Lote TEXT(255),
+	NumeroEnvases INTEGER
+);
+
+
 
 
