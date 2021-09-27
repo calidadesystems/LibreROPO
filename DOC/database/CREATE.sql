@@ -5,7 +5,7 @@ CREATE TABLE RESPONSABLE (
 
 
 CREATE TABLE CODIGOOPERACION (
-	codigo INTEGER,
+	codigo INTEGER PRIMARY KEY,
 	descripcion TEXT(200)
 );
 
@@ -22,8 +22,8 @@ insert into CODIGOOPERACION(codigo,descripcion)
 
 
 CREATE TABLE UNIDAD(
-		codigo INTEGER,
-	descripcion TEXT(3)
+		codigo INTEGER PRIMARY KEY, 
+		descripcion TEXT(3)
 );
 
 insert into UNIDAD(codigo,descripcion) 
@@ -33,7 +33,7 @@ insert into UNIDAD(codigo,descripcion)
 
 
 CREATE TABLE PAIS(
-	identificador TEXT(2),
+	identificador TEXT(2) PRIMARY KEY,
 	pais TEXT(200)
 );
 
@@ -9304,13 +9304,11 @@ create table CLIENTE(
 );
 
 
-		
 create table REGISTRO(
 	TIPO INTEGER,
 	fecha TEXT,
 	NIFResponsable TEXT(9),
 	CODIGOOPERACION INTEGER,
-	
 );
 
 
