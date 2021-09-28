@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace LibreROPO
 {
-    public partial class Form1 : Form
+    public partial class OpenDatabase : Form
     {
-        public Form1()
+        public OpenDatabase()
         {
             InitializeComponent();
-            OpenDatabase od = new OpenDatabase();
-            od.Show();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+            openFileDialog1.ShowDialog();
 
         }
     }
