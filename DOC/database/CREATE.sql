@@ -107,7 +107,10 @@ create table REGISTRO_PRODUCTO(
 insert into UNIDAD(codigo,descripcion) 
 	values
 		(1,'g.'),
-        (2,'Kg.');
+	        (2,'Kg.'),
+		(3,'L.'),
+		(4,'ml/ud.'),
+		(5,'ml.');
 
 
 insert into CODIGOOPERACION(codigo,descripcion) 
