@@ -1,13 +1,114 @@
-CREATE TABLE RESPONSABLE (
-	NIF TEXT(9),
-	ROPO TEXT(20)
-);
-
-
 CREATE TABLE CODIGOOPERACION (
 	codigo INTEGER PRIMARY KEY,
 	descripcion TEXT(200)
 );
+
+
+CREATE TABLE UNIDAD(
+		codigo INTEGER PRIMARY KEY, 
+		descripcion TEXT(3)
+);
+
+
+CREATE TABLE PAIS(
+	identificador TEXT(2) PRIMARY KEY,
+	pais TEXT(200)
+);
+
+CREATE TABLE PROVINCIA(
+	INE INTEGER PRIMARY KEY,
+	PROVINCIA TEXT(200)
+);
+
+
+CREATE TABLE MUNICIPIO(
+	INEPROVINCIA INTEGER,
+	CODMUNICIPIO INTEGER,
+	DC INTEGER,
+	NOMBRE TEXT(200),
+	FOREIGN KEY(INEPROVINCIA) REFERENCES PROVINCIA(INE),
+	PRIMARY KEY (INEPROVINCIA,CODMUNICIPIO)
+);
+
+create table RESPONSABLE(
+	NIFResponsable TEXT(9)  PRIMARY KEY,
+	ROPOResponsable TEXT(20)
+);
+
+create table PRODUCTO(
+	NumeroRegistro TEXT(255),
+	NombreComercial TEXT(255),
+	Capacidad	INTEGER,
+	Unidad		INTEGER,
+	ImportacionParalela	TEXT(1),
+	DenominacionComun	TEXT(1),
+	CultivoTratamiento	TEXT(255),
+	FOREIGN KEY(Unidad) REFERENCES UNIDAD(codigo),
+	PRIMARY KEY (NumeroRegistro)
+);
+
+create table CONFIGURACION(
+	clave text(20),
+	valor text(255)
+
+);
+
+
+create table CLIENTE(
+	NIFDestino TEXT(20)  PRIMARY KEY,
+	ROPODestino TEXT(20),
+	EntidadDestino TEXT(200),
+	CorreoElectronicoDestino TEXT(255),
+	TelefonoDestino	TEXT(10),
+	FaxDestino		TEXT(20),
+	DireccionDestino TEXT(255),
+	CodPostalDestino TEXT(5),
+	PaisDestino	TEXT(2),
+	ProvinciaDestino	TEXT(2),
+	LocalidadDestino	INTEGER,
+	FOREIGN KEY(PaisDestino) REFERENCES PAIS(identificador),
+	FOREIGN KEY(ProvinciaDestino) REFERENCES PROVINCIA(INE),
+	FOREIGN KEY(LocalidadDestino) REFERENCES MUNICIPIO(CODMUNICIPIO)
+	
+);
+
+create table AUTORIZADOCLIENTE(
+	NIFDestino TEXT(20) ,
+	NIFPersonaAutorizada TEXT(20),
+	NombrePersonaAutorizada TEXT(255),
+	PrimerApellidoPersonaAutorizada TEXT(255),
+	SegundoApellidoPersonaAutorizada TEXT(255),
+	EmpresaExplotacionUsuarioProfesional  TEXT(255)	,
+	FOREIGN KEY(NIFDestino) REFERENCES CLIENTE(NIFDestino),
+	PRIMARY KEY (NIFDestino, NIFPersonaAutorizada)
+);
+
+create table REGISTRO(
+	id_registro INTEGER PRIMARY KEY AUTOINCREMENT,
+	fecha TEXT,
+	CODIGOOPERACION INTEGER,
+	NIFDestino TEXT(20) ,
+	NIFPersonaAutorizada TEXT(20),
+	FOREIGN KEY(NIFDestino) REFERENCES CLIENTE(NIFDestino),
+	FOREIGN KEY(NIFPersonaAutorizada) REFERENCES AUTORIZADOCLIENTE(NIFDestino),
+	FOREIGN KEY(CODIGOOPERACION) REFERENCES CODIGOOPERACION(codigo)
+);
+
+create table REGISTRO_PRODUCTO(
+	id_registro INTEGER,
+	NumeroRegistro TEXT(255),
+	NumeroEnvases	INTEGER,
+	Lote	TEXT(255),
+	FOREIGN KEY(id_registro) REFERENCES REGISTRO(id_registro),
+	FOREIGN KEY(NumeroRegistro) REFERENCES PRODUCTO(NumeroRegistro),
+	PRIMARY KEY (id_registro,NumeroRegistro)
+);
+
+insert into UNIDAD(codigo,descripcion) 
+	values
+		(1,'g.'),
+        (2,'Kg.');
+
 
 insert into CODIGOOPERACION(codigo,descripcion) 
 	values
@@ -20,22 +121,6 @@ insert into CODIGOOPERACION(codigo,descripcion)
 		(7,'Adquisición (tratamientos)'),
 		(8,'Aplicación (tratamientos)');
 
-
-CREATE TABLE UNIDAD(
-		codigo INTEGER PRIMARY KEY, 
-		descripcion TEXT(3)
-);
-
-insert into UNIDAD(codigo,descripcion) 
-	values
-		(1,'g.'),
-        (2,'Kg.');
-
-
-CREATE TABLE PAIS(
-	identificador TEXT(2) PRIMARY KEY,
-	pais TEXT(200)
-);
 
 
 insert into PAIS(identificador,pais) 
@@ -273,10 +358,6 @@ insert into PAIS(identificador,pais)
 		('ZW','Zimbabwe')
 		;
 		
-CREATE TABLE PROVINCIA(
-	INE INTEGER,
-	PROVINCIA TEXT(200)
-);
 
 insert into PROVINCIA(PROVINCIA,INE) 
 	values
@@ -334,12 +415,6 @@ insert into PROVINCIA(PROVINCIA,INE)
 		('Melilla',52)
 	;
 
-CREATE TABLE MUNICIPIO(
-	INEPROVINCIA INTEGER,
-	CODMUNICIPIO INTEGER,
-	DC INTEGER,
-	NOMBRE TEXT(200)
-);
 
 INSERT INTO MUNICIPIO (INEPROVINCIA,CODMUNICIPIO,DC,NOMBRE) VALUES
 	 (1,1,4,'Alegr�a-Dulantzi'),
@@ -9285,64 +9360,3 @@ INSERT INTO MUNICIPIO (INEPROVINCIA,CODMUNICIPIO,DC,NOMBRE) VALUES
 	 (51,1,3,'Ceuta'),
 	 (52,1,8,'Melilla');
 	
-create table RESPONSABLE(
-	NIFResponsable TEXT(9),
-	ROPOResponsable TEXT(20)
-);
-
-create table CLIENTE(
-	NIFDestino TEXT(20),
-	ROPODestino TEXT(20),
-	EntidadDestino TEXT(200),
-	CorreoElectronicoDestino TEXT(255),
-	TelefonoDestino	TEXT(10),
-	FaxDestino		TEXT(20),
-	DireccionDestino TEXT(255),
-	CodPostalDestino TEXT(5),
-	PaisDestino	TEXT(2),
-	ProvinciaDestino	TEXT(2),
-	LocalidadDestino	TEXT(3)
-
-);
-
-create table CONFIGURACION(
-	clave text(20),
-	valor text(255)
-
-);
-
-
-create table CLIENTE(
-	NIFDestino TEXT(20),
-	ROPODestino TEXT(20),
-	EntidadDestino TEXT(200),
-	CorreoElectronicoDestino TEXT(255),
-	TelefonoDestino	TEXT(10),
-	FaxDestino		TEXT(20),
-	DireccionDestino TEXT(255),
-	CodPostalDestino TEXT(5),
-	PaisDestino	TEXT(2),
-	ProvinciaDestino	TEXT(2),
-	LocalidadDestino	TEXT(3),
-
-);
-
-create table AUTORIZADOCLIENTE(
-	NIFDestino TEXT(20),
-	NIFPersonaAutorizada TEXT(20),
-	NombrePersonaAutorizada TEXT(255),
-	PrimerApellidoPersonaAutorizada TEXT(255),
-	SegundoApellidoPersonaAutorizada TEXT(255),
-	EmpresaExplotacionUsuarioProfesional  TEXT(255)	
-);
-
-create table REGISTRO(
-	id_registro INTEGER,
-	fecha TEXT,
-	CODIGOOPERACION INTEGER,
-	
-);
-
-
-
-
