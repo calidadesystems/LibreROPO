@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace LibreROPO
 {
-    public partial class Form1 : Form
+    public partial class FrmCliente : Form
     {
-        public Form1()
+        public FrmCliente()
         {
             InitializeComponent();
-            //OpenDatabase od = new OpenDatabase();
-            //od.Show();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
