@@ -38,12 +38,9 @@ create table RESPONSABLE(
 create table PRODUCTO(
 	NumeroRegistro TEXT(255),
 	NombreComercial TEXT(255),
-	Capacidad	INTEGER,
-	Unidad		INTEGER,
 	ImportacionParalela	TEXT(1),
 	DenominacionComun	TEXT(1),
 	CultivoTratamiento	TEXT(255),
-	FOREIGN KEY(Unidad) REFERENCES UNIDAD(codigo),
 	PRIMARY KEY (NumeroRegistro)
 );
 
@@ -99,6 +96,9 @@ create table REGISTRO_PRODUCTO(
 	NumeroRegistro TEXT(255),
 	NumeroEnvases	INTEGER,
 	Lote	TEXT(255),
+	Capacidad       INTEGER,
+        Unidad          INTEGER,
+        FOREIGN KEY(Unidad) REFERENCES UNIDAD(codigo),
 	FOREIGN KEY(id_registro) REFERENCES REGISTRO(id_registro),
 	FOREIGN KEY(NumeroRegistro) REFERENCES PRODUCTO(NumeroRegistro),
 	PRIMARY KEY (id_registro,NumeroRegistro)
@@ -107,7 +107,10 @@ create table REGISTRO_PRODUCTO(
 insert into UNIDAD(codigo,descripcion) 
 	values
 		(1,'g.'),
-        (2,'Kg.');
+	        (2,'Kg.'),
+		(3,'L.'),
+		(4,'ml/ud.'),
+		(5,'ml.');
 
 
 insert into CODIGOOPERACION(codigo,descripcion) 
