@@ -13,6 +13,7 @@ namespace LibreROPO
     public partial class OpenDatabase : Form
     {
         String path;
+        LibreROPOdb lrdb;
         public OpenDatabase()
         {
             InitializeComponent();
@@ -31,8 +32,36 @@ namespace LibreROPO
                     //Check if file is a database
                     this.path = ofd.FileName;
                     this.textBox1.Text = this.path;
+                    this.lrdb = new LibreROPOdb(this.path);
                 }
             
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (this.textBox1.Text.Equals(""))
+            {
+                string message = "Seleccione una base de datos";
+                string caption = "Error";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result;
+                result = MessageBox.Show(message, caption, buttons);
+            }
+            else
+            { 
+                if (this.lrdb.isValidDb())
+                {
+
+                }
+                else 
+                {
+                    string message = "Base de datos invalida";
+                    string caption = "Error";
+                    MessageBoxButtons buttons = MessageBoxButtons.OK;
+                    DialogResult result;
+                    result = MessageBox.Show(message, caption, buttons);
+                }
             }
         }
     }
