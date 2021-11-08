@@ -12,9 +12,28 @@ namespace LibreROPO
 {
     public partial class OpenDatabase : Form
     {
+        String path;
         public OpenDatabase()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog ofd = new OpenFileDialog())
+            {
+                ofd.Filter = "SQlite database| *.sqlite3";
+                ofd.FilterIndex = 1;
+                ofd.RestoreDirectory = true;
+
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    //Check if file is a database
+                    this.path = ofd.FileName;
+                    this.textBox1.Text = this.path;
+                }
+            
+            }
         }
     }
 }
