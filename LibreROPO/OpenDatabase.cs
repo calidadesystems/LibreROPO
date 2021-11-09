@@ -68,8 +68,16 @@ namespace LibreROPO
         private void button3_Click(object sender, EventArgs e)
         {
             using (SaveFileDialog sfd = new SaveFileDialog())
-            { 
-                
+            {
+                sfd.Filter = "Sqlite database|*.sqlite3";
+                sfd.Title = "Crear nueva base de datos";
+                sfd.ShowDialog();
+                if (sfd.FileName != "") 
+                {
+                    this.path = sfd.FileName;
+                    this.textBox1.Text = this.path;
+                    this.lrdb = new LibreROPOdb(this.path);
+                }
             }
         }
     }
