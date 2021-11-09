@@ -67,9 +67,6 @@ namespace LibreROPO
                     sql = "create table PRODUCTO(NumeroRegistro TEXT(255),NombreComercial TEXT(255),ImportacionParalela TEXT(1),DenominacionComun TEXT(1),CultivoTratamiento TEXT(255),PRIMARY KEY(NumeroRegistro)); ";
                     cmd = new SQLiteCommand(sql, sqli);
                     cmd.ExecuteNonQuery();
-                    sql = "create table PRODUCTO(NumeroRegistro TEXT(255),NombreComercial TEXT(255),ImportacionParalela TEXT(1),DenominacionComun TEXT(1),CultivoTratamiento TEXT(255),PRIMARY KEY(NumeroRegistro)); ";
-                    cmd = new SQLiteCommand(sql, sqli);
-                    cmd.ExecuteNonQuery();
                     sql = "create table CONFIGURACION(clave text(20),valor text(255));";
                     cmd = new SQLiteCommand(sql, sqli);
                     cmd.ExecuteNonQuery();
