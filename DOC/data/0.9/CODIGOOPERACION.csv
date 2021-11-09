@@ -1,0 +1,9 @@
+"codigo","descripcion"
+1,Compra en España (suministrador)
+2,Venta en España (suministrador)
+3,Importación UE (suministrador)
+4,Importación no UE (suministrador)
+5,Exportación UE (suministrador)
+6,Exportación no UE (suministrador)
+7,Adquisición (tratamientos)
+8,Aplicación (tratamientos)
