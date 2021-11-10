@@ -31,9 +31,9 @@ namespace LibreROPO
         {
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnExaminar = new System.Windows.Forms.Button();
+            this.btnAbrir = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -52,44 +52,44 @@ namespace LibreROPO
             this.textBox1.Size = new System.Drawing.Size(701, 20);
             this.textBox1.TabIndex = 1;
             // 
-            // button1
+            // btnExaminar
             // 
-            this.button1.Location = new System.Drawing.Point(758, 14);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Examinar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnExaminar.Location = new System.Drawing.Point(758, 14);
+            this.btnExaminar.Name = "btnExaminar";
+            this.btnExaminar.Size = new System.Drawing.Size(75, 23);
+            this.btnExaminar.TabIndex = 2;
+            this.btnExaminar.Text = "Examinar";
+            this.btnExaminar.UseVisualStyleBackColor = true;
+            this.btnExaminar.Click += new System.EventHandler(this.brnExaminar_Click);
             // 
-            // button2
+            // btnAbrir
             // 
-            this.button2.Location = new System.Drawing.Point(839, 14);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Abrir";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnAbrir.Location = new System.Drawing.Point(839, 14);
+            this.btnAbrir.Name = "btnAbrir";
+            this.btnAbrir.Size = new System.Drawing.Size(75, 23);
+            this.btnAbrir.TabIndex = 3;
+            this.btnAbrir.Text = "Abrir";
+            this.btnAbrir.UseVisualStyleBackColor = true;
+            this.btnAbrir.Click += new System.EventHandler(this.btnAbrir_Click);
             // 
-            // button3
+            // btnNuevo
             // 
-            this.button3.Location = new System.Drawing.Point(920, 15);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(84, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Nuevo";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnNuevo.Location = new System.Drawing.Point(920, 15);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(84, 23);
+            this.btnNuevo.TabIndex = 4;
+            this.btnNuevo.Text = "Nuevo";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // OpenDatabase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1109, 58);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnNuevo);
+            this.Controls.Add(this.btnAbrir);
+            this.Controls.Add(this.btnExaminar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "OpenDatabase";
@@ -103,8 +103,8 @@ namespace LibreROPO
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnExaminar;
+        private System.Windows.Forms.Button btnAbrir;
+        private System.Windows.Forms.Button btnNuevo;
     }
 }

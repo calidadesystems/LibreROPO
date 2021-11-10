@@ -29,24 +29,25 @@ namespace LibreROPO
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnClientes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnClientes
             // 
-            this.button1.Location = new System.Drawing.Point(36, 29);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(173, 48);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Clientes";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnClientes.Location = new System.Drawing.Point(36, 29);
+            this.btnClientes.Name = "btnClientes";
+            this.btnClientes.Size = new System.Drawing.Size(173, 48);
+            this.btnClientes.TabIndex = 0;
+            this.btnClientes.Text = "Clientes";
+            this.btnClientes.UseVisualStyleBackColor = true;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(935, 338);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnClientes);
             this.Name = "Principal";
             this.Text = "LibreROPO";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -56,7 +57,7 @@ namespace LibreROPO
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnClientes;
     }
 }
 

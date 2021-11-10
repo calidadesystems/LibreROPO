@@ -13,9 +13,13 @@ using System.Net.Http;
 
 namespace LibreROPO
 {
-    class LibreROPOdb
+    public sealed class LibreROPOdb
     {
         private String path;
+        private static LibreROPOdb instance = null;
+        private static readonly object padlock = new object();
+
+
         public LibreROPOdb(String path)
         {
             this.path = path;
@@ -29,6 +33,17 @@ namespace LibreROPO
             }
 
         }
+
+ 
+        public static LibreROPOdb GetInstance(String path)
+        {
+            if (instance == null)
+            {
+                instance = new LibreROPOdb(path);
+            }
+            return instance;
+        }
+
 
         public bool fileExists()
         {
@@ -381,6 +396,17 @@ namespace LibreROPO
             command.Parameters.AddWithValue("NOMBRE", muni.Nombre);
             command.ExecuteNonQuery();
             con.Close();
+        }
+
+        public DataSet GetListarClientes() 
+        {
+            DataSet toret = new DataSet();
+            SQLiteConnection con = this.GetConn();
+            SQLiteDataAdapter sqda;
+            sqda = new SQLiteDataAdapter("Select * from Cliente", con);
+            sqda.Fill(toret);
+            con.Close();
+            return toret;
         }
 
 

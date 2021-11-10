@@ -12,6 +12,7 @@ namespace LibreROPO
 {
     public partial class Principal : Form
     {
+
         public Principal()
         {
             InitializeComponent();
@@ -22,6 +23,12 @@ namespace LibreROPO
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            ListarClientes lc = new ListarClientes();
+            lc.ShowDialog();
         }
     }
 }

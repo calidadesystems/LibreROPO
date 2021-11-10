@@ -19,7 +19,7 @@ namespace LibreROPO
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void brnExaminar_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog ofd = new OpenFileDialog())
             {
@@ -32,13 +32,14 @@ namespace LibreROPO
                     //Check if file is a database
                     this.path = ofd.FileName;
                     this.textBox1.Text = this.path;
-                    this.lrdb = new LibreROPOdb(this.path);
+                    this.lrdb = LibreROPOdb.GetInstance(this.path);
+                   
                 }
             
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnAbrir_Click(object sender, EventArgs e)
         {
             if (this.textBox1.Text.Equals(""))
             {
@@ -52,6 +53,11 @@ namespace LibreROPO
             { 
                 if (this.lrdb.isValidDb())
                 {
+                    this.Visible = false;
+                    Principal pcp = new Principal();
+                    pcp.ShowDialog();
+                    this.Dispose();
+                    
 
                 }
                 else 
@@ -65,7 +71,7 @@ namespace LibreROPO
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnNuevo_Click(object sender, EventArgs e)
         {
             using (SaveFileDialog sfd = new SaveFileDialog())
             {
@@ -76,7 +82,15 @@ namespace LibreROPO
                 {
                     this.path = sfd.FileName;
                     this.textBox1.Text = this.path;
-                    this.lrdb = new LibreROPOdb(this.path);
+                    this.lrdb = LibreROPOdb.GetInstance(this.path);
+                    if (this.lrdb.isValidDb())
+                    {
+                        Principal pcp = new Principal();
+                        this.Visible = false;
+                        pcp.ShowDialog();
+                        this.Dispose();
+                        
+                    }
                 }
             }
         }
