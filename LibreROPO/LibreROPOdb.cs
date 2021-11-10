@@ -170,6 +170,63 @@ namespace LibreROPO
                         }
                     }
                     break;
+                case "PAIS.csv":
+                    using (HttpClient client = new HttpClient())
+                    {
+                        HttpResponseMessage response = client.GetAsync(baseurl + table).Result;
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var responseContent = response.Content;
+                            string responseString = responseContent.ReadAsStringAsync().Result;
+                            foreach (var values in responseString.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries))
+                            {
+                                if (times > 0)
+                                {
+                                    InsertPais(values);
+                                }
+                                times++;
+                            }
+                        }
+                    }
+                    break;
+                case "PROVINCIA.csv":
+                    using (HttpClient client = new HttpClient())
+                    {
+                        HttpResponseMessage response = client.GetAsync(baseurl + table).Result;
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var responseContent = response.Content;
+                            string responseString = responseContent.ReadAsStringAsync().Result;
+                            foreach (var values in responseString.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries))
+                            {
+                                if (times > 0)
+                                {
+                                    InsertProvincia(values);
+                                }
+                                times++;
+                            }
+                        }
+                    }
+                    break;
+                case "MUNICIPIO.csv":
+                    using (HttpClient client = new HttpClient())
+                    {
+                        HttpResponseMessage response = client.GetAsync(baseurl + table).Result;
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var responseContent = response.Content;
+                            string responseString = responseContent.ReadAsStringAsync().Result;
+                            foreach (var values in responseString.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries))
+                            {
+                                if (times > 0)
+                                {
+                                    InsertMunicipio(values);
+                                }
+                                times++;
+                            }
+                        }
+                    }
+                    break;
             }
         }
 
@@ -200,6 +257,52 @@ namespace LibreROPO
             command.ExecuteNonQuery();
             con.Close();
         }
+
+        private void InsertPais(string values)
+        {
+            string[] separatedvalues = values.Split(',');
+            SQLiteConnection con = new SQLiteConnection();
+            con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
+            con.Open();
+            SQLiteCommand command = con.CreateCommand();
+            command.CommandText = "insert into PAIS(identificador,pais) values(@identificador,@pais) ";
+            command.Parameters.AddWithValue("identificador", separatedvalues[0]);
+            command.Parameters.AddWithValue("pais", separatedvalues[1]);
+            command.ExecuteNonQuery();
+            con.Close();
+        }
+
+        private void InsertProvincia(string values)
+        {
+            string[] separatedvalues = values.Split(',');
+            SQLiteConnection con = new SQLiteConnection();
+            con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
+            con.Open();
+            SQLiteCommand command = con.CreateCommand();
+            command.CommandText = "insert into PROVINCIA(INE,PROVINCIA) values(@INE,@PROVINCIA) ";
+            command.Parameters.AddWithValue("INE", separatedvalues[0]);
+            command.Parameters.AddWithValue("PROVINCIA", separatedvalues[1]);
+            Console.WriteLine(command.ToString());
+            command.ExecuteNonQuery();
+            con.Close();
+        }
+
+        private void InsertMunicipio(string values)
+        {
+            string[] separatedvalues = values.Split(',');
+            SQLiteConnection con = new SQLiteConnection();
+            con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
+            con.Open();
+            SQLiteCommand command = con.CreateCommand();
+            command.CommandText = "insert into MUNICIPIO (INEPROVINCIA,CODMUNICIPIO,DC,NOMBRE) values(@INEPROVINCIA,@CODMUNICIPIO,@DC,@NOMBRE) ";
+            command.Parameters.AddWithValue("INEPROVINCIA", separatedvalues[0]);
+            command.Parameters.AddWithValue("CODMUNICIPIO", separatedvalues[1]);
+            command.Parameters.AddWithValue("DC", separatedvalues[2]);
+            command.Parameters.AddWithValue("NOMBRE", separatedvalues[3]);
+            command.ExecuteNonQuery();
+            con.Close();
+        }
+
 
     }
 }
