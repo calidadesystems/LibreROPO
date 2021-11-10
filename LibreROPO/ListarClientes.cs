@@ -13,7 +13,7 @@ namespace LibreROPO
     public partial class ListarClientes : Form
     {
         private LibreROPOdb lrdb;
-        private DataSet ds_clientes;
+
         public ListarClientes()
         {
             InitializeComponent();
