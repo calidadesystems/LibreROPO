@@ -1,7 +1,7 @@
 ﻿
 namespace LibreROPO
 {
-    partial class Form1
+    partial class Principal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -41,13 +41,13 @@ namespace LibreROPO
             this.button1.Text = "Clientes";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(935, 338);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "Principal";
             this.Text = "LibreROPO";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

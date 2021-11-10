@@ -37,8 +37,7 @@ namespace LibreROPO
 
         public bool isValidDb()
         {
-            bool toret = false;
-            return toret;
+            return existsConfigClave("AppName");
         }
 
         private SQLiteConnection GetConn()
@@ -97,7 +96,6 @@ namespace LibreROPO
                     sqli.Close();
                     this.deploydbdata(dbversion);
                     insertConfig("AppName", "LibreROPO");
-                    insertConfig("AppName", "LibreROPO2");
                     break;
 
             }
