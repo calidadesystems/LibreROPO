@@ -96,6 +96,8 @@ namespace LibreROPO
                     cmd.ExecuteNonQuery();
                     sqli.Close();
                     this.deploydbdata(dbversion);
+                    insertConfig("AppName", "LibreROPO");
+                    insertConfig("AppName", "LibreROPO2");
                     break;
 
             }
@@ -103,20 +105,55 @@ namespace LibreROPO
 
         public void insertConfig(string clave, string valor)
         {
+            if (existsConfigClave(clave))
+            {
+                UpdateConfig(clave, valor);
+            }
+            else
+            {
+                insertNewConfig(clave, valor);
+            }
+        }
+        public void insertNewConfig(string clave, string valor)
+        {
             SQLiteConnection con = this.GetConn();
             SQLiteCommand command = con.CreateCommand();
-            /*
-            command.CommandText = "insert into PAIS(identificador,pais) values(@identificador,@pais) ";
-            command.Parameters.AddWithValue("identificador", pai.Identificador);
-            command.Parameters.AddWithValue("pais", pai.Nombre);
+            command.CommandText = "insert into CONFIGURACION(clave,valor) values(@clave,@valor) ";
+            command.Parameters.AddWithValue("clave", clave);
+            command.Parameters.AddWithValue("valor", valor);
             command.ExecuteNonQuery();
-            */
+            con.Close();
+        }
+
+        public void UpdateConfig(string clave, string valor)
+        {
+            SQLiteConnection con = this.GetConn();
+            SQLiteCommand command = con.CreateCommand();
+            command.CommandText = "update CONFIGURACION set valor=@valor where clave=@clave; ";
+            command.Parameters.AddWithValue("clave", clave);
+            command.Parameters.AddWithValue("valor", valor);
+            command.ExecuteNonQuery();
             con.Close();
         }
 
         public bool existsConfigClave(string clave)
         {
             bool toret =false;
+            int veces = 0;
+            SQLiteConnection con = this.GetConn();
+            SQLiteCommand command = con.CreateCommand();
+            command.CommandText = "Select count(*) from configuracion where clave=@CLAVE ";
+            command.Parameters.AddWithValue("@CLAVE", clave);
+            SQLiteDataReader rdr = command.ExecuteReader();
+            while (rdr.Read())
+            {
+                veces = rdr.GetInt32(0);
+            }
+            if (veces > 0)
+            {
+                toret = true;
+            }
+            con.Close();
             return toret;
         }
 
