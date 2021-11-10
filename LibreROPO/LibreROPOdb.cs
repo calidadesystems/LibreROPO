@@ -252,8 +252,6 @@ namespace LibreROPO
 
         }
 
-
-
         private void InsertCodOperacion(string values)
         {
             string[] separatedvalues = values.Split(',');
