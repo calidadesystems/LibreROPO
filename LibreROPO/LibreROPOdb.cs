@@ -4,24 +4,29 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Threading.Tasks;
+using System.Data;
 using System.Data.SQLite;
+using System.Data.SqlClient;
+using System.Net.Http;
+
+
 
 namespace LibreROPO
 {
     class LibreROPOdb
     {
         private String path;
-        public LibreROPOdb(String path) 
+        public LibreROPOdb(String path)
         {
             this.path = path;
-            if (this.fileExists()) 
-                {
-            
-                } 
+            if (this.fileExists())
+            {
+
+            }
             else
-                {
+            {
                 this.deploydb("");
-                }
+            }
 
         }
 
@@ -30,19 +35,19 @@ namespace LibreROPO
             return File.Exists(this.path);
         }
 
-        public bool isValidDb() 
+        public bool isValidDb()
         {
             bool toret = false;
             return toret;
         }
 
-        private void deploydb( String dbversion)
+        private void deploydb(String dbversion)
         {
-            switch (dbversion) 
+            switch (dbversion)
             {
                 case "":
                     SQLiteConnection.CreateFile(this.path);
-                    SQLiteConnection sqli = new SQLiteConnection("Data Source="+this.path+";Version=3;");
+                    SQLiteConnection sqli = new SQLiteConnection("Data Source=" + this.path + ";Version=3;");
                     SQLiteCommand cmd;
                     string sql;
                     sqli.Open();
@@ -83,9 +88,118 @@ namespace LibreROPO
                     cmd = new SQLiteCommand(sql, sqli);
                     cmd.ExecuteNonQuery();
                     sqli.Close();
+                    this.deploydbdata(dbversion);
                     break;
-            
+
             }
         }
+
+        private void deploydbdata(String dbversion)
+        {
+            string baseurl;
+            switch (dbversion)
+            {
+                case "":
+                    baseurl = "https://raw.githubusercontent.com/calidadesystems/LibreROPO/master/DOC/data/0.9/";
+                    using (HttpClient client = new HttpClient())
+                    {
+                        HttpResponseMessage response = client.GetAsync(baseurl+"index.txt").Result;
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var responseContent = response.Content;
+                            string responseString = responseContent.ReadAsStringAsync().Result;
+                            foreach (var file in responseString.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries))
+                            {
+                                Console.WriteLine("******************");
+                                Console.WriteLine(file);
+                                this.InsertData(baseurl,file);
+                            }
+                            
+
+                        }
+
+
+                    }
+                    break;
+            }
+        }
+  
+
+        private void InsertData(string baseurl,string table) 
+        {
+            Console.WriteLine("*InsertData*");
+            Console.WriteLine(table);
+            int times = 0;
+            switch (table) 
+            {
+                case "UNIDAD.csv":
+                    using (HttpClient client = new HttpClient())
+                    {
+                        HttpResponseMessage response = client.GetAsync(baseurl + table).Result;
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var responseContent = response.Content;
+                            string responseString = responseContent.ReadAsStringAsync().Result;
+                            foreach (var values in responseString.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries))
+                            {
+                                if (times > 0)
+                                {
+                                    InsertUnidad(values);
+                                }
+                                times++;
+                            }
+                        }
+                    }
+                    break;
+                case "CODIGOOPERACION.csv":
+                    using (HttpClient client = new HttpClient())
+                    {
+                        HttpResponseMessage response = client.GetAsync(baseurl + table).Result;
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var responseContent = response.Content;
+                            string responseString = responseContent.ReadAsStringAsync().Result;
+                            foreach (var values in responseString.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries))
+                            {
+                                if (times > 0)
+                                {
+                                    InsertCodOperacion(values);
+                                }
+                                times++;
+                            }
+                        }
+                    }
+                    break;
+            }
+        }
+
+        private void InsertUnidad(string values) 
+        {
+            string[] separatedvalues = values.Split(',');
+            SQLiteConnection con = new SQLiteConnection();
+            con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
+            con.Open();
+            SQLiteCommand command =  con.CreateCommand();
+            command.CommandText = "insert into UNIDAD(codigo,descripcion) values(@codigo,@descripcion) ";
+            command.Parameters.AddWithValue("codigo", separatedvalues[0]);
+            command.Parameters.AddWithValue("descripcion", separatedvalues[1]);
+            command.ExecuteNonQuery();
+            con.Close();
+        }
+
+        private void InsertCodOperacion(string values)
+        {
+            string[] separatedvalues = values.Split(',');
+            SQLiteConnection con = new SQLiteConnection();
+            con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
+            con.Open();
+            SQLiteCommand command = con.CreateCommand();
+            command.CommandText = "insert into CODIGOOPERACION(codigo,descripcion) values(@codigo,@descripcion) ";
+            command.Parameters.AddWithValue("codigo", separatedvalues[0]);
+            command.Parameters.AddWithValue("descripcion", separatedvalues[1]);
+            command.ExecuteNonQuery();
+            con.Close();
+        }
+
     }
 }
