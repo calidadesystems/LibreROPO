@@ -96,6 +96,7 @@
       <DependentUpon>FrmCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="LibreROPOdb.cs" />
+    <Compile Include="Municipio.cs" />
     <Compile Include="OpenDatabase.cs">
       <SubType>Form</SubType>
     </Compile>

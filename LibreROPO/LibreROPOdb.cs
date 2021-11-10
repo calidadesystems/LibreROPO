@@ -318,15 +318,21 @@ namespace LibreROPO
         private void InsertMunicipio(string values)
         {
             string[] separatedvalues = values.Split(',');
+            Municipio muni = new Municipio(Int32.Parse(separatedvalues[0]), Int32.Parse(separatedvalues[1]), Int32.Parse(separatedvalues[2]), separatedvalues[3]);
+            InsertMunicipio(muni);
+        }
+
+        private void InsertMunicipio(Municipio muni)
+        {
             SQLiteConnection con = new SQLiteConnection();
             con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
             con.Open();
             SQLiteCommand command = con.CreateCommand();
             command.CommandText = "insert into MUNICIPIO (INEPROVINCIA,CODMUNICIPIO,DC,NOMBRE) values(@INEPROVINCIA,@CODMUNICIPIO,@DC,@NOMBRE) ";
-            command.Parameters.AddWithValue("INEPROVINCIA", separatedvalues[0]);
-            command.Parameters.AddWithValue("CODMUNICIPIO", separatedvalues[1]);
-            command.Parameters.AddWithValue("DC", separatedvalues[2]);
-            command.Parameters.AddWithValue("NOMBRE", separatedvalues[3]);
+            command.Parameters.AddWithValue("INEPROVINCIA", muni.Ineprovincia);
+            command.Parameters.AddWithValue("CODMUNICIPIO", muni.Codmunicipio);
+            command.Parameters.AddWithValue("DC", muni.Dc);
+            command.Parameters.AddWithValue("NOMBRE", muni.Nombre);
             command.ExecuteNonQuery();
             con.Close();
         }
