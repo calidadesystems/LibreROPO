@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace LibreROPO
 {
-    class Unidad
+    class Operacion
     {
         private int codigo;
         private string descripcion;
 
-        public Unidad(int codigo, string descripcion) 
+        public Operacion(int codigo, string descripcion)
         {
             this.Codigo = codigo;
             this.Descripcion = descripcion;

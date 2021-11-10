@@ -102,6 +102,7 @@
     <Compile Include="OpenDatabase.Designer.cs">
       <DependentUpon>OpenDatabase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Operacion.cs" />
     <Compile Include="Producto.cs">
       <SubType>Form</SubType>
     </Compile>

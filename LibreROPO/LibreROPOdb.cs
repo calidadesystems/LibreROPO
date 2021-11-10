@@ -232,28 +232,44 @@ namespace LibreROPO
 
         private void InsertUnidad(string values) 
         {
+            
             string[] separatedvalues = values.Split(',');
+            Unidad unid = new Unidad(Int32.Parse(separatedvalues[0]), separatedvalues[1]);
+            InsertUnidad(unid);
+        }
+
+        private void InsertUnidad(Unidad unid)
+        {
             SQLiteConnection con = new SQLiteConnection();
             con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
             con.Open();
-            SQLiteCommand command =  con.CreateCommand();
+            SQLiteCommand command = con.CreateCommand();
             command.CommandText = "insert into UNIDAD(codigo,descripcion) values(@codigo,@descripcion) ";
-            command.Parameters.AddWithValue("codigo", separatedvalues[0]);
-            command.Parameters.AddWithValue("descripcion", separatedvalues[1]);
+            command.Parameters.AddWithValue("codigo", unid.Codigo);
+            command.Parameters.AddWithValue("descripcion", unid.Descripcion);
             command.ExecuteNonQuery();
             con.Close();
+
         }
+
+
 
         private void InsertCodOperacion(string values)
         {
             string[] separatedvalues = values.Split(',');
+            Operacion oper = new Operacion(Int32.Parse(separatedvalues[0]), separatedvalues[1]);
+            InsertCodOperacion(oper);
+        }
+
+        private void InsertCodOperacion(Operacion oper)
+        {
             SQLiteConnection con = new SQLiteConnection();
             con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
             con.Open();
             SQLiteCommand command = con.CreateCommand();
             command.CommandText = "insert into CODIGOOPERACION(codigo,descripcion) values(@codigo,@descripcion) ";
-            command.Parameters.AddWithValue("codigo", separatedvalues[0]);
-            command.Parameters.AddWithValue("descripcion", separatedvalues[1]);
+            command.Parameters.AddWithValue("codigo", oper.Codigo);
+            command.Parameters.AddWithValue("descripcion", oper.Descripcion);
             command.ExecuteNonQuery();
             con.Close();
         }
