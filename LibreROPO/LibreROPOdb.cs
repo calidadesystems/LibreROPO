@@ -277,13 +277,19 @@ namespace LibreROPO
         private void InsertPais(string values)
         {
             string[] separatedvalues = values.Split(',');
+            Pais pai = new Pais(separatedvalues[0], separatedvalues[1]);
+            InsertPais(pai);
+        }
+
+        private void InsertPais(Pais pai)
+        {
             SQLiteConnection con = new SQLiteConnection();
             con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
             con.Open();
             SQLiteCommand command = con.CreateCommand();
             command.CommandText = "insert into PAIS(identificador,pais) values(@identificador,@pais) ";
-            command.Parameters.AddWithValue("identificador", separatedvalues[0]);
-            command.Parameters.AddWithValue("pais", separatedvalues[1]);
+            command.Parameters.AddWithValue("identificador",pai.Identificador);
+            command.Parameters.AddWithValue("pais", pai.Nombre);
             command.ExecuteNonQuery();
             con.Close();
         }
@@ -291,13 +297,19 @@ namespace LibreROPO
         private void InsertProvincia(string values)
         {
             string[] separatedvalues = values.Split(',');
+            Provincia prov = new Provincia(Int32.Parse(separatedvalues[0]), separatedvalues[1]);
+            InsertProvincia(prov);
+        }
+
+        private void InsertProvincia(Provincia prov)
+        {
             SQLiteConnection con = new SQLiteConnection();
             con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
             con.Open();
             SQLiteCommand command = con.CreateCommand();
             command.CommandText = "insert into PROVINCIA(INE,PROVINCIA) values(@INE,@PROVINCIA) ";
-            command.Parameters.AddWithValue("INE", separatedvalues[0]);
-            command.Parameters.AddWithValue("PROVINCIA", separatedvalues[1]);
+            command.Parameters.AddWithValue("INE", prov.Ine);
+            command.Parameters.AddWithValue("PROVINCIA", prov.Nombre);
             Console.WriteLine(command.ToString());
             command.ExecuteNonQuery();
             con.Close();

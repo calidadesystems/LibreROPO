@@ -103,6 +103,7 @@
       <DependentUpon>OpenDatabase.cs</DependentUpon>
     </Compile>
     <Compile Include="Operacion.cs" />
+    <Compile Include="Pais.cs" />
     <Compile Include="Producto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +112,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provincia.cs" />
     <Compile Include="Unidad.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
