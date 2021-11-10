@@ -41,6 +41,13 @@ namespace LibreROPO
             return toret;
         }
 
+        private SQLiteConnection GetConn()
+        {
+            SQLiteConnection toret = new SQLiteConnection("Data Source=" + this.path + ";Version=3;");
+            toret.Open();
+            return toret;
+        }
+
         private void deploydb(String dbversion)
         {
             switch (dbversion)
@@ -94,6 +101,26 @@ namespace LibreROPO
             }
         }
 
+        public void insertConfig(string clave, string valor)
+        {
+            SQLiteConnection con = this.GetConn();
+            SQLiteCommand command = con.CreateCommand();
+            /*
+            command.CommandText = "insert into PAIS(identificador,pais) values(@identificador,@pais) ";
+            command.Parameters.AddWithValue("identificador", pai.Identificador);
+            command.Parameters.AddWithValue("pais", pai.Nombre);
+            command.ExecuteNonQuery();
+            */
+            con.Close();
+        }
+
+        public bool existsConfigClave(string clave)
+        {
+            bool toret =false;
+            return toret;
+        }
+
+
         private void deploydbdata(String dbversion)
         {
             string baseurl;
@@ -114,11 +141,7 @@ namespace LibreROPO
                                 Console.WriteLine(file);
                                 this.InsertData(baseurl,file);
                             }
-                            
-
                         }
-
-
                     }
                     break;
             }
@@ -240,9 +263,7 @@ namespace LibreROPO
 
         private void InsertUnidad(Unidad unid)
         {
-            SQLiteConnection con = new SQLiteConnection();
-            con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
-            con.Open();
+            SQLiteConnection con = this.GetConn();
             SQLiteCommand command = con.CreateCommand();
             command.CommandText = "insert into UNIDAD(codigo,descripcion) values(@codigo,@descripcion) ";
             command.Parameters.AddWithValue("codigo", unid.Codigo);
@@ -261,9 +282,7 @@ namespace LibreROPO
 
         private void InsertCodOperacion(Operacion oper)
         {
-            SQLiteConnection con = new SQLiteConnection();
-            con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
-            con.Open();
+            SQLiteConnection con = this.GetConn();
             SQLiteCommand command = con.CreateCommand();
             command.CommandText = "insert into CODIGOOPERACION(codigo,descripcion) values(@codigo,@descripcion) ";
             command.Parameters.AddWithValue("codigo", oper.Codigo);
@@ -281,9 +300,7 @@ namespace LibreROPO
 
         private void InsertPais(Pais pai)
         {
-            SQLiteConnection con = new SQLiteConnection();
-            con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
-            con.Open();
+            SQLiteConnection con = this.GetConn();
             SQLiteCommand command = con.CreateCommand();
             command.CommandText = "insert into PAIS(identificador,pais) values(@identificador,@pais) ";
             command.Parameters.AddWithValue("identificador",pai.Identificador);
@@ -301,9 +318,7 @@ namespace LibreROPO
 
         private void InsertProvincia(Provincia prov)
         {
-            SQLiteConnection con = new SQLiteConnection();
-            con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
-            con.Open();
+            SQLiteConnection con = this.GetConn();
             SQLiteCommand command = con.CreateCommand();
             command.CommandText = "insert into PROVINCIA(INE,PROVINCIA) values(@INE,@PROVINCIA) ";
             command.Parameters.AddWithValue("INE", prov.Ine);
@@ -322,9 +337,7 @@ namespace LibreROPO
 
         private void InsertMunicipio(Municipio muni)
         {
-            SQLiteConnection con = new SQLiteConnection();
-            con.ConnectionString = @"Data Source=" + this.path + "; Version=3; New=False;";
-            con.Open();
+            SQLiteConnection con = this.GetConn();
             SQLiteCommand command = con.CreateCommand();
             command.CommandText = "insert into MUNICIPIO (INEPROVINCIA,CODMUNICIPIO,DC,NOMBRE) values(@INEPROVINCIA,@CODMUNICIPIO,@DC,@NOMBRE) ";
             command.Parameters.AddWithValue("INEPROVINCIA", muni.Ineprovincia);
