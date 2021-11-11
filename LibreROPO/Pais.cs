@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreROPO
 {
-    class Pais
+    public class Pais
     {
         private string identificador;
         private string nombre;

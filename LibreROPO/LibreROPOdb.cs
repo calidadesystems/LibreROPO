@@ -409,6 +409,21 @@ namespace LibreROPO
             return toret;
         }
 
+        public List<Pais> GetPaisesCombo()
+        {
+            List<Pais> toret = new List<Pais>();
+            SQLiteConnection con = this.GetConn();
+            SQLiteCommand sqlc = new SQLiteCommand("Select * from PAIS", con);
+            SQLiteDataReader rdr = sqlc.ExecuteReader();
+            while (rdr.Read())
+            {
+                toret.Add(new Pais(rdr.GetString(0), rdr.GetString(1)));
+            }
+            con.Close();
+            return toret;
+
+        }
+
 
     }
 }

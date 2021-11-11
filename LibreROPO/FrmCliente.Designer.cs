@@ -46,10 +46,10 @@ namespace LibreROPO
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.cbPais = new System.Windows.Forms.ComboBox();
+            this.cbProvincia = new System.Windows.Forms.ComboBox();
+            this.cnLocalidad = new System.Windows.Forms.ComboBox();
+            this.btnAceptar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -192,38 +192,39 @@ namespace LibreROPO
             this.label10.TabIndex = 18;
             this.label10.Text = "Localidad";
             // 
-            // comboBox1
+            // cbPais
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(109, 197);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(118, 21);
-            this.comboBox1.TabIndex = 20;
+            this.cbPais.FormattingEnabled = true;
+            this.cbPais.Location = new System.Drawing.Point(109, 197);
+            this.cbPais.Name = "cbPais";
+            this.cbPais.Size = new System.Drawing.Size(118, 21);
+            this.cbPais.TabIndex = 20;
             // 
-            // comboBox2
+            // cbProvincia
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(109, 224);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(118, 21);
-            this.comboBox2.TabIndex = 21;
+            this.cbProvincia.FormattingEnabled = true;
+            this.cbProvincia.Location = new System.Drawing.Point(109, 224);
+            this.cbProvincia.Name = "cbProvincia";
+            this.cbProvincia.Size = new System.Drawing.Size(118, 21);
+            this.cbProvincia.TabIndex = 21;
             // 
-            // comboBox3
+            // cnLocalidad
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(109, 249);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(118, 21);
-            this.comboBox3.TabIndex = 22;
+            this.cnLocalidad.FormattingEnabled = true;
+            this.cnLocalidad.Location = new System.Drawing.Point(109, 249);
+            this.cnLocalidad.Name = "cnLocalidad";
+            this.cnLocalidad.Size = new System.Drawing.Size(118, 21);
+            this.cnLocalidad.TabIndex = 22;
             // 
-            // button1
+            // btnAceptar
             // 
-            this.button1.Location = new System.Drawing.Point(28, 315);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(81, 27);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "Aceptar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAceptar.Location = new System.Drawing.Point(28, 315);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(81, 27);
+            this.btnAceptar.TabIndex = 23;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // button2
             // 
@@ -240,10 +241,10 @@ namespace LibreROPO
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(340, 378);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.btnAceptar);
+            this.Controls.Add(this.cnLocalidad);
+            this.Controls.Add(this.cbProvincia);
+            this.Controls.Add(this.cbPais);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -287,10 +288,10 @@ namespace LibreROPO
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox cbPais;
+        private System.Windows.Forms.ComboBox cbProvincia;
+        private System.Windows.Forms.ComboBox cnLocalidad;
+        private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button button2;
     }
 }
