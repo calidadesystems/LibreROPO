@@ -30,6 +30,15 @@ namespace LibreROPO
             this.cbPais.ValueMember = "identificador";
         }
 
+        private void rellenaProvincias()
+        {
+            List<Provincia> Lista;
+            Lista = lrdb.GetProvinciaCombo();
+            this.cbProvincia.DataSource = Lista;
+            this.cbProvincia.DisplayMember = "nombre";
+            this.cbProvincia.ValueMember = "ine";
+        }
+
         private void btnAceptar_Click(object sender, EventArgs e)
         {
 
@@ -43,7 +52,18 @@ namespace LibreROPO
         private void cbPais_SelectedIndexChanged(object sender, EventArgs e)
         {
             Console.WriteLine("Cambio Texto de PAis");
-            Console.WriteLine(this.cbPais.GetItemText);
+            Pais seleccionado = (Pais) this.cbPais.SelectedItem;
+            Console.WriteLine(seleccionado.Nombre);
+            //Si tenemos a españa cargamos provincias
+            if (seleccionado.Nombre.Equals("España"))
+            {
+                this.rellenaProvincias();
+            }
+            else //sino vaciamos el combo
+            {
+                this.cbProvincia.DataSource = null;
+            
+            }
         }
     }
 }

@@ -194,6 +194,7 @@ namespace LibreROPO
             // 
             // cbPais
             // 
+            this.cbPais.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbPais.FormattingEnabled = true;
             this.cbPais.Location = new System.Drawing.Point(109, 197);
             this.cbPais.Name = "cbPais";
@@ -203,6 +204,7 @@ namespace LibreROPO
             // 
             // cbProvincia
             // 
+            this.cbProvincia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbProvincia.FormattingEnabled = true;
             this.cbProvincia.Location = new System.Drawing.Point(109, 224);
             this.cbProvincia.Name = "cbProvincia";
@@ -212,6 +214,7 @@ namespace LibreROPO
             // 
             // cnLocalidad
             // 
+            this.cnLocalidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cnLocalidad.FormattingEnabled = true;
             this.cnLocalidad.Location = new System.Drawing.Point(109, 249);
             this.cnLocalidad.Name = "cnLocalidad";
