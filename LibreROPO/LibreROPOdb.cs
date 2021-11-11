@@ -424,6 +424,20 @@ namespace LibreROPO
 
         }
 
+        public List<Provincia> GetProvinciaCombo()
+        {
+            List<Provincia> toret = new List<Provincia>();
+            SQLiteConnection con = this.GetConn();
+            SQLiteCommand sqlc = new SQLiteCommand("Select * from PROVINCIA", con);
+            SQLiteDataReader rdr = sqlc.ExecuteReader();
+            while (rdr.Read())
+            {
+                toret.Add(new Provincia(rdr.GetInt32(0), rdr.GetString(1)));
+            }
+            con.Close();
+            return toret;
+
+        }
 
     }
 }

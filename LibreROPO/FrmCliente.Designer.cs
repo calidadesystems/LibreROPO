@@ -199,6 +199,7 @@ namespace LibreROPO
             this.cbPais.Name = "cbPais";
             this.cbPais.Size = new System.Drawing.Size(118, 21);
             this.cbPais.TabIndex = 20;
+            this.cbPais.SelectedIndexChanged += new System.EventHandler(this.cbPais_SelectedIndexChanged);
             // 
             // cbProvincia
             // 
@@ -207,6 +208,7 @@ namespace LibreROPO
             this.cbProvincia.Name = "cbProvincia";
             this.cbProvincia.Size = new System.Drawing.Size(118, 21);
             this.cbProvincia.TabIndex = 21;
+            this.cbProvincia.TextChanged += new System.EventHandler(this.cbProvincia_TextChanged);
             // 
             // cnLocalidad
             // 

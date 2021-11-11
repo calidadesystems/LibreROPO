@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreROPO
 {
-    class Provincia
+    public class Provincia
     {
         private int ine;
         private string nombre;

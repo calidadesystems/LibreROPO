@@ -34,5 +34,16 @@ namespace LibreROPO
         {
 
         }
+
+        private void cbProvincia_TextChanged(object sender, EventArgs e)
+        {
+            Console.WriteLine("Cambio Texto de provincia");
+        }
+
+        private void cbPais_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Console.WriteLine("Cambio Texto de PAis");
+            Console.WriteLine(this.cbPais.GetItemText);
+        }
     }
 }
