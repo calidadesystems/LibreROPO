@@ -30,6 +30,7 @@ namespace LibreROPO
         private void InitializeComponent()
         {
             this.dgvClientes = new System.Windows.Forms.DataGridView();
+            this.btnNuevo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,11 +42,22 @@ namespace LibreROPO
             this.dgvClientes.Size = new System.Drawing.Size(776, 301);
             this.dgvClientes.TabIndex = 0;
             // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(18, 332);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(141, 48);
+            this.btnNuevo.TabIndex = 1;
+            this.btnNuevo.Text = "Nuevo";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
             // ListarClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.dgvClientes);
             this.Name = "ListarClientes";
             this.Text = "ListarClientes";
@@ -58,5 +70,6 @@ namespace LibreROPO
         #endregion
 
         private System.Windows.Forms.DataGridView dgvClientes;
+        private System.Windows.Forms.Button btnNuevo;
     }
 }

@@ -18,12 +18,23 @@ namespace LibreROPO
         {
             InitializeComponent();
             this.lrdb = LibreROPOdb.GetInstance("");
-            this.dgvClientes.DataSource = this.lrdb.GetListarClientes().Tables[0];
+            refrescaLista();
         }
 
+        private void refrescaLista()
+        {
+            this.dgvClientes.DataSource = this.lrdb.GetListarClientes().Tables[0];
+        }
         private void ListarClientes_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            FrmCliente frmcli = new FrmCliente();
+            frmcli.ShowDialog();
+            refrescaLista();
         }
     }
 }
