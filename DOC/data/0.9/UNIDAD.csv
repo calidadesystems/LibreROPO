@@ -1,6 +1,7 @@
-"codigo","descripcion"
-1,g.
-2,Kg.
-3,L.
-4,ml/ud.
-5,ml.
+codigo,descripcion
+1,gramos(gr).
+2,kilogramos(Kg).
+3,litros(L).
+4,miligramos/unidades(mg/ud)
+5,mililitros(ml).
+6,centímetros cúbicos(cc).
