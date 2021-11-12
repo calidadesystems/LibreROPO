@@ -30,6 +30,7 @@ namespace LibreROPO
         private void InitializeComponent()
         {
             this.btnClientes = new System.Windows.Forms.Button();
+            this.btnDatosEmpresa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnClientes
@@ -42,11 +43,22 @@ namespace LibreROPO
             this.btnClientes.UseVisualStyleBackColor = true;
             this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
+            // btnDatosEmpresa
+            // 
+            this.btnDatosEmpresa.Location = new System.Drawing.Point(215, 29);
+            this.btnDatosEmpresa.Name = "btnDatosEmpresa";
+            this.btnDatosEmpresa.Size = new System.Drawing.Size(173, 48);
+            this.btnDatosEmpresa.TabIndex = 1;
+            this.btnDatosEmpresa.Text = "Datos Empresa";
+            this.btnDatosEmpresa.UseVisualStyleBackColor = true;
+            this.btnDatosEmpresa.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(935, 338);
+            this.Controls.Add(this.btnDatosEmpresa);
             this.Controls.Add(this.btnClientes);
             this.Name = "Principal";
             this.Text = "LibreROPO";
@@ -58,6 +70,7 @@ namespace LibreROPO
         #endregion
 
         private System.Windows.Forms.Button btnClientes;
+        private System.Windows.Forms.Button btnDatosEmpresa;
     }
 }
 

@@ -439,5 +439,87 @@ namespace LibreROPO
 
         }
 
+        public bool ExistsDatosResponsable()
+        {
+            bool toret = false;
+            int x = 0;
+            SQLiteConnection con = this.GetConn();
+            SQLiteCommand sqlc = new SQLiteCommand("Select * from RESPONSABLE", con);
+            SQLiteDataReader rdr = sqlc.ExecuteReader();
+            while (rdr.Read())
+            {
+                x++;
+            }
+            con.Close();
+            if (x > 0)
+            {
+                toret = true;
+            }
+            return toret;
+        }
+
+        public void ModifyDatosEmpresa(string nifresponsable, string roporesponsable) 
+        {
+            if (this.ExistsDatosResponsable())
+            {
+                UpdateDatosEmpresa(nifresponsable, roporesponsable);
+            }
+            else
+            {
+                InsertDatosEmpresa(nifresponsable,roporesponsable);
+            }
+        
+        }
+
+        public void InsertDatosEmpresa(string nifresponsable,string roporesponsable) 
+        {
+            SQLiteConnection con = this.GetConn();
+            SQLiteCommand command = con.CreateCommand();
+            command.CommandText = "insert into RESPONSABLE (NIFResponsable,ROPOResponsable) values(@nifresponsable,@roporesponsable) ";
+            command.Parameters.AddWithValue("nifresponsable", nifresponsable);
+            command.Parameters.AddWithValue("roporesponsable", roporesponsable);
+            command.ExecuteNonQuery();
+            con.Close();
+
+        }
+
+        public void UpdateDatosEmpresa(string nifresponsable, string roporesponsable)
+        {
+            SQLiteConnection con = this.GetConn();
+            SQLiteCommand command = con.CreateCommand();
+            command.CommandText = "update RESPONSABLE set NIFResponsable=@nifresponsable,ROPOResponsable=@roporesponsable ";
+            command.Parameters.AddWithValue("nifresponsable", nifresponsable);
+            command.Parameters.AddWithValue("roporesponsable", roporesponsable);
+            command.ExecuteNonQuery();
+            con.Close();
+        }
+
+        public string getNifResponsable() 
+        {
+            string toret = "";
+            SQLiteConnection con = this.GetConn();
+            SQLiteCommand sqlc = new SQLiteCommand("Select NIFResponsable from RESPONSABLE", con);
+            SQLiteDataReader rdr = sqlc.ExecuteReader();
+            while (rdr.Read())
+            {
+                toret = rdr.GetString(0);
+            }
+            con.Close();
+            return toret;
+        }
+
+        public string getROPOResponsable()
+        {
+            string toret = "";
+            SQLiteConnection con = this.GetConn();
+            SQLiteCommand sqlc = new SQLiteCommand("Select ROPOResponsable from RESPONSABLE", con);
+            SQLiteDataReader rdr = sqlc.ExecuteReader();
+            while (rdr.Read())
+            {
+                toret = rdr.GetString(0);
+            }
+            con.Close();
+            return toret;
+        }
     }
 }

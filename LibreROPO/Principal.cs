@@ -30,5 +30,11 @@ namespace LibreROPO
             ListarClientes lc = new ListarClientes();
             lc.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmDatosEmpresa fde = new FrmDatosEmpresa();
+            fde.Show();
+        }
     }
 }
