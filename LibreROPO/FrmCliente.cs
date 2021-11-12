@@ -39,6 +39,28 @@ namespace LibreROPO
             this.cbProvincia.ValueMember = "ine";
         }
 
+        private void rellenaMunicipio()
+        {
+            //OBtenemos la provincia seleccionada
+            if (cbProvincia.SelectedItem == null)
+            {
+                this.cbLocalidad.DataSource = null;
+            }
+            else 
+            {
+                List<Municipio> lista;
+                Console.WriteLine("Que tenemos");
+                Provincia seleccionada = (Provincia) this.cbProvincia.SelectedItem;
+                lista = lrdb.GetMunicipioCombo(seleccionada.Ine);
+                cbLocalidad.DataSource = lista;
+                cbLocalidad.DisplayMember = "Nombre";
+                cbLocalidad.ValueMember = "Codmunicipio";
+            
+            }
+
+        
+        }
+
         private void btnAceptar_Click(object sender, EventArgs e)
         {
 
@@ -72,6 +94,7 @@ namespace LibreROPO
             Console.WriteLine("Cambio Texto de Provincia");
             Provincia seleccionado = (Provincia)this.cbProvincia.SelectedItem;
             Console.WriteLine(seleccionado.Nombre);
+            rellenaMunicipio();
             /*
             //Si tenemos a españa cargamos provincias
             if (seleccionado.Nombre.Equals("España"))
