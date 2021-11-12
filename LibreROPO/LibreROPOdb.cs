@@ -439,6 +439,23 @@ namespace LibreROPO
 
         }
 
+        public List<Municipio> GetMunicipioCombo(int ineprovincia)
+        {
+            List<Municipio> toret = new List<Municipio>();
+            SQLiteConnection con = this.GetConn();
+            SQLiteCommand sqlc = new SQLiteCommand("Select * from Municipio where INEPROVINCIA=@ineprovincia ", con);
+            sqlc.Parameters.AddWithValue("ineprovincia", ineprovincia);
+            SQLiteDataReader rdr = sqlc.ExecuteReader();
+            while (rdr.Read())
+            {
+                toret.Add(new Municipio(rdr.GetInt32(0),rdr.GetInt32(1),rdr.GetInt32(2),rdr.GetString(3)));
+            }
+            con.Close();
+            return toret;
+
+
+        }
+
         public bool ExistsDatosResponsable()
         {
             bool toret = false;

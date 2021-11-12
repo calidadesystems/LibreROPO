@@ -44,10 +44,6 @@ namespace LibreROPO
 
         }
 
-        private void cbProvincia_TextChanged(object sender, EventArgs e)
-        {
-            Console.WriteLine("Cambio Texto de provincia");
-        }
 
         private void cbPais_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -69,6 +65,25 @@ namespace LibreROPO
         private void button2_Click(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+
+        private void cbProvincia_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Console.WriteLine("Cambio Texto de Provincia");
+            Provincia seleccionado = (Provincia)this.cbProvincia.SelectedItem;
+            Console.WriteLine(seleccionado.Nombre);
+            /*
+            //Si tenemos a españa cargamos provincias
+            if (seleccionado.Nombre.Equals("España"))
+            {
+                this.rellenaProvincias();
+            }
+            else //sino vaciamos el combo
+            {
+                this.cbProvincia.DataSource = null;
+
+            }
+            */
         }
     }
 }

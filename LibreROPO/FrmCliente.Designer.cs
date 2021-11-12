@@ -210,7 +210,7 @@ namespace LibreROPO
             this.cbProvincia.Name = "cbProvincia";
             this.cbProvincia.Size = new System.Drawing.Size(118, 21);
             this.cbProvincia.TabIndex = 21;
-            this.cbProvincia.TextChanged += new System.EventHandler(this.cbProvincia_TextChanged);
+            this.cbProvincia.SelectedIndexChanged += new System.EventHandler(this.cbProvincia_SelectedIndexChanged);
             // 
             // cnLocalidad
             // 

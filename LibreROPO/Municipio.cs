@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreROPO
 {
-    class Municipio
+    public class Municipio
     {
         private int ineprovincia;
         private int codmunicipio;
