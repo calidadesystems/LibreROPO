@@ -91,22 +91,11 @@ namespace LibreROPO
 
         private void cbProvincia_SelectedIndexChanged(object sender, EventArgs e)
         {
+
             Console.WriteLine("Cambio Texto de Provincia");
             Provincia seleccionado = (Provincia)this.cbProvincia.SelectedItem;
             Console.WriteLine(seleccionado.Nombre);
             rellenaMunicipio();
-            /*
-            //Si tenemos a españa cargamos provincias
-            if (seleccionado.Nombre.Equals("España"))
-            {
-                this.rellenaProvincias();
-            }
-            else //sino vaciamos el combo
-            {
-                this.cbProvincia.DataSource = null;
-
-            }
-            */
         }
     }
 }
