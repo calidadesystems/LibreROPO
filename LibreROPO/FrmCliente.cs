@@ -92,10 +92,12 @@ namespace LibreROPO
 
         private void cbProvincia_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-            Console.WriteLine("Cambio Texto de Provincia");
-            Provincia seleccionado = (Provincia)this.cbProvincia.SelectedItem;
-            Console.WriteLine(seleccionado.Nombre);
+            if (this.cbProvincia.SelectedItem != null)
+            {
+                Console.WriteLine("Cambio Texto de Provincia");
+                Provincia seleccionado = (Provincia)this.cbProvincia.SelectedItem;
+                Console.WriteLine(seleccionado.Nombre);
+            }
             rellenaMunicipio();
         }
     }
