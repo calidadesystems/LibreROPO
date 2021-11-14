@@ -19,6 +19,7 @@ namespace LibreROPO
             InitializeComponent();
             this.lrdb = LibreROPOdb.GetInstance("");
             rellenaPaises();
+            
         }
 
         private void rellenaPaises()

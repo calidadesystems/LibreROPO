@@ -1,4 +1,4 @@
-"INEPROVINCIA","CODMUNICIPIO","DC","NOMBRE"
+INEPROVINCIA,CODMUNICIPIO,DC,NOMBRE
 1,51,3,Agurain/Salvatierra
 1,1,4,Alegría-Dulantzi
 1,2,9,Amurrio
@@ -62,13 +62,13 @@
 2,10,0,Alpera
 2,11,7,Ayna
 2,12,2,Balazote
-2,14,3,"Ballestero, El"
+2,14,3,Ballestero, El
 2,13,8,Balsa de Ves
 2,15,6,Barrax
 2,16,9,Bienservida
 2,17,5,Bogarra
 2,18,1,Bonete
-2,19,4,"Bonillo, El"
+2,19,4,Bonillo, El
 2,20,8,Carcelén
 2,21,5,Casas de Juan Núñez
 2,22,0,Casas de Lázaro
@@ -84,10 +84,10 @@
 2,32,8,Fuensanta
 2,33,4,Fuente-Álamo
 2,34,9,Fuentealbilla
-2,35,2,"Gineta, La"
+2,35,2,Gineta, La
 2,36,5,Golosalvo
 2,37,1,Hellín
-2,38,7,"Herrera, La"
+2,38,7,Herrera, La
 2,39,0,Higueruela
 2,40,4,Hoya-Gonzalo
 2,41,1,Jorquera
@@ -116,10 +116,10 @@
 2,63,7,Pozohondo
 2,64,2,Pozo-Lorente
 2,65,5,Pozuelo
-2,66,8,"Recueja, La"
+2,66,8,Recueja, La
 2,67,4,Riópar
 2,68,0,Robledo
-2,69,3,"Roda, La"
+2,69,3,Roda, La
 2,70,7,Salobre
 2,71,4,San Pedro
 2,72,9,Socovos
@@ -146,16 +146,16 @@
 3,8,9,Alcoleja
 3,9,2,Alcoy/Alcoi
 3,10,6,Alfafara
-3,11,3,"Alfàs del Pi, l'"
+3,11,3,Alfàs del Pi, l'
 3,12,8,Algorfa
 3,13,4,Algueña
 3,14,9,Alicante/Alacant
 3,15,2,Almoradí
 3,16,5,Almudaina
-3,17,1,"Alqueria d'Asnar, l'"
+3,17,1,Alqueria d'Asnar, l'
 3,18,7,Altea
 3,19,0,Aspe
-3,1,5,"Atzúbia, l'"
+3,1,5,Atzúbia, l'
 3,20,4,Balones
 3,21,1,Banyeres de Mariola
 3,22,6,Benasau
@@ -178,7 +178,7 @@
 3,39,6,Benimassot
 3,40,0,Benimeli
 3,41,7,Benissa
-3,42,2,"Benitachell/Poble Nou de Benitatxell, el"
+3,42,2,Benitachell/Poble Nou de Benitatxell, el
 3,43,8,Biar
 3,44,3,Bigastro
 3,45,6,Bolulla
@@ -186,12 +186,12 @@
 3,49,4,Callosa de Segura
 3,48,1,Callosa d'en Sarrià
 3,47,5,Calp
-3,50,7,"Campello, el"
-3,51,4,"Campo de Mirra/Camp de Mirra, el"
+3,50,7,Campello, el
+3,51,4,Campo de Mirra/Camp de Mirra, el
 3,52,9,Cañada
 3,53,5,Castalla
 3,54,0,Castell de Castells
-3,75,9,"Castell de Guadalest, el"
+3,75,9,Castell de Guadalest, el
 3,55,3,Catral
 3,56,6,Cocentaina
 3,57,2,Confrides
@@ -206,7 +206,7 @@
 3,67,0,Facheca
 3,68,6,Famorca
 3,69,9,Finestrat
-3,77,8,"Fondó de les Neus, el/Hondón de las Nieves"
+3,77,8,Fondó de les Neus, el/Hondón de las Nieves
 3,70,3,Formentera del Segura
 3,72,5,Gaianes
 3,71,0,Gata de Gorgos
@@ -219,16 +219,16 @@
 3,82,3,Jávea/Xàbia
 3,83,9,Jijona/Xixona
 3,85,7,Llíber
-3,84,4,"Lorcha/Orxa, l'"
+3,84,4,Lorcha/Orxa, l'
 3,86,0,Millena
 3,88,2,Monforte del Cid
 3,89,5,Monóvar/Monòver
-3,903,7,"Montesinos, Los"
+3,903,7,Montesinos, Los
 3,91,6,Murla
 3,92,1,Muro de Alcoy
 3,90,9,Mutxamel
 3,93,7,Novelda
-3,94,2,"Nucia, la"
+3,94,2,Nucia, la
 3,95,5,Ondara
 3,96,8,Onil
 3,97,4,Orba
@@ -240,17 +240,17 @@
 3,103,5,Penàguila
 3,104,0,Petrer
 3,902,1,Pilar de la Horadada
-3,105,3,"Pinós, el/Pinoso"
+3,105,3,Pinós, el/Pinoso
 3,106,6,Planes
-3,901,6,"Poblets, els"
+3,901,6,Poblets, els
 3,107,2,Polop
 3,60,5,Quatretondeta
 3,109,1,Rafal
-3,110,5,"Ràfol d'Almúnia, el"
+3,110,5,Ràfol d'Almúnia, el
 3,111,2,Redován
 3,112,7,Relleu
 3,113,3,Rojales
-3,114,8,"Romana, la"
+3,114,8,Romana, la
 3,115,1,Sagra
 3,116,4,Salinas
 3,118,6,San Fulgencio
@@ -268,14 +268,14 @@
 3,129,7,Tibi
 3,130,1,Tollos
 3,131,8,Tormos
-3,132,3,"Torremanzanas/Torre de les Maçanes, la"
+3,132,3,Torremanzanas/Torre de les Maçanes, la
 3,133,9,Torrevieja
-3,134,4,"Vall d'Alcalà, la"
+3,134,4,Vall d'Alcalà, la
 3,136,0,Vall de Gallinera
-3,137,6,"Vall de Laguar, la"
-3,135,7,"Vall d'Ebo, la"
-3,138,2,"Verger, el"
-3,139,5,"Villajoyosa/Vila Joiosa, la"
+3,137,6,Vall de Laguar, la
+3,135,7,Vall d'Ebo, la
+3,138,2,Verger, el
+3,139,5,Villajoyosa/Vila Joiosa, la
 3,140,9,Villena
 3,81,8,Xaló
 4,1,0,Abla
@@ -316,14 +316,14 @@
 4,34,0,Cóbdar
 4,35,3,Cuevas del Almanzora
 4,38,8,Dalías
-4,902,6,"Ejido, El"
+4,902,6,Ejido, El
 4,41,2,Enix
 4,43,3,Felix
 4,44,8,Fines
 4,45,1,Fiñana
 4,46,4,Fondón
 4,47,0,Gádor
-4,48,6,"Gallardos, Los"
+4,48,6,Gallardos, Los
 4,49,9,Garrucha
 4,50,2,Gérgal
 4,51,9,Huécija
@@ -340,7 +340,7 @@
 4,62,2,Macael
 4,63,8,María
 4,64,3,Mojácar
-4,903,2,"Mojonera, La"
+4,903,2,Mojonera, La
 4,65,6,Nacimiento
 4,66,9,Níjar
 4,67,5,Ohanes
@@ -369,7 +369,7 @@
 4,90,4,Tahal
 4,91,1,Terque
 4,92,6,Tíjola
-4,901,1,"Tres Villas, Las"
+4,901,1,Tres Villas, Las
 4,93,2,Turre
 4,94,7,Turrillas
 4,95,0,Uleila del Campo
@@ -382,32 +382,32 @@
 4,102,4,Vícar
 4,103,0,Zurgena
 5,1,3,Adanero
-5,2,8,"Adrada, La"
+5,2,8,Adrada, La
 5,5,2,Albornos
 5,7,1,Aldeanueva de Santa Cruz
 5,8,7,Aldeaseca
-5,10,4,"Aldehuela, La"
+5,10,4,Aldehuela, La
 5,12,6,Amavida
-5,13,2,"Arenal, El"
+5,13,2,Arenal, El
 5,14,7,Arenas de San Pedro
 5,15,0,Arevalillo
 5,16,3,Arévalo
 5,17,9,Aveinte
 5,18,5,Avellaneda
 5,19,8,Ávila
-5,21,9,"Barco de Ávila, El"
-5,22,4,"Barraco, El"
+5,21,9,Barco de Ávila, El
+5,22,4,Barraco, El
 5,23,0,Barromán
 5,24,5,Becedas
 5,25,8,Becedillas
 5,26,1,Bercial de Zapardiel
-5,27,7,"Berlanas, Las"
+5,27,7,Berlanas, Las
 5,29,6,Bernuy-Zapardiel
 5,30,0,Berrocalejo de Aragona
 5,33,8,Blascomillán
 5,34,3,Blasconuño de Matacabras
 5,35,6,Blascosancho
-5,36,9,"Bohodón, El"
+5,36,9,Bohodón, El
 5,37,5,Bohoyo
 5,38,1,Bonilla de la Sierra
 5,39,4,Brabos
@@ -421,7 +421,7 @@
 5,47,3,Candeleda
 5,48,9,Cantiveros
 5,49,2,Cardeñosa
-5,51,2,"Carrera, La"
+5,51,2,Carrera, La
 5,52,7,Casas del Puerto
 5,53,3,Casasola
 5,54,8,Casavieja
@@ -432,7 +432,7 @@
 5,67,8,Chamartín
 5,59,9,Cillán
 5,60,3,Cisla
-5,61,0,"Colilla, La"
+5,61,0,Colilla, La
 5,62,5,Collado de Contreras
 5,63,1,Collado del Mirón
 5,64,6,Constanzana
@@ -445,7 +445,7 @@
 5,73,9,Flores de Ávila
 5,74,4,Fontiveros
 5,75,7,Fresnedilla
-5,76,0,"Fresno, El"
+5,76,0,Fresno, El
 5,77,6,Fuente el Saúz
 5,78,2,Fuentes de Año
 5,79,5,Gallegos de Altamiros
@@ -464,11 +464,11 @@
 5,93,5,Herradón de Pinares
 5,94,0,Herreros de Suso
 5,95,3,Higuera de las Dueñas
-5,96,6,"Hija de Dios, La"
-5,97,2,"Horcajada, La"
+5,96,6,Hija de Dios, La
+5,97,2,Horcajada, La
 5,99,1,Horcajo de las Torres
-5,100,5,"Hornillo, El"
-5,102,7,"Hoyo de Pinares, El"
+5,100,5,Hornillo, El
+5,102,7,Hoyo de Pinares, El
 5,101,2,Hoyocasero
 5,103,3,Hoyorredondo
 5,106,4,Hoyos de Miguel Muñoz
@@ -478,8 +478,8 @@
 5,108,6,Junciana
 5,109,9,Langa
 5,110,3,Lanzahíta
-5,113,1,"Llanos de Tormes, Los"
-5,112,5,"Losar del Barco, El"
+5,113,1,Llanos de Tormes, Los
+5,112,5,Losar del Barco, El
 5,114,6,Madrigal de las Altas Torres
 5,115,9,Maello
 5,116,2,Malpartida de Corneja
@@ -495,7 +495,7 @@
 5,126,0,Mesegar de Corneja
 5,127,6,Mijares
 5,128,2,Mingorría
-5,129,5,"Mirón, El"
+5,129,5,Mirón, El
 5,130,9,Mironcillo
 5,131,6,Mirueña de los Infanzones
 5,132,1,Mombeltrán
@@ -531,19 +531,19 @@
 5,165,8,Navarredonda de Gredos
 5,166,1,Navarredondilla
 5,167,7,Navarrevisca
-5,168,3,"Navas del Marqués, Las"
+5,168,3,Navas del Marqués, Las
 5,169,6,Navatalgordo
 5,170,0,Navatejares
 5,171,7,Neila de San Miguel
 5,172,2,Niharra
 5,173,8,Ojos-Albos
 5,174,3,Orbita
-5,175,6,"Oso, El"
+5,175,6,Oso, El
 5,176,9,Padiernos
 5,177,5,Pajares de Adaja
 5,178,1,Palacios de Goda
 5,179,4,Papatrigo
-5,180,8,"Parral, El"
+5,180,8,Parral, El
 5,181,5,Pascualcobo
 5,182,0,Pedro Bernardo
 5,183,6,Pedro-Rodríguez
@@ -595,7 +595,7 @@
 5,904,0,Santiago del Tormes
 5,229,4,Santo Domingo de las Posadas
 5,230,8,Santo Tomé de Zabarcos
-5,232,0,"Serrada, La"
+5,232,0,Serrada, La
 5,233,6,Serranillos
 5,234,1,Sigeres
 5,235,4,Sinlabajos
@@ -604,12 +604,12 @@
 5,238,9,Solosancho
 5,239,2,Sotalbo
 5,240,6,Sotillo de la Adrada
-5,241,3,"Tiemblo, El"
+5,241,3,Tiemblo, El
 5,242,8,Tiñosillos
 5,243,4,Tolbaños
 5,244,9,Tormellas
 5,245,2,Tornadizos de Ávila
-5,247,1,"Torre, La"
+5,247,1,Torre, La
 5,246,5,Tórtoles
 5,249,0,Umbrías
 5,251,0,Vadillo de la Sierra
@@ -633,7 +633,7 @@
 6,2,1,Aceuchal
 6,3,7,Ahillones
 6,4,2,Alange
-6,5,5,"Albuera, La"
+6,5,5,Albuera, La
 6,6,8,Alburquerque
 6,7,4,Alconchel
 6,8,0,Alconera
@@ -660,15 +660,15 @@
 6,29,9,Campillo de Llerena
 6,30,3,Capilla
 6,31,0,Carmonita
-6,32,5,"Carrascalejo, El"
+6,32,5,Carrascalejo, El
 6,33,1,Casas de Don Pedro
 6,34,6,Casas de Reina
 6,35,9,Castilblanco
 6,36,2,Castuera
 6,42,3,Cheles
-6,37,8,"Codosera, La"
+6,37,8,Codosera, La
 6,38,4,Cordobilla de Lácara
-6,39,7,"Coronada, La"
+6,39,7,Coronada, La
 6,40,1,Corte de Peleas
 6,41,8,Cristina
 6,43,9,Don Álvaro
@@ -686,11 +686,11 @@
 6,55,4,Fuentes de León
 6,56,7,Garbayuela
 6,57,3,Garlitos
-6,58,9,"Garrovilla, La"
+6,58,9,Garrovilla, La
 6,59,2,Granja de Torrehermosa
 6,903,8,Guadiana del Caudillo
 6,60,6,Guareña
-6,61,3,"Haba, La"
+6,61,3,Haba, La
 6,62,8,Helechosa de los Montes
 6,63,4,Herrera del Duque
 6,64,9,Higuera de la Serena
@@ -700,7 +700,7 @@
 6,68,7,Hinojosa del Valle
 6,69,0,Hornachos
 6,70,4,Jerez de los Caballeros
-6,71,1,"Lapa, La"
+6,71,1,Lapa, La
 6,73,2,Llera
 6,74,7,Llerena
 6,72,6,Lobón
@@ -718,8 +718,8 @@
 6,86,1,Montemolín
 6,87,7,Monterrubio de la Serena
 6,88,3,Montijo
-6,89,6,"Morera, La"
-6,90,0,"Nava de Santiago, La"
+6,89,6,Morera, La
+6,90,0,Nava de Santiago, La
 6,91,7,Navalvillar de Pela
 6,92,2,Nogales
 6,93,8,Oliva de la Frontera
@@ -728,7 +728,7 @@
 6,96,9,Orellana de la Sierra
 6,97,5,Orellana la Vieja
 6,98,1,Palomas
-6,99,4,"Parra, La"
+6,99,4,Parra, La
 6,100,8,Peñalsordo
 6,101,5,Peraleda del Zaucejo
 6,102,0,Puebla de Alcocer
@@ -745,7 +745,7 @@
 6,112,8,Retamal de Llerena
 6,113,4,Ribera del Fresno
 6,114,9,Risco
-6,115,2,"Roca de la Sierra, La"
+6,115,2,Roca de la Sierra, La
 6,116,5,Salvaleón
 6,117,1,Salvatierra de los Barros
 6,119,0,San Pedro de Mérida
@@ -753,7 +753,7 @@
 6,118,7,Sancti-Spíritus
 6,120,4,Santa Amalia
 6,121,1,Santa Marta
-6,122,6,"Santos de Maimona, Los"
+6,122,6,Santos de Maimona, Los
 6,124,7,Segura de León
 6,125,0,Siruela
 6,126,3,Solana de los Barros
@@ -792,7 +792,7 @@
 6,158,8,Zafra
 6,159,1,Zahínos
 6,160,5,Zalamea de la Serena
-6,162,7,"Zarza, La"
+6,162,7,Zarza, La
 6,161,2,Zarza-Capilla
 7,2,7,Alaior
 7,1,2,Alaró
@@ -809,7 +809,7 @@
 7,12,5,Campanet
 7,13,1,Campos
 7,14,6,Capdepera
-7,64,5,"Castell, Es"
+7,64,5,Castell, Es
 7,15,9,Ciutadella de Menorca
 7,16,2,Consell
 7,17,8,Costitx
@@ -832,17 +832,17 @@
 7,32,1,Maó-Mahón
 7,35,5,Maria de la Salut
 7,36,8,Marratxí
-7,37,4,"Mercadal, Es"
-7,902,8,"Migjorn Gran, Es"
+7,37,4,Mercadal, Es
+7,902,8,Migjorn Gran, Es
 7,38,0,Montuïri
 7,39,3,Muro
 7,40,7,Palma 
 7,41,4,Petra
-7,44,0,"Pobla, Sa"
+7,44,0,Pobla, Sa
 7,42,9,Pollença
 7,43,5,Porreres
 7,45,3,Puigpunyent
-7,59,8,"Salines, Ses"
+7,59,8,Salines, Ses
 7,46,6,Sant Antoni de Portmany
 7,49,1,Sant Joan
 7,50,4,Sant Joan de Labritja
@@ -866,7 +866,7 @@
 8,14,2,Aiguafreda
 8,3,9,Alella
 8,4,4,Alpens
-8,5,7,"Ametlla del Vallès, L'"
+8,5,7,Ametlla del Vallès, L'
 8,6,0,Arenys de Mar
 8,7,6,Arenys de Munt
 8,8,2,Argençola
@@ -887,9 +887,9 @@
 8,22,9,Berga
 8,23,5,Bigues i Riells
 8,24,0,Borredà
-8,25,3,"Bruc, El"
-8,26,6,"Brull, El"
-8,27,2,"Cabanyes, Les"
+8,25,3,Bruc, El
+8,26,6,Brull, El
+8,27,2,Cabanyes, Les
 8,28,8,Cabrera d'Anoia
 8,29,1,Cabrera de Mar
 8,30,5,Cabrils
@@ -942,9 +942,9 @@
 8,75,2,Dosrius
 8,76,5,Esparreguera
 8,77,1,Esplugues de Llobregat
-8,78,7,"Espunyola, L'"
-8,254,1,"Esquirol, L'"
-8,79,0,"Estany, L'"
+8,78,7,Espunyola, L'
+8,254,1,Esquirol, L'
+8,79,0,Estany, L'
 8,134,7,Figaró-Montmany
 8,80,4,Fígols
 8,82,6,Fogars de la Selva
@@ -952,26 +952,26 @@
 8,83,2,Folgueroles
 8,84,7,Fonollosa
 8,85,0,Font-rubí
-8,86,3,"Franqueses del Vallès, Les"
+8,86,3,Franqueses del Vallès, Les
 8,90,2,Gaià
 8,87,9,Gallifa
-8,88,5,"Garriga, La"
+8,88,5,Garriga, La
 8,89,8,Gavà
 8,91,9,Gelida
 8,92,4,Gironella
 8,93,0,Gisclareny
-8,94,5,"Granada, La"
+8,94,5,Granada, La
 8,95,8,Granera
 8,96,1,Granollers
 8,97,7,Gualba
 8,99,6,Guardiola de Berguedà
 8,100,0,Gurb
-8,101,7,"Hospitalet de Llobregat, L'"
-8,162,9,"Hostalets de Pierola, Els"
+8,101,7,Hospitalet de Llobregat, L'
+8,162,9,Hostalets de Pierola, Els
 8,102,2,Igualada
 8,103,8,Jorba
-8,104,3,"Llacuna, La"
-8,105,6,"Llagosta, La"
+8,104,3,Llacuna, La
+8,105,6,Llagosta, La
 8,107,5,Lliçà d'Amunt
 8,108,1,Lliçà de Vall
 8,106,9,Llinars del Vallès
@@ -983,9 +983,9 @@
 8,242,3,Marganell
 8,114,1,Martorell
 8,115,4,Martorelles
-8,116,7,"Masies de Roda, Les"
-8,117,3,"Masies de Voltregà, Les"
-8,118,9,"Masnou, El"
+8,116,7,Masies de Roda, Les
+8,117,3,Masies de Voltregà, Les
+8,118,9,Masnou, El
 8,119,2,Masquefa
 8,120,6,Matadepera
 8,121,3,Mataró
@@ -1008,7 +1008,7 @@
 8,139,8,Mura
 8,140,2,Navarcles
 8,141,9,Navàs
-8,142,4,"Nou de Berguedà, La"
+8,142,4,Nou de Berguedà, La
 8,143,0,Òdena
 8,145,8,Olèrdola
 8,146,1,Olesa de Bonesvalls
@@ -1024,31 +1024,31 @@
 8,155,5,Palafolls
 8,156,8,Palau-solità i Plegamans
 8,157,4,Pallejà
-8,905,8,"Palma de Cervelló, La"
-8,158,0,"Papiol, El"
+8,905,8,Palma de Cervelló, La
+8,158,0,Papiol, El
 8,159,3,Parets del Vallès
 8,160,7,Perafita
 8,161,4,Piera
 8,163,5,Pineda de Mar
-8,164,0,"Pla del Penedès, El"
-8,165,3,"Pobla de Claramunt, La"
-8,166,6,"Pobla de Lillet, La"
+8,164,0,Pla del Penedès, El
+8,165,3,Pobla de Claramunt, La
+8,166,6,Pobla de Lillet, La
 8,167,2,Polinyà
-8,182,5,"Pont de Vilomara i Rocafort, El"
+8,182,5,Pont de Vilomara i Rocafort, El
 8,168,8,Pontons
-8,169,1,"Prat de Llobregat, El"
+8,169,1,Prat de Llobregat, El
 8,171,2,Prats de Lluçanès
-8,170,5,"Prats de Rei, Els"
+8,170,5,Prats de Rei, Els
 8,230,3,Premià de Dalt
 8,172,7,Premià de Mar
 8,174,8,Puigdàlber
 8,175,1,Puig-reig
 8,176,4,Pujalt
-8,177,0,"Quar, La"
+8,177,0,Quar, La
 8,178,6,Rajadell
 8,179,9,Rellinars
 8,180,3,Ripollet
-8,181,0,"Roca del Vallès, La"
+8,181,0,Roca del Vallès, La
 8,183,1,Roda de Ter
 8,184,6,Rubí
 8,185,9,Rubió
@@ -1146,7 +1146,7 @@
 8,283,0,Tona
 8,284,5,Tordera
 8,285,8,Torelló
-8,286,1,"Torre de Claramunt, La"
+8,286,1,Torre de Claramunt, La
 8,287,7,Torrelavit
 8,288,3,Torrelles de Foix
 8,289,6,Torrelles de Llobregat
@@ -1182,7 +1182,7 @@
 9,907,0,Alfoz de Quintanadueñas
 9,12,4,Alfoz de Santa Gadea
 9,13,0,Altable
-9,14,5,"Altos, Los"
+9,14,5,Altos, Los
 9,16,1,Ameyugo
 9,17,7,Anguix
 9,18,3,Aranda de Duero
@@ -1196,17 +1196,17 @@
 9,26,9,Arlanzón
 9,27,5,Arraya de Oca
 9,29,4,Atapuerca
-9,30,8,"Ausines, Los"
+9,30,8,Ausines, Los
 9,32,0,Avellanosa de Muñó
 9,33,6,Bahabón de Esgueva
-9,34,1,"Balbases, Los"
+9,34,1,Balbases, Los
 9,35,4,Baños de Valdearados
 9,36,7,Bañuelos de Bureba
 9,37,3,Barbadillo de Herreros
 9,38,9,Barbadillo del Mercado
 9,39,2,Barbadillo del Pez
 9,41,3,Barrio de Muñó
-9,43,4,"Barrios de Bureba, Los"
+9,43,4,Barrios de Bureba, Los
 9,44,9,Barrios de Colina
 9,45,2,Basconcillos del Tozo
 9,46,5,Bascuñana
@@ -1265,7 +1265,7 @@
 9,113,9,Covarrubias
 9,114,4,Cubillo del Campo
 9,115,7,Cubo de Bureba
-9,117,6,"Cueva de Roa, La"
+9,117,6,Cueva de Roa, La
 9,119,5,Cuevas de San Clemente
 9,120,9,Encío
 9,122,1,Espinosa de Cervera
@@ -1288,7 +1288,7 @@
 9,140,5,Fuentenebro
 9,141,2,Fuentespina
 9,143,3,Galbarros
-9,144,8,"Gallega, La"
+9,144,8,Gallega, La
 9,148,6,Grijalba
 9,149,9,Grisaleña
 9,151,9,Gumiel de Izán
@@ -1300,9 +1300,9 @@
 9,162,2,Hontoria de la Cantera
 9,164,3,Hontoria de Valdearados
 9,163,8,Hontoria del Pinar
-9,166,9,"Hormazas, Las"
+9,166,9,Hormazas, Las
 9,167,5,Hornillos del Camino
-9,168,1,"Horra, La"
+9,168,1,Horra, La
 9,169,4,Hortigüela
 9,170,8,Hoyales de Roa
 9,172,0,Huérmeces
@@ -1387,7 +1387,7 @@
 9,273,5,Prádanos de Bureba
 9,274,0,Pradoluengo
 9,275,3,Presencio
-9,276,6,"Puebla de Arganzón, La"
+9,276,6,Puebla de Arganzón, La
 9,277,2,Puentedura
 9,279,1,Quemada
 9,281,2,Quintana del Pidio
@@ -1402,7 +1402,7 @@
 9,295,9,Quintanilla del Coco
 9,298,4,Quintanilla San García
 9,301,8,Quintanilla Vivar
-9,297,8,"Quintanillas, Las"
+9,297,8,Quintanillas, Las
 9,302,3,Rabanera del Pinar
 9,303,9,Rábanos
 9,304,4,Rabé de las Calzadas
@@ -1414,7 +1414,7 @@
 9,311,6,Retuerta
 9,314,2,Revilla del Campo
 9,316,8,Revilla Vallejera
-9,312,1,"Revilla y Ahedo, La"
+9,312,1,Revilla y Ahedo, La
 9,315,5,Revillarruz
 9,317,4,Rezmondo
 9,318,0,Riocavado de la Sierra
@@ -1450,7 +1450,7 @@
 9,361,5,Sargentes de la Lora
 9,362,0,Sarracín
 9,363,6,Sasamón
-9,365,4,"Sequera de Haza, La"
+9,365,4,Sequera de Haza, La
 9,366,7,Solarana
 9,368,9,Sordillos
 9,369,2,Sotillo de la Ribera
@@ -1496,8 +1496,8 @@
 9,418,9,Valles de Palenzuela
 9,419,2,Valluércanes
 9,407,5,Valmala
-9,422,8,"Vid de Bureba, La"
-9,421,3,"Vid y Barrios, La"
+9,422,8,Vid de Bureba, La
+9,421,3,Vid y Barrios, La
 9,423,4,Vileña
 9,427,1,Villadiego
 9,428,7,Villaescusa de Roa
@@ -1555,7 +1555,7 @@
 10,9,2,Alcollarín
 10,10,6,Alcuéscar
 10,12,8,Aldea del Cano
-10,13,4,"Aldea del Obispo, La"
+10,13,4,Aldea del Obispo, La
 10,11,3,Aldeacentenera
 10,14,9,Aldeanueva de la Vera
 10,15,2,Aldeanueva del Camino
@@ -1612,7 +1612,7 @@
 10,66,4,Conquista de la Sierra
 10,67,0,Coria
 10,68,6,Cuacos de Yuste
-10,69,9,"Cumbre, La"
+10,69,9,Cumbre, La
 10,70,3,Deleitosa
 10,71,0,Descargamaría
 10,72,5,Eljas
@@ -1621,14 +1621,14 @@
 10,76,2,Galisteo
 10,77,8,Garciaz
 10,79,7,Garganta la Olla
-10,78,4,"Garganta, La"
+10,78,4,Garganta, La
 10,80,1,Gargantilla
 10,81,8,Gargüera
 10,82,3,Garrovillas de Alconétar
 10,83,9,Garvín
 10,84,4,Gata
-10,85,7,"Gordo, El"
-10,86,0,"Granja, La"
+10,85,7,Gordo, El
+10,86,0,Granja, La
 10,87,6,Guadalupe
 10,88,2,Guijo de Coria
 10,89,5,Guijo de Galisteo
@@ -1686,7 +1686,7 @@
 10,141,6,Peraleda de San Román
 10,142,1,Perales del Puerto
 10,143,7,Pescueza
-10,144,2,"Pesga, La"
+10,144,2,Pesga, La
 10,145,5,Piedras Albas
 10,146,8,Pinofranqueado
 10,147,4,Piornal
@@ -1729,7 +1729,7 @@
 10,904,2,Tiétar
 10,182,2,Toril
 10,183,8,Tornavacas
-10,184,3,"Torno, El"
+10,184,3,Torno, El
 10,187,5,Torre de Don Miguel
 10,188,1,Torre de Santa María
 10,185,6,Torrecilla de los Ángeles
@@ -1773,27 +1773,27 @@
 11,5,1,Algodonales
 11,6,4,Arcos de la Frontera
 11,7,0,Barbate
-11,8,6,"Barrios, Los"
+11,8,6,Barrios, Los
 11,901,3,Benalup-Casas Viejas
 11,9,9,Benaocaz
 11,10,3,Bornos
-11,11,0,"Bosque, El"
+11,11,0,Bosque, El
 11,12,5,Cádiz
 11,13,1,Castellar de la Frontera
 11,15,9,Chiclana de la Frontera
 11,16,2,Chipiona
 11,14,6,Conil de la Frontera
 11,17,8,Espera
-11,18,4,"Gastor, El"
+11,18,4,Gastor, El
 11,19,7,Grazalema
 11,20,1,Jerez de la Frontera
 11,21,8,Jimena de la Frontera
-11,22,3,"Línea de la Concepción, La"
+11,22,3,Línea de la Concepción, La
 11,23,9,Medina Sidonia
 11,24,4,Olvera
 11,25,7,Paterna de Rivera
 11,26,0,Prado del Rey
-11,27,6,"Puerto de Santa María, El"
+11,27,6,Puerto de Santa María, El
 11,28,2,Puerto Real
 11,29,5,Puerto Serrano
 11,30,9,Rota
@@ -1814,14 +1814,14 @@
 12,2,2,Aín
 12,3,8,Albocàsser
 12,4,3,Alcalà de Xivert
-12,5,6,"Alcora, l'"
+12,5,6,Alcora, l'
 12,6,9,Alcudia de Veo
 12,7,5,Alfondeguilla
 12,8,1,Algimia de Almonacid
 12,9,4,Almassora
 12,10,8,Almedíjar
 12,11,5,Almenara
-12,901,8,"Alqueries, les/Alquerías del Niño Perdido"
+12,901,8,Alqueries, les/Alquerías del Niño Perdido
 12,12,0,Altura
 12,13,6,Arañuel
 12,14,1,Ares del Maestrat
@@ -1859,7 +1859,7 @@
 12,46,1,Cirat
 12,48,3,Cortes de Arenoso
 12,49,6,Costur
-12,50,9,"Coves de Vinromà, les"
+12,50,9,Coves de Vinromà, les
 12,51,6,Culla
 12,57,4,Eslida
 12,58,0,Espadilla
@@ -1872,12 +1872,12 @@
 12,67,2,Geldo
 12,68,8,Herbés
 12,69,1,Higueras
-12,70,5,"Jana, la"
+12,70,5,Jana, la
 12,71,2,Jérica
-12,74,8,"Llosa, la"
+12,74,8,Llosa, la
 12,72,7,Llucena/Lucena del Cid
 12,73,3,Ludiente
-12,75,1,"Mata de Morella, la"
+12,75,1,Mata de Morella, la
 12,76,4,Matet
 12,77,0,Moncofa
 12,78,6,Montán
@@ -1892,21 +1892,21 @@
 12,88,4,Pavías
 12,89,7,Peníscola/Peñíscola
 12,90,1,Pina de Montalgrao
-12,93,9,"Pobla de Benifassà, la"
-12,94,4,"Pobla Tornesa, la"
+12,93,9,Pobla de Benifassà, la
+12,94,4,Pobla Tornesa, la
 12,91,8,Portell de Morella
 12,92,3,Puebla de Arenoso
 12,95,7,Ribesalbes
 12,96,0,Rossell
 12,97,6,Sacañet
-12,98,2,"Salzadella, la"
+12,98,2,Salzadella, la
 12,101,6,San Rafael del Río
 12,902,3,Sant Joan de Moró
 12,99,5,Sant Jordi/San Jorge
 12,100,9,Sant Mateu
 12,102,1,Santa Magdalena de Pulpis
 12,104,2,Segorbe
-12,103,7,"Serratella, la"
+12,103,7,Serratella, la
 12,105,5,Sierra Engarcerán
 12,106,8,Soneja
 12,107,4,Sot de Ferrer
@@ -1917,17 +1917,17 @@
 12,112,9,Todolella
 12,113,5,Toga
 12,114,0,Torás
-12,115,3,"Toro, El"
+12,115,3,Toro, El
 12,116,6,Torralba del Pinar
-12,119,1,"Torre d'En Besora, la"
-12,120,5,"Torre d'en Doménec, la"
+12,119,1,Torre d'En Besora, la
+12,120,5,Torre d'en Doménec, la
 12,117,2,Torreblanca
 12,118,8,Torrechiva
 12,121,2,Traiguera
-12,122,7,"Useras/Useres, les"
+12,122,7,Useras/Useres, les
 12,124,8,Vall d'Alba
 12,125,1,Vall de Almonacid
-12,126,4,"Vall d'Uixó, la"
+12,126,4,Vall d'Uixó, la
 12,123,3,Vallat
 12,127,0,Vallibona
 12,128,6,Vilafamés
@@ -1935,7 +1935,7 @@
 12,132,5,Vilanova d'Alcolea
 12,134,6,Vilar de Canes
 12,135,9,Vila-real
-12,136,2,"Vilavella, la"
+12,136,2,Vilavella, la
 12,130,3,Villahermosa del Río
 12,131,0,Villamalur
 12,133,1,Villanueva de Viver
@@ -1983,7 +1983,7 @@
 13,38,1,Chillón
 13,34,3,Ciudad Real
 13,35,6,Corral de Calatrava
-13,36,9,"Cortijos, Los"
+13,36,9,Cortijos, Los
 13,37,5,Cózar
 13,39,4,Daimiel
 13,40,8,Fernán Caballero
@@ -1996,7 +1996,7 @@
 13,47,3,Herencia
 13,48,9,Hinojosas de Calatrava
 13,49,2,Horcajo de los Montes
-13,50,5,"Labores, Las"
+13,50,5,Labores, Las
 13,904,0,Llanos del Caudillo
 13,51,2,Luciana
 13,52,7,Malagón
@@ -2014,13 +2014,13 @@
 13,64,6,Poblete
 13,65,9,Porzuna
 13,66,2,Pozuelo de Calatrava
-13,67,8,"Pozuelos de Calatrava, Los"
+13,67,8,Pozuelos de Calatrava, Los
 13,68,4,Puebla de Don Rodrigo
 13,69,7,Puebla del Príncipe
 13,70,1,Puerto Lápice
 13,71,8,Puertollano
 13,72,3,Retuerta del Bullaque
-13,901,4,"Robledo, El"
+13,901,4,Robledo, El
 13,902,9,Ruidera
 13,73,9,Saceruela
 13,74,4,San Carlos del Valle
@@ -2029,7 +2029,7 @@
 13,77,6,Santa Cruz de Mudela
 13,78,2,Socuéllamos
 13,80,9,Solana del Pino
-13,79,5,"Solana, La"
+13,79,5,Solana, La
 13,81,6,Terrinches
 13,82,1,Tomelloso
 13,83,7,Torralba de Calatrava
@@ -2058,14 +2058,14 @@
 14,8,2,Belalcázar
 14,9,5,Belmez
 14,10,9,Benamejí
-14,11,6,"Blázquez, Los"
+14,11,6,Blázquez, Los
 14,12,1,Bujalance
 14,13,7,Cabra
 14,14,2,Cañete de las Torres
 14,15,5,Carcabuey
 14,16,8,Cardeña
-14,17,4,"Carlota, La"
-14,18,0,"Carpio, El"
+14,17,4,Carlota, La
+14,18,0,Carpio, El
 14,19,3,Castro del Río
 14,20,7,Conquista
 14,21,4,Córdoba
@@ -2080,10 +2080,10 @@
 14,29,1,Fuente Obejuna
 14,30,5,Fuente Palmera
 14,31,2,Fuente-Tójar
-14,32,7,"Granjuela, La"
+14,32,7,Granjuela, La
 14,33,3,Guadalcázar
-14,902,4,"Guijarrosa, La"
-14,34,8,"Guijo, El"
+14,902,4,Guijarrosa, La
+14,34,8,Guijo, El
 14,35,1,Hinojosa del Duque
 14,36,4,Hornachuelos
 14,37,0,Iznájar
@@ -2106,7 +2106,7 @@
 14,54,3,Pozoblanco
 14,55,6,Priego de Córdoba
 14,56,9,Puente Genil
-14,57,5,"Rambla, La"
+14,57,5,Rambla, La
 14,58,1,Rute
 14,59,4,San Sebastián de los Ballesteros
 14,61,5,Santa Eufemia
@@ -2114,7 +2114,7 @@
 14,62,0,Torrecampo
 14,63,6,Valenzuela
 14,64,1,Valsequillo
-14,65,4,"Victoria, La"
+14,65,4,Victoria, La
 14,66,7,Villa del Río
 14,67,3,Villafranca de Córdoba
 14,68,9,Villaharta
@@ -2123,7 +2123,7 @@
 14,71,3,Villanueva del Rey
 14,72,8,Villaralto
 14,73,4,Villaviciosa de Córdoba
-14,74,9,"Viso, El"
+14,74,9,Viso, El
 14,75,2,Zuheros
 15,1,1,Abegondo
 15,2,6,Ames
@@ -2131,7 +2131,7 @@
 15,4,7,Ares
 15,5,0,Arteixo
 15,6,3,Arzúa
-15,7,9,"Baña, A"
+15,7,9,Baña, A
 15,8,5,Bergondo
 15,9,8,Betanzos
 15,10,2,Boimorto
@@ -2142,7 +2142,7 @@
 15,15,8,Cabanas
 15,16,1,Camariñas
 15,17,7,Cambre
-15,18,3,"Capela, A"
+15,18,3,Capela, A
 15,19,6,Carballo
 15,901,2,Cariño
 15,20,0,Carnota
@@ -2154,7 +2154,7 @@
 15,27,5,Coirós
 15,28,1,Corcubión
 15,29,4,Coristanco
-15,30,8,"Coruña, A"
+15,30,8,Coruña, A
 15,31,5,Culleredo
 15,32,0,Curtis
 15,33,6,Dodro
@@ -2164,7 +2164,7 @@
 15,37,3,Fisterra
 15,38,9,Frades
 15,39,2,Irixoa
-15,41,3,"Laracha, A"
+15,41,3,Laracha, A
 15,40,6,Laxe
 15,42,8,Lousame
 15,43,4,Malpica de Bergantiños
@@ -2190,11 +2190,11 @@
 15,902,7,Oza-Cesuras
 15,64,4,Paderne
 15,65,7,Padrón
-15,66,0,"Pino, O"
-15,67,6,"Pobra do Caramiñal, A"
+15,66,0,Pino, O
+15,67,6,Pobra do Caramiñal, A
 15,68,2,Ponteceso
 15,69,5,Pontedeume
-15,70,9,"Pontes de García Rodríguez, As"
+15,70,9,Pontes de García Rodríguez, As
 15,71,6,Porto do Son
 15,72,1,Rianxo
 15,73,7,Ribeira
@@ -2205,7 +2205,7 @@
 15,78,0,Santiago de Compostela
 15,79,3,Santiso
 15,80,7,Sobrado
-15,81,4,"Somozas, As"
+15,81,4,Somozas, As
 15,82,9,Teo
 15,83,5,Toques
 15,84,0,Tordoia
@@ -2219,12 +2219,12 @@
 15,92,7,Vimianzo
 15,93,3,Zas
 16,1,4,Abia de la Obispalía
-16,2,9,"Acebrón, El"
+16,2,9,Acebrón, El
 16,3,5,Alarcón
 16,4,0,Albaladejo del Cuende
 16,5,3,Albalate de las Nogueras
 16,6,6,Albendea
-16,7,2,"Alberca de Záncara, La"
+16,7,2,Alberca de Záncara, La
 16,8,8,Alcalá de la Vega
 16,9,1,Alcantud
 16,10,5,Alcázar del Rey
@@ -2232,7 +2232,7 @@
 16,12,7,Alconchel de la Estrella
 16,13,3,Algarra
 16,14,8,Aliaguilla
-16,15,1,"Almarcha, La"
+16,15,1,Almarcha, La
 16,16,4,Almendros
 16,17,0,Almodóvar del Pinar
 16,18,6,Almonacid del Marquesado
@@ -2264,7 +2264,7 @@
 16,46,8,Cañada del Hoyo
 16,47,4,Cañada Juncosa
 16,48,0,Cañamares
-16,49,3,"Cañavate, El"
+16,49,3,Cañavate, El
 16,50,6,Cañaveras
 16,51,3,Cañaveruelas
 16,52,8,Cañete
@@ -2288,13 +2288,13 @@
 16,73,0,Cervera del Llano
 16,23,1,Chillarón de Cuenca
 16,81,7,Chumillas
-16,74,5,"Cierva, La"
+16,74,5,Cierva, La
 16,78,3,Cuenca
 16,79,6,Cueva del Hierro
 16,82,2,Enguídanos
 16,83,8,Fresneda de Altarejos
 16,84,3,Fresneda de la Sierra
-16,85,6,"Frontera, La"
+16,85,6,Frontera, La
 16,86,9,Fuente de Pedro Naharro
 16,87,5,Fuentelespino de Haro
 16,88,1,Fuentelespino de Moya
@@ -2307,10 +2307,10 @@
 16,95,4,Graja de Campalbo
 16,96,7,Graja de Iniesta
 16,97,3,Henarejos
-16,98,9,"Herrumblar, El"
-16,99,2,"Hinojosa, La"
-16,100,6,"Hinojosos, Los"
-16,101,3,"Hito, El"
+16,98,9,Herrumblar, El
+16,99,2,Hinojosa, La
+16,100,6,Hinojosos, Los
+16,101,3,Hito, El
 16,102,8,Honrubia
 16,103,4,Hontanaya
 16,104,9,Hontecillas
@@ -2327,10 +2327,10 @@
 16,117,9,Landete
 16,118,5,Ledaña
 16,119,8,Leganiel
-16,121,9,"Majadas, Las"
+16,121,9,Majadas, Las
 16,122,4,Mariana
 16,123,0,Masegosa
-16,124,5,"Mesas, Las"
+16,124,5,Mesas, Las
 16,125,8,Minglanilla
 16,126,1,Mira
 16,128,3,Monreal del Llano
@@ -2354,13 +2354,13 @@
 16,149,2,Palomera
 16,150,5,Paracuellos
 16,151,2,Paredes
-16,152,7,"Parra de las Vegas, La"
-16,153,3,"Pedernoso, El"
-16,154,8,"Pedroñeras, Las"
-16,155,1,"Peral, El"
-16,156,4,"Peraleja, La"
-16,157,0,"Pesquera, La"
-16,158,6,"Picazo, El"
+16,152,7,Parra de las Vegas, La
+16,153,3,Pedernoso, El
+16,154,8,Pedroñeras, Las
+16,155,1,Peral, El
+16,156,4,Peraleja, La
+16,157,0,Pesquera, La
+16,158,6,Picazo, El
 16,159,9,Pinarejo
 16,160,3,Pineda de Gigüela
 16,161,0,Piqueras del Castillo
@@ -2370,9 +2370,9 @@
 16,166,2,Pozoamargo
 16,908,9,Pozorrubielos de la Mancha
 16,167,8,Pozorrubio de Santiago
-16,169,7,"Pozuelo, El"
+16,169,7,Pozuelo, El
 16,170,1,Priego
-16,171,8,"Provencio, El"
+16,171,8,Provencio, El
 16,172,3,Puebla de Almenara
 16,174,4,Puebla del Salvador
 16,175,7,Quintanar del Rey
@@ -2409,15 +2409,15 @@
 16,217,8,Tribaldos
 16,218,4,Uclés
 16,219,7,Uña
-16,906,7,"Valdecolmenas, Los"
+16,906,7,Valdecolmenas, Los
 16,224,4,Valdemeca
 16,225,7,Valdemorillo de la Sierra
 16,227,6,Valdemoro-Sierra
 16,228,2,Valdeolivas
 16,902,0,Valdetórtola
-16,903,6,"Valeras, Las"
+16,903,6,Valeras, Las
 16,231,6,Valhermoso de la Fuente
-16,173,9,"Valle de Altomira, El"
+16,173,9,Valle de Altomira, El
 16,234,2,Valsalobre
 16,236,8,Valverde de Júcar
 16,237,4,Valverdejo
@@ -2465,7 +2465,7 @@
 17,8,4,Anglès
 17,9,7,Arbúcies
 17,10,1,Argelaguer
-17,11,8,"Armentera, L'"
+17,11,8,Armentera, L'
 17,12,3,Avinyonet de Puigventós
 17,15,7,Banyoles
 17,16,0,Bàscara
@@ -2474,7 +2474,7 @@
 17,19,5,Besalú
 17,20,9,Bescanó
 17,21,6,Beuda
-17,22,1,"Bisbal d'Empordà, La"
+17,22,1,Bisbal d'Empordà, La
 17,234,8,Biure
 17,23,7,Blanes
 17,29,3,Boadella i les Escaules
@@ -2500,7 +2500,7 @@
 17,46,4,Castellfollit de la Roca
 17,47,0,Castelló d'Empúries
 17,48,6,Castell-Platja d'Aro
-17,189,9,"Cellera de Ter, La"
+17,189,9,Cellera de Ter, La
 17,49,9,Celrà
 17,50,2,Cervià de Ter
 17,51,9,Cistella
@@ -2509,14 +2509,14 @@
 17,57,7,Corçà
 17,56,1,Cornellà del Terri
 17,58,3,Crespià
-17,901,1,"Cruïlles, Monells i Sant Sadurní de l'Heura"
+17,901,1,Cruïlles, Monells i Sant Sadurní de l'Heura
 17,60,0,Darnius
 17,61,7,Das
-17,62,2,"Escala, L'"
+17,62,2,Escala, L'
 17,63,8,Espinelves
 17,64,3,Espolla
 17,65,6,Esponellà
-17,5,9,"Far d'Empordà, El"
+17,5,9,Far d'Empordà, El
 17,66,9,Figueres
 17,67,5,Flaçà
 17,68,1,Foixà
@@ -2537,7 +2537,7 @@
 17,83,4,Hostalric
 17,84,9,Isòvol
 17,85,2,Jafre
-17,86,5,"Jonquera, La"
+17,86,5,Jonquera, La
 17,87,1,Juià
 17,88,7,Lladó
 17,89,0,Llagostera
@@ -2547,7 +2547,7 @@
 17,93,2,Llers
 17,94,7,Llívia
 17,95,0,Lloret de Mar
-17,96,3,"Llosses, Les"
+17,96,3,Llosses, Les
 17,102,4,Maçanet de Cabrenys
 17,103,0,Maçanet de la Selva
 17,97,9,Madremanya
@@ -2576,16 +2576,16 @@
 17,126,7,Parlavà
 17,128,9,Pau
 17,129,2,Pedret i Marzà
-17,130,6,"Pera, La"
+17,130,6,Pera, La
 17,132,8,Peralada
-17,133,4,"Planes d'Hostoles, Les"
+17,133,4,Planes d'Hostoles, Les
 17,134,9,Planoles
 17,135,2,Pont de Molins
 17,136,5,Pontós
 17,137,1,Porqueres
-17,140,4,"Port de la Selva, El"
+17,140,4,Port de la Selva, El
 17,138,7,Portbou
-17,139,0,"Preses, Les"
+17,139,0,Preses, Les
 17,141,1,Puigcerdà
 17,142,6,Quart
 17,43,3,Queralbs
@@ -2631,15 +2631,15 @@
 17,182,7,Santa Llogaia d'Àlguema
 17,184,8,Santa Pau
 17,186,4,Sarrià de Ter
-17,187,0,"Saus, Camallera i Llampaies"
-17,188,6,"Selva de Mar, La"
+17,187,0,Saus, Camallera i Llampaies
+17,188,6,Selva de Mar, La
 17,190,3,Serinyà
 17,191,0,Serra de Daró
 17,192,5,Setcases
 17,193,1,Sils
 17,52,4,Siurana
 17,194,6,Susqueda
-17,195,9,"Tallada d'Empordà, La"
+17,195,9,Tallada d'Empordà, La
 17,196,2,Terrades
 17,197,8,Torrent
 17,198,4,Torroella de Fluvià
@@ -2651,9 +2651,9 @@
 17,205,7,Ullastret
 17,203,9,Ultramort
 17,206,0,Urús
-17,14,4,"Vajol, La"
-17,208,2,"Vall de Bianya, La"
-17,207,6,"Vall d'en Bas, La"
+17,14,4,Vajol, La
+17,208,2,Vall de Bianya, La
+17,207,6,Vall d'en Bas, La
 17,170,7,Vallfogona de Ripollès
 17,209,5,Vall-llobrega
 17,210,9,Ventalló
@@ -2709,7 +2709,7 @@
 18,34,6,Cacín
 18,35,9,Cádiar
 18,36,2,Cájar
-18,114,9,"Calahorra, La"
+18,114,9,Calahorra, La
 18,37,8,Calicasas
 18,38,4,Campotéjar
 18,39,7,Caniles
@@ -2748,7 +2748,7 @@
 18,77,9,Fornes
 18,78,5,Freila
 18,79,8,Fuente Vaqueros
-18,905,6,"Gabias, Las"
+18,905,6,Gabias, Las
 18,82,4,Galera
 18,83,0,Gobernador
 18,84,5,Gójar
@@ -2757,7 +2757,7 @@
 18,87,7,Granada
 18,88,3,Guadahortuna
 18,89,6,Guadix
-18,906,9,"Guájares, Los"
+18,906,9,Guájares, Los
 18,93,8,Gualchos
 18,94,3,Güéjar Sierra
 18,95,6,Güevéjar
@@ -2785,7 +2785,7 @@
 18,122,6,Loja
 18,123,2,Lugros
 18,124,7,Lújar
-18,126,3,"Malahá, La"
+18,126,3,Malahá, La
 18,127,9,Maracena
 18,128,5,Marchal
 18,132,4,Moclín
@@ -2809,8 +2809,8 @@
 18,151,4,Pampaneira
 18,152,9,Pedro Martínez
 18,153,5,Peligros
-18,154,0,"Peza, La"
-18,910,8,"Pinar, El"
+18,154,0,Peza, La
+18,910,8,Pinar, El
 18,157,2,Pinos Genil
 18,158,8,Pinos Puente
 18,159,1,Píñar
@@ -2828,7 +2828,7 @@
 18,175,9,Santa Fe
 18,176,2,Soportújar
 18,177,8,Sorvilán
-18,901,7,"Taha, La"
+18,901,7,Taha, La
 18,178,4,Torre-Cardela
 18,916,7,Torrenueva Costa
 18,179,7,Torvizcón
@@ -2837,7 +2837,7 @@
 18,182,3,Ugíjar
 18,914,1,Valderrubio
 18,907,5,Valle del Zalabí
-18,902,2,"Valle, El"
+18,902,2,Valle, El
 18,183,9,Válor
 18,911,5,Vegas del Genil
 18,184,4,Vélez de Benaudalla
@@ -2849,7 +2849,7 @@
 18,189,5,Víznar
 18,192,1,Zafarraya
 18,913,6,Zagra
-18,193,7,"Zubia, La"
+18,193,7,Zubia, La
 18,194,2,Zújar
 19,1,9,Abánades
 19,2,4,Ablanque
@@ -2894,7 +2894,7 @@
 19,49,8,Bañuelos
 19,50,1,Barriopedro
 19,51,8,Berninches
-19,52,3,"Bodera, La"
+19,52,3,Bodera, La
 19,53,9,Brihuega
 19,54,4,Budia
 19,55,7,Bujalaro
@@ -2906,9 +2906,9 @@
 19,64,2,Canredondo
 19,65,5,Cantalojas
 19,66,8,Cañizar
-19,67,4,"Cardoso de la Sierra, El"
+19,67,4,Cardoso de la Sierra, El
 19,70,7,Casa de Uceda
-19,71,4,"Casar, El"
+19,71,4,Casar, El
 19,73,5,Casas de San Galindo
 19,74,0,Caspueñas
 19,75,3,Castejón de Henares
@@ -2934,7 +2934,7 @@
 19,97,8,Congostrina
 19,98,4,Copernal
 19,99,7,Corduente
-19,102,3,"Cubillo de Uceda, El"
+19,102,3,Cubillo de Uceda, El
 19,107,6,Driebes
 19,108,2,Durón
 19,109,5,Embid
@@ -2968,14 +2968,14 @@
 19,142,5,Hontoba
 19,143,1,Horche
 19,145,9,Hortezuela de Océn
-19,146,2,"Huerce, La"
+19,146,2,Huerce, La
 19,147,8,Huérmeces del Cerro
 19,148,4,Huertahernando
 19,150,0,Hueva
 19,151,7,Humanes
 19,152,2,Illana
 19,153,8,Iniéstola
-19,154,3,"Inviernas, Las"
+19,154,3,Inviernas, Las
 19,155,6,Irueste
 19,156,9,Jadraque
 19,157,5,Jirueque
@@ -3000,10 +3000,10 @@
 19,178,7,Megina
 19,179,0,Membrillera
 19,181,1,Miedes de Atienza
-19,182,6,"Mierla, La"
+19,182,6,Mierla, La
 19,184,7,Millana
 19,183,2,Milmarcos
-19,185,0,"Miñosa, La"
+19,185,0,Miñosa, La
 19,186,3,Mirabueno
 19,187,9,Miralrío
 19,188,5,Mochales
@@ -3015,20 +3015,20 @@
 19,194,5,Moratilla de los Meleros
 19,195,8,Morenilla
 19,196,1,Muduex
-19,197,7,"Navas de Jadraque, Las"
+19,197,7,Navas de Jadraque, Las
 19,198,3,Negredo
 19,199,6,Ocentejo
-19,200,0,"Olivar, El"
+19,200,0,Olivar, El
 19,201,7,Olmeda de Cobeta
-19,202,2,"Olmeda de Jadraque, La"
-19,203,8,"Ordial, El"
+19,202,2,Olmeda de Jadraque, La
+19,203,8,Ordial, El
 19,204,3,Orea
 19,208,1,Pálmaces de Jadraque
 19,209,4,Pardos
 19,210,8,Paredes de Sigüenza
 19,211,5,Pareja
 19,212,0,Pastrana
-19,213,6,"Pedregal, El"
+19,213,6,Pedregal, El
 19,214,1,Peñalén
 19,215,4,Peñalver
 19,216,7,Peralejos de las Truchas
@@ -3037,7 +3037,7 @@
 19,219,2,Pinilla de Molina
 19,220,6,Pioz
 19,221,3,Piqueras
-19,222,8,"Pobo de Dueñas, El"
+19,222,8,Pobo de Dueñas, El
 19,223,4,Poveda de la Sierra
 19,224,9,Pozo de Almoguera
 19,225,2,Pozo de Guadalajara
@@ -3047,7 +3047,7 @@
 19,229,0,Puebla de Valles
 19,230,4,Quer
 19,231,1,Rebollosa de Jadraque
-19,232,6,"Recuenco, El"
+19,232,6,Recuenco, El
 19,233,2,Renera
 19,234,7,Retiendas
 19,235,0,Riba de Saelices
@@ -3074,7 +3074,7 @@
 19,257,4,Sigüenza
 19,258,0,Solanillos del Extremo
 19,259,3,Somolinos
-19,260,7,"Sotillo, El"
+19,260,7,Sotillo, El
 19,261,4,Sotodosos
 19,262,9,Tamajón
 19,263,5,Taragudo
@@ -3083,7 +3083,7 @@
 19,266,6,Tendilla
 19,267,2,Terzaga
 19,268,8,Tierzo
-19,269,1,"Toba, La"
+19,269,1,Toba, La
 19,271,2,Tordellego
 19,270,5,Tordelrábano
 19,272,7,Tordesilos
@@ -3135,7 +3135,7 @@
 19,329,9,Yélamos de Abajo
 19,330,3,Yélamos de Arriba
 19,331,0,Yunquera de Henares
-19,332,5,"Yunta, La"
+19,332,5,Yunta, La
 19,333,1,Zaorejas
 19,334,6,Zarzuela de Jadraque
 19,335,9,Zorita de los Canes
@@ -3229,7 +3229,7 @@
 20,80,9,Zumarraga
 21,1,0,Alájar
 21,2,5,Aljaraque
-21,3,1,"Almendro, El"
+21,3,1,Almendro, El
 21,4,6,Almonaster la Real
 21,5,9,Almonte
 21,6,2,Alosno
@@ -3244,12 +3244,12 @@
 21,15,7,Cabezas Rubias
 21,16,0,Cala
 21,17,6,Calañas
-21,18,2,"Campillo, El"
+21,18,2,Campillo, El
 21,19,5,Campofrío
 21,20,9,Cañaveral de León
 21,21,6,Cartaya
 21,22,1,Castaño del Robledo
-21,23,7,"Cerro de Andévalo, El"
+21,23,7,Cerro de Andévalo, El
 21,30,7,Chucena
 21,24,2,Corteconcepción
 21,25,5,Cortegana
@@ -3262,8 +3262,8 @@
 21,33,5,Fuenteheridos
 21,34,0,Galaroza
 21,35,3,Gibraleón
-21,36,6,"Granada de Río-Tinto, La"
-21,37,2,"Granado, El"
+21,36,6,Granada de Río-Tinto, La
+21,37,2,Granado, El
 21,38,8,Higuera de la Sierra
 21,39,1,Hinojales
 21,40,5,Hinojos
@@ -3274,13 +3274,13 @@
 21,45,1,Linares de la Sierra
 21,46,4,Lucena del Puerto
 21,47,0,Manzanilla
-21,48,6,"Marines, Los"
+21,48,6,Marines, Los
 21,49,9,Minas de Riotinto
 21,50,2,Moguer
-21,51,9,"Nava, La"
+21,51,9,Nava, La
 21,52,4,Nerva
 21,53,0,Niebla
-21,54,5,"Palma del Condado, La"
+21,54,5,Palma del Condado, La
 21,55,8,Palos de la Frontera
 21,56,1,Paterna del Campo
 21,57,7,Paymogo
@@ -3305,7 +3305,7 @@
 21,76,7,Villanueva de los Castillejos
 21,77,3,Villarrasa
 21,78,9,Zalamea la Real
-21,902,6,"Zarza-Perrunal, La"
+21,902,6,Zarza-Perrunal, La
 21,79,2,Zufre
 22,1,5,Abiego
 22,2,0,Abizanda
@@ -3399,9 +3399,9 @@
 22,110,5,Fonz
 22,111,2,Foradada del Toscar
 22,112,7,Fraga
-22,113,3,"Fueva, La"
+22,113,3,Fueva, La
 22,114,8,Gistaín
-22,115,1,"Grado, El"
+22,115,1,Grado, El
 22,116,4,Grañén
 22,117,0,Graus
 22,119,9,Gurrea de Gállego
@@ -3441,7 +3441,7 @@
 22,168,5,Palo
 22,170,2,Panticosa
 22,172,4,Peñalba
-22,173,0,"Peñas de Riglos, Las"
+22,173,0,Peñas de Riglos, Las
 22,174,5,Peralta de Alcofea
 22,175,8,Peralta de Calasanz
 22,176,1,Peraltilla
@@ -3451,11 +3451,11 @@
 22,182,2,Plan
 22,184,3,Poleñino
 22,186,9,Pozán de Vero
-22,187,5,"Puebla de Castro, La"
+22,187,5,Puebla de Castro, La
 22,188,1,Puente de Montañana
 22,902,1,Puente la Reina de Jaca
 22,189,4,Puértolas
-22,190,8,"Pueyo de Araguás, El"
+22,190,8,Pueyo de Araguás, El
 22,193,6,Pueyo de Santa Cruz
 22,195,4,Quicena
 22,197,3,Robres
@@ -3482,7 +3482,7 @@
 22,221,9,Sesué
 22,222,4,Siétamo
 22,223,0,Sopeira
-22,904,2,"Sotonera, La"
+22,904,2,Sotonera, La
 22,225,8,Tamarite de Litera
 22,226,1,Tardienta
 22,227,7,Tella-Sin
@@ -3532,7 +3532,7 @@
 23,20,0,Canena
 23,21,7,Carboneros
 23,901,2,Cárcheles
-23,24,3,"Carolina, La"
+23,24,3,Carolina, La
 23,25,6,Castellar
 23,26,9,Castillo de Locubín
 23,27,5,Cazalilla
@@ -3545,7 +3545,7 @@
 23,34,1,Fuensanta de Martos
 23,35,4,Fuerte del Rey
 23,37,3,Génave
-23,38,9,"Guardia de Jaén, La"
+23,38,9,Guardia de Jaén, La
 23,39,2,Guarromán
 23,41,3,Higuera de Calatrava
 23,42,8,Hinojares
@@ -3553,7 +3553,7 @@
 23,44,9,Huelma
 23,45,2,Huesa
 23,46,5,Ibros
-23,47,1,"Iruela, La"
+23,47,1,Iruela, La
 23,48,7,Iznatoraf
 23,49,0,Jabalquinto
 23,50,3,Jaén
@@ -3578,7 +3578,7 @@
 23,69,5,Porcuna
 23,70,9,Pozo Alcón
 23,71,6,Puente de Génave
-23,72,1,"Puerta de Segura, La"
+23,72,1,Puerta de Segura, La
 23,73,7,Quesada
 23,74,2,Rus
 23,75,5,Sabiote
@@ -3603,21 +3603,21 @@
 23,96,4,Villanueva de la Reina
 23,97,0,Villanueva del Arzobispo
 23,98,6,Villardompardo
-23,99,9,"Villares, Los"
+23,99,9,Villares, Los
 23,101,0,Villarrodrigo
 23,903,3,Villatorres
 24,1,6,Acebedo
 24,2,1,Algadefe
 24,3,7,Alija del Infantado
 24,4,2,Almanza
-24,5,5,"Antigua, La"
+24,5,5,Antigua, La
 24,6,8,Ardón
 24,7,4,Arganza
 24,8,0,Astorga
 24,9,3,Balboa
-24,10,7,"Bañeza, La"
+24,10,7,Bañeza, La
 24,11,4,Barjas
-24,12,9,"Barrios de Luna, Los"
+24,12,9,Barrios de Luna, Los
 24,14,0,Bembibre
 24,15,3,Benavides
 24,16,6,Benuza
@@ -3628,7 +3628,7 @@
 24,21,2,Boñar
 24,22,7,Borrenes
 24,23,3,Brazuelo
-24,24,8,"Burgo Ranero, El"
+24,24,8,Burgo Ranero, El
 24,25,1,Burón
 24,26,4,Bustillo del Páramo
 24,27,0,Cabañas Raras
@@ -3669,7 +3669,7 @@
 24,64,9,Cubillos del Sil
 24,66,5,Destriana
 24,67,1,Encinedo
-24,68,7,"Ercina, La"
+24,68,7,Ercina, La
 24,69,0,Escobar de Campos
 24,70,4,Fabero
 24,71,1,Folgoso de la Ribera
@@ -3702,7 +3702,7 @@
 24,101,5,Murias de Paredes
 24,102,0,Noceda del Bierzo
 24,103,6,Oencia
-24,104,1,"Omañas, Las"
+24,104,1,Omañas, Las
 24,105,4,Onzonilla
 24,106,7,Oseja de Sajambre
 24,107,3,Pajares de los Oteros
@@ -3711,7 +3711,7 @@
 24,110,6,Páramo del Sil
 24,112,8,Peranzanes
 24,113,4,Pobladura de Pelayo García
-24,114,9,"Pola de Gordón, La"
+24,114,9,Pola de Gordón, La
 24,115,2,Ponferrada
 24,116,5,Posada de Valdeón
 24,117,1,Pozuelo del Páramo
@@ -3729,7 +3729,7 @@
 24,131,9,Riego de la Vega
 24,132,4,Riello
 24,133,0,Rioseco de Tapia
-24,134,5,"Robla, La"
+24,134,5,Robla, La
 24,136,1,Roperuelos del Páramo
 24,137,7,Sabero
 24,139,6,Sahagún
@@ -3783,7 +3783,7 @@
 24,191,6,Vallecillo
 24,189,5,Valverde de la Virgen
 24,190,9,Valverde-Enrique
-24,193,7,"Vecilla, La"
+24,193,7,Vecilla, La
 24,196,8,Vega de Espinareda
 24,197,4,Vega de Infanzones
 24,198,0,Vega de Valcarce
@@ -3821,12 +3821,12 @@
 25,2,4,Àger
 25,3,0,Agramunt
 25,38,7,Aitona
-25,4,5,"Alamús, Els"
+25,4,5,Alamús, Els
 25,5,8,Alàs i Cerc
-25,6,1,"Albagés, L'"
+25,6,1,Albagés, L'
 25,7,7,Albatàrrec
 25,8,3,Albesa
-25,9,6,"Albi, L'"
+25,9,6,Albi, L'
 25,10,0,Alcanó
 25,11,7,Alcarràs
 25,12,2,Alcoletge
@@ -3848,11 +3848,11 @@
 25,33,4,Artesa de Lleida
 25,34,9,Artesa de Segre
 25,36,5,Aspa
-25,37,1,"Avellanes i Santa Linya, Les"
+25,37,1,Avellanes i Santa Linya, Les
 25,39,0,Baix Pallars
 25,40,4,Balaguer
 25,41,1,Barbens
-25,42,6,"Baronia de Rialb, La"
+25,42,6,Baronia de Rialb, La
 25,44,7,Bassella
 25,45,0,Bausen
 25,46,3,Belianes
@@ -3865,8 +3865,8 @@
 25,52,3,Bellvís
 25,53,9,Benavent de Segrià
 25,55,7,Biosca
-25,57,6,"Bòrdes, Es"
-25,58,2,"Borges Blanques, Les"
+25,57,6,Bòrdes, Es
+25,58,2,Borges Blanques, Les
 25,59,5,Bossòst
 25,56,0,Bovera
 25,60,9,Cabanabona
@@ -3884,13 +3884,13 @@
 25,73,5,Cervià de les Garrigues
 25,74,0,Ciutadilla
 25,75,3,Clariana de Cardener
-25,76,6,"Cogul, El"
+25,76,6,Cogul, El
 25,77,2,Coll de Nargó
-25,163,6,"Coma i la Pedra, La"
+25,163,6,Coma i la Pedra, La
 25,161,5,Conca de Dalt
 25,78,8,Corbins
 25,79,1,Cubells
-25,81,2,"Espluga Calba, L'"
+25,81,2,Espluga Calba, L'
 25,82,7,Espot
 25,88,6,Estamariu
 25,85,1,Estaràs
@@ -3898,22 +3898,22 @@
 25,87,0,Esterri de Cardós
 25,89,9,Farrera
 25,908,4,Fígols i Alinyà
-25,92,5,"Floresta, La"
+25,92,5,Floresta, La
 25,93,1,Fondarella
 25,94,6,Foradada
-25,96,2,"Fuliola, La"
+25,96,2,Fuliola, La
 25,97,8,Fulleda
 25,98,4,Gavet de la Conca
 25,912,3,Gimenells i el Pla de la Font
 25,99,7,Golmés
 25,100,1,Gósol
-25,101,8,"Granadella, La"
-25,102,3,"Granja d'Escarp, La"
+25,101,8,Granadella, La
+25,102,3,Granja d'Escarp, La
 25,103,9,Granyanella
 25,105,7,Granyena de les Garrigues
 25,104,4,Granyena de Segarra
 25,109,5,Guimerà
-25,903,1,"Guingueta d'Àneu, La"
+25,903,1,Guingueta d'Àneu, La
 25,110,9,Guissona
 25,111,6,Guixers
 25,115,5,Isona i Conca Dellà
@@ -3940,7 +3940,7 @@
 25,134,8,Menàrguens
 25,135,1,Miralcamp
 25,137,0,Mollerussa
-25,136,4,"Molsosa, La"
+25,136,4,Molsosa, La
 25,139,9,Montellà i Martinet
 25,140,3,Montferrer i Castellbò
 25,138,6,Montgai
@@ -3954,25 +3954,25 @@
 25,149,7,Oliana
 25,150,0,Oliola
 25,151,7,Olius
-25,152,2,"Oluges, Les"
-25,153,8,"Omellons, Els"
-25,154,3,"Omells de na Gaia, Els"
+25,152,2,Oluges, Les
+25,153,8,Omellons, Els
+25,154,3,Omells de na Gaia, Els
 25,155,6,Organyà
 25,156,9,Os de Balaguer
 25,157,5,Ossó de Sió
-25,158,1,"Palau d'Anglesola, El"
+25,158,1,Palau d'Anglesola, El
 25,164,1,Penelles
 25,165,4,Peramola
 25,166,7,Pinell de Solsonès
 25,167,3,Pinós
-25,911,8,"Plans de Sió, Els"
-25,168,9,"Poal, El"
-25,169,2,"Pobla de Cérvoles, La"
-25,171,3,"Pobla de Segur, La"
-25,30,6,"Pont de Bar, El"
-25,173,4,"Pont de Suert, El"
+25,911,8,Plans de Sió, Els
+25,168,9,Poal, El
+25,169,2,Pobla de Cérvoles, La
+25,171,3,Pobla de Segur, La
+25,30,6,Pont de Bar, El
+25,173,4,Pont de Suert, El
 25,172,8,Ponts
-25,174,9,"Portella, La"
+25,174,9,Portella, La
 25,175,2,Prats i Sansor
 25,176,5,Preixana
 25,177,1,Preixens
@@ -3997,11 +3997,11 @@
 25,201,7,Sarroca de Bellera
 25,200,0,Sarroca de Lleida
 25,202,2,Senterada
-25,35,2,"Sentiu de Sió, La"
+25,35,2,Sentiu de Sió, La
 25,204,3,Seròs
-25,203,8,"Seu d'Urgell, La"
+25,203,8,Seu d'Urgell, La
 25,205,6,Sidamon
-25,206,9,"Soleràs, El"
+25,206,9,Soleràs, El
 25,207,5,Solsona
 25,208,1,Soriguera
 25,209,4,Sort
@@ -4017,9 +4017,9 @@
 25,221,3,Tírvia
 25,222,8,Tiurana
 25,223,4,Torà
-25,224,9,"Torms, Els"
+25,224,9,Torms, Els
 25,225,2,Tornabous
-25,227,1,"Torre de Cabdella, La"
+25,227,1,Torre de Cabdella, La
 25,226,5,Torrebesses
 25,228,7,Torrefarrera
 25,907,8,Torrefeta i Florejacs
@@ -4028,13 +4028,13 @@
 25,232,6,Torres de Segre
 25,233,2,Torre-serona
 25,234,7,Tremp
-25,43,2,"Vall de Boí, La"
+25,43,2,Vall de Boí, La
 25,901,0,Vall de Cardós
 25,238,5,Vallbona de les Monges
 25,240,2,Vallfogona de Balaguer
-25,906,2,"Valls d'Aguilar, Les"
-25,239,8,"Valls de Valira, Les"
-25,909,7,"Vansa i Fórnols, La"
+25,906,2,Valls d'Aguilar, Les
+25,239,8,Valls de Valira, Les
+25,909,7,Vansa i Fórnols, La
 25,242,4,Verdú
 25,243,0,Vielha e Mijaran
 25,244,5,Vilagrassa
@@ -4046,7 +4046,7 @@
 25,250,9,Vilanova de Meià
 25,251,6,Vilanova de Segrià
 25,252,1,Vila-sana
-25,253,7,"Vilosell, El"
+25,253,7,Vilosell, El
 25,255,5,Vinaixa
 26,1,2,Ábalos
 26,2,7,Agoncillo
@@ -4165,8 +4165,8 @@
 26,119,6,Préjano
 26,120,0,Quel
 26,121,7,Rabanera
-26,122,2,"Rasillo de Cameros, El"
-26,123,8,"Redal, El"
+26,122,2,Rasillo de Cameros, El
+26,123,8,Redal, El
 26,124,3,Ribafrecha
 26,125,6,Rincón de Soto
 26,126,9,Robres del Castillo
@@ -4209,7 +4209,7 @@
 26,167,6,Villalobar de Rioja
 26,168,2,Villamediana de Iregua
 26,169,5,Villanueva de Cameros
-26,170,9,"Villar de Arnedo, El"
+26,170,9,Villar de Arnedo, El
 26,171,6,Villar de Torre
 26,172,1,Villarejo
 26,173,7,Villarroya
@@ -4238,15 +4238,15 @@
 27,12,1,Cervantes
 27,13,7,Cervo
 27,16,8,Chantada
-27,14,2,"Corgo, O"
+27,14,2,Corgo, O
 27,15,5,Cospeito
 27,17,4,Folgoso do Courel
-27,18,0,"Fonsagrada, A"
+27,18,0,Fonsagrada, A
 27,19,3,Foz
 27,20,7,Friol
 27,22,9,Guitiriz
 27,23,5,Guntín
-27,24,0,"Incio, O"
+27,24,0,Incio, O
 27,26,6,Láncara
 27,27,2,Lourenzá
 27,28,8,Lugo
@@ -4257,18 +4257,18 @@
 27,33,3,Muras
 27,34,8,Navia de Suarna
 27,35,1,Negueira de Muñiz
-27,37,0,"Nogais, As"
+27,37,0,Nogais, As
 27,38,6,Ourol
 27,39,9,Outeiro de Rei
 27,40,3,Palas de Rei
 27,41,0,Pantón
 27,42,5,Paradela
-27,43,1,"Páramo, O"
-27,44,6,"Pastoriza, A"
+27,43,1,Páramo, O
+27,44,6,Pastoriza, A
 27,45,9,Pedrafita do Cebreiro
-27,47,8,"Pobra do Brollón, A"
+27,47,8,Pobra do Brollón, A
 27,46,2,Pol
-27,48,4,"Pontenova, A"
+27,48,4,Pontenova, A
 27,49,7,Portomarín
 27,50,0,Quiroga
 27,56,9,Rábade
@@ -4278,21 +4278,21 @@
 27,54,3,Riotorto
 27,55,6,Samos
 27,57,5,Sarria
-27,58,1,"Saviñao, O"
+27,58,1,Saviñao, O
 27,59,4,Sober
 27,60,8,Taboada
 27,61,5,Trabada
 27,62,0,Triacastela
-27,63,6,"Valadouro, O"
-27,64,1,"Vicedo, O"
+27,63,6,Valadouro, O
+27,64,1,Vicedo, O
 27,65,4,Vilalba
 27,66,7,Viveiro
 27,21,4,Xermade
 27,25,3,Xove
-28,1,4,"Acebeda, La"
+28,1,4,Acebeda, La
 28,2,9,Ajalvir
 28,3,5,Alameda del Valle
-28,4,0,"Álamo, El"
+28,4,0,Álamo, El
 28,5,3,Alcalá de Henares
 28,6,6,Alcobendas
 28,7,2,Alcorcón
@@ -4304,21 +4304,21 @@
 28,13,3,Aranjuez
 28,14,8,Arganda del Rey
 28,15,1,Arroyomolinos
-28,16,4,"Atazar, El"
+28,16,4,Atazar, El
 28,17,0,Batres
 28,18,6,Becerril de la Sierra
 28,19,9,Belmonte de Tajo
-28,21,0,"Berrueco, El"
+28,21,0,Berrueco, El
 28,20,3,Berzosa del Lozoya
 28,22,5,Boadilla del Monte
-28,23,1,"Boalo, El"
+28,23,1,Boalo, El
 28,24,6,Braojos
 28,25,9,Brea de Tajo
 28,26,2,Brunete
 28,27,8,Buitrago del Lozoya
 28,28,4,Bustarviejo
 28,29,7,Cabanillas de la Sierra
-28,30,1,"Cabrera, La"
+28,30,1,Cabrera, La
 28,31,8,Cadalso de los Vidrios
 28,32,3,Camarma de Esteruelas
 28,33,9,Campo Real
@@ -4342,7 +4342,7 @@
 28,49,3,Coslada
 28,50,6,Cubas de la Sagra
 28,53,4,Daganzo de Arriba
-28,54,9,"Escorial, El"
+28,54,9,Escorial, El
 28,55,2,Estremera
 28,56,5,Fresnedillas de la Oliva
 28,57,1,Fresno de Torote
@@ -4357,7 +4357,7 @@
 28,66,3,Griñón
 28,67,9,Guadalix de la Sierra
 28,68,5,Guadarrama
-28,69,8,"Hiruela, La"
+28,69,8,Hiruela, La
 28,70,2,Horcajo de la Sierra-Aoslos
 28,71,9,Horcajuelo de la Sierra
 28,72,4,Hoyo de Manzanares
@@ -4373,8 +4373,8 @@
 28,83,8,Meco
 28,84,3,Mejorada del Campo
 28,85,6,Miraflores de la Sierra
-28,86,9,"Molar, El"
-28,87,5,"Molinos, Los"
+28,86,9,Molar, El
+28,87,5,Molinos, Los
 28,88,1,Montejo de la Sierra
 28,89,4,Moraleja de Enmedio
 28,90,8,Moralzarzal
@@ -4412,7 +4412,7 @@
 28,124,5,Robledillo de la Jara
 28,125,8,Robledo de Chavela
 28,126,1,Robregordo
-28,127,7,"Rozas de Madrid, Las"
+28,127,7,Rozas de Madrid, Las
 28,128,3,Rozas de Puerto Real
 28,129,6,San Agustín del Guadalix
 28,130,0,San Fernando de Henares
@@ -4422,8 +4422,8 @@
 28,134,3,San Sebastián de los Reyes
 28,135,6,Santa María de la Alameda
 28,136,9,Santorcaz
-28,137,5,"Santos de la Humosa, Los"
-28,138,1,"Serna del Monte, La"
+28,137,5,Santos de la Humosa, Los
+28,138,1,Serna del Monte, La
 28,140,8,Serranillos del Valle
 28,141,5,Sevilla la Nueva
 28,143,6,Somosierra
@@ -4452,7 +4452,7 @@
 28,165,9,Valdilecha
 28,166,2,Valverde de Alcalá
 28,167,8,Velilla de San Antonio
-28,168,4,"Vellón, El"
+28,168,4,Vellón, El
 28,169,7,Venturada
 28,171,8,Villa del Prado
 28,170,1,Villaconejos
@@ -4497,8 +4497,8 @@
 29,27,1,Benamocarra
 29,28,7,Benaoján
 29,29,0,Benarrabá
-29,30,4,"Borge, El"
-29,31,1,"Burgo, El"
+29,30,4,Borge, El
+29,31,1,Burgo, El
 29,32,6,Campillos
 29,33,2,Canillas de Aceituno
 29,34,7,Canillas de Albaida
@@ -4576,7 +4576,7 @@
 30,3,2,Águilas
 30,4,7,Albudeite
 30,5,0,Alcantarilla
-30,902,7,"Alcázares, Los"
+30,902,7,Alcázares, Los
 30,6,3,Aledo
 30,7,9,Alguazas
 30,8,5,Alhama de Murcia
@@ -4610,10 +4610,10 @@
 30,36,7,San Pedro del Pinatar
 30,901,2,Santomera
 30,37,3,Torre-Pacheco
-30,38,9,"Torres de Cotillas, Las"
+30,38,9,Torres de Cotillas, Las
 30,39,2,Totana
 30,40,6,Ulea
-30,41,3,"Unión, La"
+30,41,3,Unión, La
 30,42,8,Villanueva del Río Segura
 30,43,4,Yecla
 31,1,8,Abáigar
@@ -4644,7 +4644,7 @@
 31,26,6,Aras
 31,27,2,Arbizu
 31,28,8,Arce/Artzi
-31,29,1,"Arcos, Los"
+31,29,1,Arcos, Los
 31,30,5,Arellano
 31,31,2,Areso
 31,32,7,Arguedas
@@ -4683,7 +4683,7 @@
 31,57,5,Buñuel
 31,59,4,Burgui/Burgi
 31,60,8,Burlada/Burlata
-31,61,5,"Busto, El"
+31,61,5,Busto, El
 31,62,0,Cabanillas
 31,63,6,Cabredo
 31,64,1,Cadreita
@@ -4890,23 +4890,23 @@
 31,265,2,Zúñiga
 32,1,3,Allariz
 32,2,8,Amoeiro
-32,3,4,"Arnoia, A"
+32,3,4,Arnoia, A
 32,4,9,Avión
 32,5,2,Baltar
 32,6,5,Bande
 32,7,1,Baños de Molgas
 32,8,7,Barbadás
-32,9,0,"Barco de Valdeorras, O"
+32,9,0,Barco de Valdeorras, O
 32,10,4,Beade
 32,11,1,Beariz
-32,12,6,"Blancos, Os"
+32,12,6,Blancos, Os
 32,13,2,Boborás
-32,14,7,"Bola, A"
-32,15,0,"Bolo, O"
+32,14,7,Bola, A
+32,15,0,Bolo, O
 32,16,3,Calvos de Randín
 32,18,5,Carballeda de Avia
 32,17,9,Carballeda de Valdeorras
-32,19,8,"Carballiño, O"
+32,19,8,Carballiño, O
 32,20,2,Cartelle
 32,22,4,Castrelo de Miño
 32,21,9,Castrelo do Val
@@ -4920,8 +4920,8 @@
 32,30,0,Entrimo
 32,31,7,Esgos
 32,33,8,Gomesende
-32,34,3,"Gudiña, A"
-32,35,6,"Irixo, O"
+32,34,3,Gudiña, A
+32,35,6,Irixo, O
 32,38,1,Larouco
 32,39,4,Laza
 32,40,8,Leiro
@@ -4931,8 +4931,8 @@
 32,44,1,Manzaneda
 32,45,4,Maside
 32,46,7,Melón
-32,47,3,"Merca, A"
-32,48,9,"Mezquita, A"
+32,47,3,Merca, A
+32,48,9,Mezquita, A
 32,49,2,Montederramo
 32,50,5,Monterrei
 32,51,2,Muíños
@@ -4942,11 +4942,11 @@
 32,55,1,Paderne de Allariz
 32,56,4,Padrenda
 32,57,0,Parada de Sil
-32,58,6,"Pereiro de Aguiar, O"
-32,59,9,"Peroxa, A"
+32,58,6,Pereiro de Aguiar, O
+32,59,9,Peroxa, A
 32,60,3,Petín
 32,61,0,Piñor
-32,63,1,"Pobra de Trives, A"
+32,63,1,Pobra de Trives, A
 32,64,6,Pontedeva
 32,62,5,Porqueira
 32,65,9,Punxín
@@ -4955,7 +4955,7 @@
 32,68,4,Ramirás
 32,69,7,Ribadavia
 32,71,8,Riós
-32,72,3,"Rúa, A"
+32,72,3,Rúa, A
 32,73,9,Rubiá
 32,74,4,San Amaro
 32,75,7,San Cibrao das Viñas
@@ -4964,10 +4964,10 @@
 32,77,6,Sandiás
 32,78,2,Sarreaus
 32,79,5,Taboadela
-32,80,9,"Teixeira, A"
+32,80,9,Teixeira, A
 32,81,6,Toén
 32,82,1,Trasmiras
-32,83,7,"Veiga, A"
+32,83,7,Veiga, A
 32,84,2,Verea
 32,85,5,Verín
 32,86,8,Viana do Bolo
@@ -5002,7 +5002,7 @@
 33,20,8,Corvera de Asturias
 33,21,5,Cudillero
 33,22,0,Degaña
-33,23,6,"Franco, El"
+33,23,6,Franco, El
 33,24,1,Gijón
 33,25,4,Gozón
 33,26,7,Grado
@@ -5032,7 +5032,7 @@
 33,51,8,Pravia
 33,52,3,Proaza
 33,53,9,Quirós
-33,54,4,"Regueras, Las"
+33,54,4,Regueras, Las
 33,55,7,Ribadedeva
 33,56,0,Ribadesella
 33,57,6,Ribera de Arriba
@@ -5158,7 +5158,7 @@
 34,125,8,Pedraza de Campos
 34,126,1,Pedrosa de la Vega
 34,127,7,Perales
-34,904,1,"Pernía, La"
+34,904,1,Pernía, La
 34,129,6,Pino del Río
 34,130,0,Piña de Campos
 34,131,7,Población de Arroyo
@@ -5169,7 +5169,7 @@
 34,136,9,Poza de la Vega
 34,137,5,Pozo de Urama
 34,139,4,Prádanos de Ojeda
-34,140,8,"Puebla de Valdavia, La"
+34,140,8,Puebla de Valdavia, La
 34,141,5,Quintana del Puente
 34,143,6,Quintanilla de Onsoña
 34,146,7,Reinoso de Cerrato
@@ -5193,7 +5193,7 @@
 34,170,1,Santibáñez de Ecla
 34,171,8,Santibáñez de la Peña
 34,174,4,Santoyo
-34,175,7,"Serna, La"
+34,175,7,Serna, La
 34,177,6,Soto de Cerrato
 34,176,0,Sotobañado y Priorato
 34,178,2,Tabanera de Cerrato
@@ -5212,7 +5212,7 @@
 34,199,1,Velilla del Río Carrión
 34,23,1,Venta de Baños
 34,201,2,Vertavillo
-34,93,6,"Vid de Ojeda, La"
+34,93,6,Vid de Ojeda, La
 34,202,7,Villabasta de Valdavia
 34,204,8,Villacidaler
 34,205,1,Villaconancio
@@ -5251,7 +5251,7 @@
 34,246,6,Villovieco
 35,1,7,Agaete
 35,2,2,Agüimes
-35,20,6,"Aldea de San Nicolás, La"
+35,20,6,Aldea de San Nicolás, La
 35,3,8,Antigua
 35,4,3,Arrecife
 35,5,6,Artenara
@@ -5263,9 +5263,9 @@
 35,11,5,Ingenio
 35,12,0,Mogán
 35,13,6,Moya
-35,14,1,"Oliva, La"
+35,14,1,Oliva, La
 35,15,4,Pájara
-35,16,7,"Palmas de Gran Canaria, Las"
+35,16,7,Palmas de Gran Canaria, Las
 35,17,3,Puerto del Rosario
 35,18,9,San Bartolomé
 35,19,2,San Bartolomé de Tirajana
@@ -5292,22 +5292,22 @@
 36,6,2,Cambados
 36,7,8,Campo Lameiro
 36,8,4,Cangas
-36,9,7,"Cañiza, A"
+36,9,7,Cañiza, A
 36,10,1,Catoira
 36,902,6,Cerdedo-Cotobade
 36,13,9,Covelo
 36,14,4,Crecente
 36,15,7,Cuntis
 36,16,0,Dozón
-36,17,6,"Estrada, A"
+36,17,6,Estrada, A
 36,18,2,Forcarei
 36,19,5,Fornelos de Montes
 36,21,6,Gondomar
-36,22,1,"Grove, O"
-36,23,7,"Guarda, A"
-36,901,1,"Illa de Arousa, A"
+36,22,1,Grove, O
+36,23,7,Guarda, A
+36,901,1,Illa de Arousa, A
 36,24,2,Lalín
-36,25,5,"Lama, A"
+36,25,5,Lama, A
 36,26,8,Marín
 36,27,4,Meaño
 36,28,0,Meis
@@ -5316,7 +5316,7 @@
 36,31,4,Mondariz-Balneario
 36,32,9,Moraña
 36,33,5,Mos
-36,34,0,"Neves, As"
+36,34,0,Neves, As
 36,35,3,Nigrán
 36,36,6,Oia
 36,37,2,Pazos de Borbén
@@ -5325,12 +5325,12 @@
 36,42,7,Ponteareas
 36,44,8,Pontecesures
 36,38,8,Pontevedra
-36,39,1,"Porriño, O"
+36,39,1,Porriño, O
 36,40,5,Portas
 36,45,1,Redondela
 36,46,4,Ribadumia
 36,47,0,Rodeiro
-36,48,6,"Rosal, O"
+36,48,6,Rosal, O
 36,49,9,Salceda de Caselas
 36,50,2,Salvaterra de Miño
 36,51,9,Sanxenxo
@@ -5348,13 +5348,13 @@
 37,2,1,Agallas
 37,3,7,Ahigal de los Aceiteros
 37,4,2,Ahigal de Villarino
-37,5,5,"Alameda de Gardón, La"
-37,6,8,"Alamedilla, La"
+37,5,5,Alameda de Gardón, La
+37,6,8,Alamedilla, La
 37,7,4,Alaraz
 37,8,0,Alba de Tormes
 37,9,3,Alba de Yeltes
-37,10,7,"Alberca, La"
-37,11,4,"Alberguería de Argañán, La"
+37,10,7,Alberca, La
+37,11,4,Alberguería de Argañán, La
 37,12,9,Alconada
 37,15,3,Aldea del Obispo
 37,13,5,Aldeacipreste
@@ -5377,42 +5377,42 @@
 37,31,0,Arabayona de Mógica
 37,32,5,Arapiles
 37,33,1,Arcediano
-37,34,6,"Arco, El"
+37,34,6,Arco, El
 37,35,9,Armenteros
-37,37,8,"Atalaya, La"
+37,37,8,Atalaya, La
 37,38,4,Babilafuente
 37,39,7,Bañobárez
 37,40,1,Barbadillo
 37,41,8,Barbalos
 37,42,3,Barceo
 37,44,4,Barruecopardo
-37,45,7,"Bastida, La"
+37,45,7,Bastida, La
 37,46,0,Béjar
 37,47,6,Beleña
 37,49,5,Bermellar
 37,50,8,Berrocal de Huebra
 37,51,5,Berrocal de Salvatierra
 37,52,0,Boada
-37,54,1,"Bodón, El"
+37,54,1,Bodón, El
 37,55,4,Bogajo
-37,56,7,"Bouza, La"
+37,56,7,Bouza, La
 37,57,3,Bóveda del Río Almar
 37,58,9,Brincones
 37,59,2,Buenamadre
 37,60,6,Buenavista
-37,61,3,"Cabaco, El"
-37,63,4,"Cabeza de Béjar, La"
+37,61,3,Cabaco, El
+37,63,4,Cabeza de Béjar, La
 37,65,2,Cabeza del Caballo
 37,62,8,Cabezabellosa de la Calzada
 37,67,1,Cabrerizos
 37,68,7,Cabrillas
 37,69,0,Calvarrasa de Abajo
 37,70,4,Calvarrasa de Arriba
-37,71,1,"Calzada de Béjar, La"
+37,71,1,Calzada de Béjar, La
 37,72,6,Calzada de Don Diego
 37,73,2,Calzada de Valdunciel
 37,74,7,Campillo de Azaba
-37,77,9,"Campo de Peñaranda, El"
+37,77,9,Campo de Peñaranda, El
 37,78,5,Candelario
 37,79,8,Canillas de Abajo
 37,80,2,Cantagallo
@@ -5424,7 +5424,7 @@
 37,87,7,Carrascal de Barregas
 37,88,3,Carrascal del Obispo
 37,89,6,Casafranca
-37,90,0,"Casas del Conde, Las"
+37,90,0,Casas del Conde, Las
 37,91,7,Casillas de Flores
 37,92,2,Castellanos de Moriscos
 37,185,7,Castellanos de Villiquera
@@ -5434,7 +5434,7 @@
 37,99,4,Cereceda de la Sierra
 37,100,8,Cerezal de Peñahorcada
 37,101,5,Cerralbo
-37,102,0,"Cerro, El"
+37,102,0,Cerro, El
 37,103,6,Cespedosa de Tormes
 37,114,9,Chagarcía Medianero
 37,104,1,Cilleros de la Bastida
@@ -5444,13 +5444,13 @@
 37,109,2,Colmenar de Montemayor
 37,110,6,Cordovilla
 37,112,8,Cristóbal
-37,113,4,"Cubo de Don Sancho, El"
+37,113,4,Cubo de Don Sancho, El
 37,115,2,Dios le Guarde
 37,116,5,Doñinos de Ledesma
 37,117,1,Doñinos de Salamanca
 37,118,7,Éjeme
 37,120,4,Encina de San Silvestre
-37,119,0,"Encina, La"
+37,119,0,Encina, La
 37,121,1,Encinas de Abajo
 37,122,6,Encinas de Arriba
 37,123,2,Encinasola de los Comendadores
@@ -5462,10 +5462,10 @@
 37,129,8,Florida de Liébana
 37,130,2,Forfoleda
 37,131,9,Frades de la Sierra
-37,132,4,"Fregeneda, La"
+37,132,4,Fregeneda, La
 37,133,0,Fresnedoso
 37,134,5,Fresno Alhándiga
-37,135,8,"Fuente de San Esteban, La"
+37,135,8,Fuente de San Esteban, La
 37,136,1,Fuenteguinaldo
 37,137,7,Fuenteliante
 37,138,3,Fuenterroble de Salvatierra
@@ -5492,7 +5492,7 @@
 37,160,5,Hinojosa de Duero
 37,161,2,Horcajo de Montemayor
 37,162,7,Horcajo Medianero
-37,163,3,"Hoya, La"
+37,163,3,Hoya, La
 37,164,8,Huerta
 37,165,1,Iruelos
 37,166,4,Ituero de Azaba
@@ -5506,20 +5506,20 @@
 37,175,9,Machacón
 37,174,6,Macotera
 37,176,2,Madroñal
-37,177,8,"Maíllo, El"
+37,177,8,Maíllo, El
 37,178,4,Malpartida
 37,179,7,Mancera de Abajo
-37,180,1,"Manzano, El"
+37,180,1,Manzano, El
 37,181,8,Martiago
 37,183,9,Martín de Yeltes
 37,182,3,Martinamor
 37,184,4,Masueco
-37,186,0,"Mata de Ledesma, La"
+37,186,0,Mata de Ledesma, La
 37,187,6,Matilla de los Caños del Río
-37,188,2,"Maya, La"
+37,188,2,Maya, La
 37,189,5,Membribe de la Sierra
 37,190,9,Mieza
-37,191,6,"Milano, El"
+37,191,6,Milano, El
 37,192,1,Miranda de Azán
 37,193,7,Miranda del Castañar
 37,194,2,Mogarraz
@@ -5550,7 +5550,7 @@
 37,221,0,Navasfrías
 37,222,5,Negrilla de Palencia
 37,223,1,Olmedo de Camaces
-37,224,6,"Orbada, La"
+37,224,6,Orbada, La
 37,225,9,Pajares de la Laguna
 37,226,2,Palacios del Arzobispo
 37,228,4,Palaciosrubios
@@ -5559,16 +5559,16 @@
 37,231,8,Parada de Rubiales
 37,232,3,Paradinas de San Juan
 37,233,9,Pastores
-37,234,4,"Payo, El"
+37,234,4,Payo, El
 37,235,7,Pedraza de Alba
 37,236,0,Pedrosillo de Alba
 37,237,6,Pedrosillo de los Aires
 37,238,2,Pedrosillo el Ralo
-37,239,5,"Pedroso de la Armuña, El"
+37,239,5,Pedroso de la Armuña, El
 37,240,9,Pelabravo
 37,241,6,Pelarrodríguez
 37,242,1,Pelayos
-37,243,7,"Peña, La"
+37,243,7,Peña, La
 37,244,2,Peñacaballera
 37,245,5,Peñaparda
 37,246,8,Peñaranda de Bracamonte
@@ -5578,7 +5578,7 @@
 37,250,6,Pereña de la Ribera
 37,251,3,Peromingo
 37,252,8,Pinedas
-37,253,4,"Pino de Tormes, El"
+37,253,4,Pino de Tormes, El
 37,254,9,Pitiegua
 37,255,2,Pizarral
 37,256,5,Poveda de las Cintas
@@ -5591,15 +5591,15 @@
 37,263,2,Puerto de Béjar
 37,264,7,Puerto Seguro
 37,265,0,Rágama
-37,266,3,"Redonda, La"
+37,266,3,Redonda, La
 37,267,9,Retortillo
-37,268,5,"Rinconada de la Sierra, La"
+37,268,5,Rinconada de la Sierra, La
 37,269,8,Robleda
 37,270,2,Robliza de Cojos
 37,271,9,Rollán
 37,272,4,Saelices el Chico
-37,273,0,"Sagrada, La"
-37,303,4,"Sahugo, El"
+37,273,0,Sagrada, La
+37,303,4,Sahugo, El
 37,274,5,Salamanca
 37,275,8,Saldeana
 37,276,1,Salmoral
@@ -5626,30 +5626,30 @@
 37,297,3,Santibáñez de Béjar
 37,298,9,Santibáñez de la Sierra
 37,299,2,Santiz
-37,300,6,"Santos, Los"
+37,300,6,Santos, Los
 37,301,3,Sardón de los Frailes
 37,302,8,Saucelle
 37,304,9,Sepulcro-Hilario
 37,305,2,Sequeros
 37,306,5,Serradilla del Arroyo
 37,307,1,Serradilla del Llano
-37,309,0,"Sierpe, La"
+37,309,0,Sierpe, La
 37,310,4,Sieteiglesias de Tormes
 37,311,1,Sobradillo
 37,312,6,Sorihuela
 37,313,2,Sotoserrano
 37,314,7,Tabera de Abajo
-37,315,0,"Tala, La"
+37,315,0,Tala, La
 37,316,3,Tamames
 37,317,9,Tarazona de Guareña
 37,318,5,Tardáguila
-37,319,8,"Tejado, El"
+37,319,8,Tejado, El
 37,320,2,Tejeda y Segoyuela
 37,321,9,Tenebrón
 37,322,4,Terradillos
 37,323,0,Topas
 37,324,5,Tordillos
-37,325,8,"Tornadizo, El"
+37,325,8,Tornadizo, El
 37,327,7,Torresmenudas
 37,328,3,Trabanca
 37,329,6,Tremedal de Tormes
@@ -5669,10 +5669,10 @@
 37,342,0,Valverdón
 37,344,1,Vecinos
 37,345,4,Vega de Tirados
-37,346,7,"Veguillas, Las"
-37,347,3,"Vellés, La"
+37,346,7,Veguillas, Las
+37,347,3,Vellés, La
 37,348,9,Ventosa del Río Almar
-37,349,2,"Vídola, La"
+37,349,2,Vídola, La
 37,351,2,Villaflores
 37,352,7,Villagonzalo de Tormes
 37,353,3,Villalba de los Llanos
@@ -5704,7 +5704,7 @@
 37,378,2,Zamarra
 37,379,5,Zamayón
 37,380,9,Zarapicos
-37,381,6,"Zarza de Pumareda, La"
+37,381,6,Zarza de Pumareda, La
 37,382,1,Zorita de la Frontera
 38,1,2,Adeje
 38,2,7,Agulo
@@ -5723,21 +5723,21 @@
 38,15,9,Garachico
 38,16,2,Garafía
 38,17,8,Granadilla de Abona
-38,18,4,"Guancha, La"
+38,18,4,Guancha, La
 38,19,7,Guía de Isora
 38,20,1,Güímar
 38,21,8,Hermigua
 38,22,3,Icod de los Vinos
-38,24,4,"Llanos de Aridane, Los"
-38,25,7,"Matanza de Acentejo, La"
-38,26,0,"Orotava, La"
-38,27,6,"Paso, El"
-38,901,3,"Pinar de El Hierro, El"
+38,24,4,Llanos de Aridane, Los
+38,25,7,Matanza de Acentejo, La
+38,26,0,Orotava, La
+38,27,6,Paso, El
+38,901,3,Pinar de El Hierro, El
 38,28,2,Puerto de la Cruz
 38,29,5,Puntagorda
 38,30,9,Puntallana
-38,31,6,"Realejos, Los"
-38,32,1,"Rosario, El"
+38,31,6,Realejos, Los
+38,32,1,Rosario, El
 38,33,7,San Andrés y Sauces
 38,23,9,San Cristóbal de La Laguna
 38,34,2,San Juan de la Rambla
@@ -5747,17 +5747,17 @@
 38,38,0,Santa Cruz de Tenerife
 38,39,3,Santa Úrsula
 38,40,7,Santiago del Teide
-38,41,4,"Sauzal, El"
-38,42,9,"Silos, Los"
+38,41,4,Sauzal, El
+38,42,9,Silos, Los
 38,43,5,Tacoronte
-38,44,0,"Tanque, El"
+38,44,0,Tanque, El
 38,45,3,Tazacorte
 38,46,6,Tegueste
 38,47,2,Tijarafe
 38,49,1,Valle Gran Rey
 38,50,4,Vallehermoso
 38,48,8,Valverde
-38,51,1,"Victoria de Acentejo, La"
+38,51,1,Victoria de Acentejo, La
 38,52,6,Vilaflor de Chasna
 38,53,2,Villa de Mazo
 39,1,5,Alfoz de Lloredo
@@ -5767,7 +5767,7 @@
 39,5,4,Argoños
 39,6,7,Arnuero
 39,7,3,Arredondo
-39,8,9,"Astillero, El"
+39,8,9,Astillero, El
 39,9,2,Bárcena de Cicero
 39,10,6,Bárcena de Pie de Concha
 39,11,3,Bareyo
@@ -5785,7 +5785,7 @@
 39,22,6,Cillorigo de Liébana
 39,23,2,Colindres
 39,24,7,Comillas
-39,25,0,"Corrales de Buelna, Los"
+39,25,0,Corrales de Buelna, Los
 39,26,3,Corvera de Toranzo
 39,28,5,Entrambasaguas
 39,29,8,Escalante
@@ -5824,7 +5824,7 @@
 39,62,7,Ribamontán al Monte
 39,63,3,Rionansa
 39,64,8,Riotuerto
-39,65,1,"Rozas de Valdearroyo, Las"
+39,65,1,Rozas de Valdearroyo, Las
 39,66,4,Ruente
 39,67,0,Ruesga
 39,68,6,Ruiloba
@@ -5845,7 +5845,7 @@
 39,83,9,Soba
 39,84,4,Solórzano
 39,85,7,Suances
-39,86,0,"Tojos, Los"
+39,86,0,Tojos, Los
 39,87,6,Torrelavega
 39,88,2,Tresviso
 39,89,5,Tudanca
@@ -5931,7 +5931,7 @@
 40,73,5,Escalona del Prado
 40,74,0,Escarabajosa de Cabezas
 40,75,3,Escobar de Polendos
-40,76,6,"Espinar, El"
+40,76,6,Espinar, El
 40,77,2,Espirdo
 40,78,8,Fresneda de Cuéllar
 40,79,1,Fresno de Cantespino
@@ -5953,7 +5953,7 @@
 40,99,7,Honrubia de la Cuesta
 40,100,1,Hontalbilla
 40,101,8,Hontanares de Eresma
-40,103,9,"Huertos, Los"
+40,103,9,Huertos, Los
 40,104,4,Ituero y Lama
 40,105,7,Juarros de Riomoros
 40,106,0,Juarros de Voltoya
@@ -5962,8 +5962,8 @@
 40,109,5,Languilla
 40,110,9,Lastras de Cuéllar
 40,111,6,Lastras del Pozo
-40,112,1,"Lastrilla, La"
-40,113,7,"Losa, La"
+40,112,1,Lastrilla, La
+40,113,7,Losa, La
 40,115,5,Maderuelo
 40,903,1,Marazoleja
 40,118,0,Marazuela
@@ -5973,7 +5973,7 @@
 40,122,9,Marugán
 40,124,0,Mata de Cuéllar
 40,123,5,Matabuena
-40,125,3,"Matilla, La"
+40,125,3,Matilla, La
 40,126,6,Melque de Cercos
 40,127,2,Membibre de la Hoz
 40,128,8,Migueláñez
@@ -6077,7 +6077,7 @@
 41,4,2,Alcalá de Guadaíra
 41,5,5,Alcalá del Río
 41,6,8,Alcolea del Río
-41,7,4,"Algaba, La"
+41,7,4,Algaba, La
 41,8,0,Algámitas
 41,9,3,Almadén de la Plata
 41,10,7,Almensilla
@@ -6090,9 +6090,9 @@
 41,17,2,Bormujos
 41,18,8,Brenes
 41,19,1,Burguillos
-41,20,5,"Cabezas de San Juan, Las"
+41,20,5,Cabezas de San Juan, Las
 41,21,2,Camas
-41,22,7,"Campana, La"
+41,22,7,Campana, La
 41,23,3,Cantillana
 41,901,7,Cañada Rosal
 41,24,8,Carmona
@@ -6102,20 +6102,20 @@
 41,28,6,Castilleja de Guzmán
 41,29,9,Castilleja de la Cuesta
 41,30,3,Castilleja del Campo
-41,31,0,"Castillo de las Guardas, El"
+41,31,0,Castillo de las Guardas, El
 41,32,5,Cazalla de la Sierra
 41,33,1,Constantina
 41,34,6,Coria del Río
 41,35,9,Coripe
-41,36,2,"Coronil, El"
-41,37,8,"Corrales, Los"
-41,903,8,"Cuervo de Sevilla, El"
+41,36,2,Coronil, El
+41,37,8,Corrales, Los
+41,903,8,Cuervo de Sevilla, El
 41,38,4,Dos Hermanas
 41,39,7,Écija
 41,40,1,Espartinas
 41,41,8,Estepa
 41,42,3,Fuentes de Andalucía
-41,43,9,"Garrobo, El"
+41,43,9,Garrobo, El
 41,44,4,Gelves
 41,45,7,Gerena
 41,46,0,Gilena
@@ -6129,42 +6129,42 @@
 41,53,6,Lebrija
 41,54,1,Lora de Estepa
 41,55,4,Lora del Río
-41,56,7,"Luisiana, La"
-41,57,3,"Madroño, El"
+41,56,7,Luisiana, La
+41,57,3,Madroño, El
 41,58,9,Mairena del Alcor
 41,59,2,Mairena del Aljarafe
 41,60,6,Marchena
 41,61,3,Marinaleda
 41,62,8,Martín de la Jara
-41,63,4,"Molares, Los"
+41,63,4,Molares, Los
 41,64,9,Montellano
 41,65,2,Morón de la Frontera
-41,66,5,"Navas de la Concepción, Las"
+41,66,5,Navas de la Concepción, Las
 41,67,1,Olivares
 41,68,7,Osuna
-41,69,0,"Palacios y Villafranca, Los"
-41,904,3,"Palmar de Troya, El"
+41,69,0,Palacios y Villafranca, Los
+41,904,3,Palmar de Troya, El
 41,70,4,Palomares del Río
 41,71,1,Paradas
 41,72,6,Pedrera
-41,73,2,"Pedroso, El"
+41,73,2,Pedroso, El
 41,74,7,Peñaflor
 41,75,0,Pilas
 41,76,3,Pruna
-41,77,9,"Puebla de Cazalla, La"
-41,78,5,"Puebla de los Infantes, La"
-41,79,8,"Puebla del Río, La"
-41,80,2,"Real de la Jara, El"
-41,81,9,"Rinconada, La"
-41,82,4,"Roda de Andalucía, La"
-41,83,0,"Ronquillo, El"
-41,84,5,"Rubio, El"
+41,77,9,Puebla de Cazalla, La
+41,78,5,Puebla de los Infantes, La
+41,79,8,Puebla del Río, La
+41,80,2,Real de la Jara, El
+41,81,9,Rinconada, La
+41,82,4,Roda de Andalucía, La
+41,83,0,Ronquillo, El
+41,84,5,Rubio, El
 41,85,8,Salteras
 41,86,1,San Juan de Aznalfarache
 41,88,3,San Nicolás del Puerto
 41,87,7,Sanlúcar la Mayor
 41,89,6,Santiponce
-41,90,0,"Saucejo, El"
+41,90,0,Saucejo, El
 41,91,7,Sevilla
 41,92,2,Tocina
 41,93,8,Tomares
@@ -6176,7 +6176,7 @@
 41,98,1,Villanueva del Ariscal
 41,99,4,Villanueva del Río y Minas
 41,101,5,Villaverde del Río
-41,102,0,"Viso del Alcor, El"
+41,102,0,Viso del Alcor, El
 42,1,1,Abejar
 42,3,2,Adradas
 42,4,7,Ágreda
@@ -6188,7 +6188,7 @@
 42,11,9,Aldealpozo
 42,12,4,Aldealseñor
 42,13,0,Aldehuela de Periáñez
-42,14,5,"Aldehuelas, Las"
+42,14,5,Aldehuelas, Las
 42,15,8,Alentisque
 42,16,1,Aliud
 42,17,7,Almajano
@@ -6268,7 +6268,7 @@
 42,100,3,Hinojosa del Campo
 42,103,1,Langa de Duero
 42,105,9,Liceras
-42,106,2,"Losilla, La"
+42,106,2,Losilla, La
 42,107,8,Magaña
 42,108,4,Maján
 42,110,1,Matalebreras
@@ -6294,22 +6294,22 @@
 42,135,3,Oncala
 42,139,1,Pinilla del Campo
 42,140,5,Portillo de Soria
-42,141,2,"Póveda de Soria, La"
+42,141,2,Póveda de Soria, La
 42,142,7,Pozalmuro
 42,144,8,Quintana Redonda
 42,145,1,Quintanas de Gormaz
 42,148,6,Quiñonería
-42,149,9,"Rábanos, Los"
+42,149,9,Rábanos, Los
 42,151,9,Rebollar
 42,152,4,Recuerda
 42,153,0,Rello
 42,154,5,Renieblas
 42,155,8,Retortillo de Soria
 42,156,1,Reznos
-42,157,7,"Riba de Escalote, La"
+42,157,7,Riba de Escalote, La
 42,158,3,Rioseco de Soria
 42,159,6,Rollamienta
-42,160,0,"Royo, El"
+42,160,0,Royo, El
 42,161,7,Salduero
 42,162,2,San Esteban de Gormaz
 42,163,8,San Felices
@@ -6352,7 +6352,7 @@
 42,207,7,Villar del Ala
 42,208,3,Villar del Campo
 42,209,6,Villar del Río
-42,211,7,"Villares de Soria, Los"
+42,211,7,Villares de Soria, Los
 42,212,2,Villasayas
 42,213,8,Villaseca de Arciel
 42,215,6,Vinuesa
@@ -6362,23 +6362,23 @@
 42,219,4,Yelo
 43,1,7,Aiguamúrcia
 43,2,2,Albinyana
-43,3,8,"Albiol, L'"
+43,3,8,Albiol, L'
 43,4,3,Alcanar
 43,5,6,Alcover
-43,904,4,"Aldea, L'"
+43,904,4,Aldea, L'
 43,6,9,Aldover
-43,7,5,"Aleixar, L'"
+43,7,5,Aleixar, L'
 43,8,1,Alfara de Carles
 43,9,4,Alforja
 43,10,8,Alió
 43,11,5,Almoster
 43,12,0,Altafulla
-43,13,6,"Ametlla de Mar, L'"
-43,906,0,"Ampolla, L'"
+43,13,6,Ametlla de Mar, L'
+43,906,0,Ampolla, L'
 43,14,1,Amposta
-43,16,7,"Arboç, L'"
+43,16,7,Arboç, L'
 43,15,4,Arbolí
-43,17,3,"Argentera, L'"
+43,17,3,Argentera, L'
 43,18,9,Arnes
 43,19,2,Ascó
 43,20,6,Banyeres del Penedès
@@ -6388,11 +6388,11 @@
 43,24,9,Bellvei
 43,25,2,Benifallet
 43,26,5,Benissanet
-43,27,1,"Bisbal de Falset, La"
-43,28,7,"Bisbal del Penedès, La"
+43,27,1,Bisbal de Falset, La
+43,28,7,Bisbal del Penedès, La
 43,29,0,Blancafort
 43,30,4,Bonastre
-43,31,1,"Borges del Camp, Les"
+43,31,1,Borges del Camp, Les
 43,32,6,Bot
 43,33,2,Botarell
 43,34,7,Bràfim
@@ -6401,12 +6401,12 @@
 43,37,9,Calafell
 43,903,9,Camarles
 43,38,5,Cambrils
-43,907,6,"Canonja, La"
+43,907,6,Canonja, La
 43,39,8,Capafonts
 43,40,2,Capçanes
 43,41,9,Caseres
 43,42,4,Castellvell del Camp
-43,43,0,"Catllar, El"
+43,43,0,Catllar, El
 43,45,8,Colldejou
 43,46,1,Conesa
 43,47,7,Constantí
@@ -6416,25 +6416,25 @@
 43,51,6,Cunit
 43,901,8,Deltebre
 43,53,7,Duesaigües
-43,54,2,"Espluga de Francolí, L'"
+43,54,2,Espluga de Francolí, L'
 43,55,5,Falset
-43,56,8,"Fatarella, La"
-43,57,4,"Febró, La"
-43,58,0,"Figuera, La"
+43,56,8,Fatarella, La
+43,57,4,Febró, La
+43,58,0,Figuera, La
 43,59,3,Figuerola del Camp
 43,60,7,Flix
 43,61,4,Forès
 43,62,9,Freginals
-43,63,5,"Galera, La"
+43,63,5,Galera, La
 43,64,0,Gandesa
 43,65,3,Garcia
-43,66,6,"Garidells, Els"
+43,66,6,Garidells, Els
 43,67,2,Ginestar
 43,68,8,Godall
 43,69,1,Gratallops
-43,70,5,"Guiamets, Els"
+43,70,5,Guiamets, Els
 43,71,2,Horta de Sant Joan
-43,72,7,"Lloar, El"
+43,72,7,Lloar, El
 43,73,3,Llorac
 43,74,8,Llorenç del Penedès
 43,76,4,Marçà
@@ -6442,39 +6442,39 @@
 43,77,0,Mas de Barberans
 43,78,6,Masdenverge
 43,79,9,Masllorenç
-43,80,3,"Masó, La"
+43,80,3,Masó, La
 43,81,0,Maspujols
-43,82,5,"Masroig, El"
-43,83,1,"Milà, El"
+43,82,5,Masroig, El
+43,83,1,Milà, El
 43,84,6,Miravet
-43,85,9,"Molar, El"
+43,85,9,Molar, El
 43,86,2,Montblanc
 43,88,4,Montbrió del Camp
 43,89,7,Montferri
-43,90,1,"Montmell, El"
+43,90,1,Montmell, El
 43,91,8,Mont-ral
 43,92,3,Mont-roig del Camp
 43,93,9,Móra d'Ebre
 43,94,4,Móra la Nova
-43,95,7,"Morell, El"
-43,96,0,"Morera de Montsant, La"
-43,97,6,"Nou de Gaià, La"
+43,95,7,Morell, El
+43,96,0,Morera de Montsant, La
+43,97,6,Nou de Gaià, La
 43,98,2,Nulles
-43,100,9,"Pallaresos, Els"
-43,99,5,"Palma d'Ebre, La"
+43,100,9,Pallaresos, Els
+43,99,5,Palma d'Ebre, La
 43,101,6,Passanant i Belltall
 43,102,1,Paüls
 43,103,7,Perafort
-43,104,2,"Perelló, El"
-43,105,5,"Piles, Les"
-43,106,8,"Pinell de Brai, El"
+43,104,2,Perelló, El
+43,105,5,Piles, Les
+43,106,8,Pinell de Brai, El
 43,107,4,Pira
-43,108,0,"Pla de Santa Maria, El"
-43,109,3,"Pobla de Mafumet, La"
-43,110,7,"Pobla de Massaluca, La"
-43,111,4,"Pobla de Montornès, La"
+43,108,0,Pla de Santa Maria, El
+43,109,3,Pobla de Mafumet, La
+43,110,7,Pobla de Massaluca, La
+43,111,4,Pobla de Montornès, La
 43,112,9,Poboleda
-43,113,5,"Pont d'Armentera, El"
+43,113,5,Pont d'Armentera, El
 43,141,8,Pontils
 43,114,0,Porrera
 43,115,3,Pradell de la Teixeta
@@ -6486,9 +6486,9 @@
 43,121,2,Rasquera
 43,122,7,Renau
 43,123,3,Reus
-43,124,8,"Riba, La"
+43,124,8,Riba, La
 43,125,1,Riba-roja d'Ebre
-43,126,4,"Riera de Gaià, La"
+43,126,4,Riera de Gaià, La
 43,127,0,Riudecanyes
 43,128,6,Riudecols
 43,129,9,Riudoms
@@ -6496,7 +6496,7 @@
 43,131,0,Roda de Berà
 43,132,5,Rodonyà
 43,133,1,Roquetes
-43,134,6,"Rourell, El"
+43,134,6,Rourell, El
 43,135,9,Salomó
 43,905,7,Salou
 43,136,2,Sant Carles de la Ràpita
@@ -6507,16 +6507,16 @@
 43,140,1,Santa Oliva
 43,142,3,Sarral
 43,143,9,Savallà del Comtat
-43,144,4,"Secuita, La"
-43,145,7,"Selva del Camp, La"
+43,144,4,Secuita, La
+43,145,7,Selva del Camp, La
 43,146,0,Senan
-43,44,5,"Sénia, La"
+43,44,5,Sénia, La
 43,147,6,Solivella
 43,148,2,Tarragona
 43,149,5,Tivenys
 43,150,8,Tivissa
-43,151,5,"Torre de Fontaubella, La"
-43,152,0,"Torre de l'Espanyol, La"
+43,151,5,Torre de Fontaubella, La
+43,152,0,Torre de l'Espanyol, La
 43,153,6,Torredembarra
 43,154,1,Torroja del Priorat
 43,155,4,Tortosa
@@ -6527,7 +6527,7 @@
 43,160,6,Vallmoll
 43,161,3,Valls
 43,162,8,Vandellòs i l'Hospitalet de l'Infant
-43,163,4,"Vendrell, El"
+43,163,4,Vendrell, El
 43,164,9,Vespella de Gaià
 43,165,2,Vilabella
 43,175,0,Vilalba dels Arcs
@@ -6538,8 +6538,8 @@
 43,170,4,Vila-rodona
 43,171,1,Vila-seca
 43,172,6,Vilaverd
-43,173,2,"Vilella Alta, La"
-43,174,7,"Vilella Baixa, La"
+43,173,2,Vilella Alta, La
+43,174,7,Vilella Baixa, La
 43,176,3,Vimbodí i Poblet
 43,177,9,Vinebre
 43,178,5,Vinyols i els Arcs
@@ -6600,30 +6600,30 @@
 44,56,3,Caminreal
 44,59,8,Cantavieja
 44,60,2,Cañada de Benatanduz
-44,61,9,"Cañada de Verich, La"
+44,61,9,Cañada de Verich, La
 44,62,4,Cañada Vellida
 44,63,0,Cañizar del Olivar
 44,64,5,Cascante del Río
 44,65,8,Castejón de Tornos
 44,66,1,Castel de Cabra
-44,70,0,"Castellar, El"
+44,70,0,Castellar, El
 44,71,7,Castellote
 44,67,7,Castelnou
 44,68,3,Castelserás
 44,74,3,Cedrillas
 44,75,6,Celadas
 44,76,9,Cella
-44,77,5,"Cerollera, La"
-44,80,8,"Codoñera, La"
+44,77,5,Cerollera, La
+44,80,8,Codoñera, La
 44,82,0,Corbalán
 44,84,1,Cortes de Aragón
 44,85,4,Cosa
 44,86,7,Cretas
 44,87,3,Crivillén
-44,88,9,"Cuba, La"
+44,88,9,Cuba, La
 44,89,2,Cubla
 44,90,6,Cucalón
-44,92,8,"Cuervo, El"
+44,92,8,Cuervo, El
 44,93,4,Cuevas de Almudén
 44,94,9,Cuevas Labradas
 44,96,5,Ejulve
@@ -6636,7 +6636,7 @@
 44,105,0,Fórnoles
 44,106,3,Fortanete
 44,107,9,Foz-Calanda
-44,108,5,"Fresneda, La"
+44,108,5,Fresneda, La
 44,109,8,Frías de Albarracín
 44,110,2,Fuenferrada
 44,111,9,Fuentes Calientes
@@ -6646,15 +6646,15 @@
 44,115,8,Galve
 44,116,1,Gargallo
 44,117,7,Gea de Albarracín
-44,118,3,"Ginebrosa, La"
+44,118,3,Ginebrosa, La
 44,119,6,Griegos
 44,120,0,Guadalaviar
 44,121,7,Gúdar
 44,122,2,Híjar
 44,123,8,Hinojosa de Jarque
-44,124,3,"Hoz de la Vieja, La"
+44,124,3,Hoz de la Vieja, La
 44,125,6,Huesa del Común
-44,126,9,"Iglesuela del Cid, La"
+44,126,9,Iglesuela del Cid, La
 44,127,5,Jabaloyas
 44,128,1,Jarque de la Val
 44,129,4,Jatiel
@@ -6671,7 +6671,7 @@
 44,143,4,Manzanera
 44,144,9,Martín del Río
 44,145,2,Mas de las Matas
-44,146,5,"Mata de los Olmos, La"
+44,146,5,Mata de los Olmos, La
 44,147,1,Mazaleón
 44,148,7,Mezquita de Jarque
 44,149,0,Mirambel
@@ -6695,24 +6695,24 @@
 44,169,5,Ojos Negros
 44,171,6,Olba
 44,172,1,Oliete
-44,173,7,"Olmos, Los"
+44,173,7,Olmos, Los
 44,174,2,Orihuela del Tremedal
 44,175,5,Orrios
 44,176,8,Palomar de Arroyos
 44,177,4,Pancrudo
-44,178,0,"Parras de Castellote, Las"
+44,178,0,Parras de Castellote, Las
 44,179,3,Peñarroya de Tastavins
 44,180,7,Peracense
 44,181,4,Peralejos
 44,182,9,Perales del Alfambra
 44,183,5,Pitarque
 44,184,0,Plou
-44,185,3,"Pobo, El"
-44,187,2,"Portellada, La"
+44,185,3,Pobo, El
+44,187,2,Portellada, La
 44,189,1,Pozondón
 44,190,5,Pozuel del Campo
-44,191,2,"Puebla de Híjar, La"
-44,192,7,"Puebla de Valverde, La"
+44,191,2,Puebla de Híjar, La
+44,192,7,Puebla de Valverde, La
 44,193,3,Puertomingalvo
 44,194,8,Ráfales
 44,195,1,Rillo
@@ -6764,7 +6764,7 @@
 44,245,1,Valdeltormo
 44,246,4,Valderrobres
 44,247,0,Valjunquera
-44,249,9,"Vallecillo, El"
+44,249,9,Vallecillo, El
 44,250,2,Veguillas de la Sierra
 44,251,9,Villafranca del Campo
 44,252,4,Villahermosa del Campo
@@ -6779,7 +6779,7 @@
 44,265,6,Vinaceite
 44,266,9,Visiedo
 44,267,5,Vivel del Río Martín
-44,268,1,"Zoma, La"
+44,268,1,Zoma, La
 45,1,5,Ajofrín
 45,2,0,Alameda de la Sagra
 45,3,6,Albarreal de Tajo
@@ -6812,21 +6812,21 @@
 45,30,2,Calzada de Oropesa
 45,31,9,Camarena
 45,32,4,Camarenilla
-45,33,0,"Campillo de la Jara, El"
+45,33,0,Campillo de la Jara, El
 45,34,5,Camuñas
 45,35,8,Cardiel de los Montes
 45,36,1,Carmena
-45,37,7,"Carpio de Tajo, El"
+45,37,7,Carpio de Tajo, El
 45,38,3,Carranque
 45,39,6,Carriches
-45,40,0,"Casar de Escalona, El"
+45,40,0,Casar de Escalona, El
 45,41,7,Casarrubios del Monte
 45,42,2,Casasbuenas
 45,43,8,Castillo de Bayuela
 45,45,6,Cazalegas
 45,46,9,Cebolla
 45,47,5,Cedillo del Condado
-45,48,1,"Cerralbos, Los"
+45,48,1,Cerralbos, Los
 45,49,4,Cervera de los Montes
 45,56,6,Chozas de Canales
 45,57,2,Chueca
@@ -6843,21 +6843,21 @@
 45,62,7,Escalonilla
 45,63,3,Espinoso del Rey
 45,64,8,Esquivias
-45,65,1,"Estrella, La"
+45,65,1,Estrella, La
 45,66,4,Fuensalida
 45,67,0,Gálvez
 45,68,6,Garciotum
 45,69,9,Gerindote
 45,70,3,Guadamur
-45,71,0,"Guardia, La"
-45,72,5,"Herencias, Las"
+45,71,0,Guardia, La
+45,72,5,Herencias, Las
 45,73,1,Herreruela de Oropesa
 45,74,6,Hinojosa de San Vicente
 45,75,9,Hontanar
 45,76,2,Hormigos
 45,77,8,Huecas
 45,78,4,Huerta de Valdecarábanos
-45,79,7,"Iglesuela del Tiétar, La"
+45,79,7,Iglesuela del Tiétar, La
 45,80,1,Illán de Vacas
 45,81,8,Illescas
 45,82,3,Lagartera
@@ -6873,7 +6873,7 @@
 45,92,1,Marjaliza
 45,93,7,Marrupe
 45,94,2,Mascaraque
-45,95,5,"Mata, La"
+45,95,5,Mata, La
 45,96,8,Mazarambroz
 45,97,4,Mejorada
 45,98,0,Menasalbas
@@ -6886,12 +6886,12 @@
 45,105,3,Montesclaros
 45,106,6,Mora
 45,107,2,Nambroca
-45,108,8,"Nava de Ricomalillo, La"
+45,108,8,Nava de Ricomalillo, La
 45,109,1,Navahermosa
 45,110,5,Navalcán
 45,111,2,Navalmoralejo
-45,112,7,"Navalmorales, Los"
-45,113,3,"Navalucillos, Los"
+45,112,7,Navalmorales, Los
+45,113,3,Navalucillos, Los
 45,114,8,Navamorcuende
 45,115,1,Noblejas
 45,116,4,Noez
@@ -6913,21 +6913,21 @@
 45,132,3,Pepino
 45,133,9,Polán
 45,134,4,Portillo de Toledo
-45,135,7,"Puebla de Almoradiel, La"
-45,136,0,"Puebla de Montalbán, La"
-45,137,6,"Pueblanueva, La"
-45,138,2,"Puente del Arzobispo, El"
+45,135,7,Puebla de Almoradiel, La
+45,136,0,Puebla de Montalbán, La
+45,137,6,Pueblanueva, La
+45,138,2,Puente del Arzobispo, El
 45,139,5,Puerto de San Vicente
 45,140,9,Pulgar
 45,141,6,Quero
 45,142,1,Quintanar de la Orden
 45,143,7,Quismondo
-45,144,2,"Real de San Vicente, El"
+45,144,2,Real de San Vicente, El
 45,145,5,Recas
 45,146,8,Retamoso de la Jara
 45,147,4,Rielves
 45,148,0,Robledo del Mazo
-45,149,3,"Romeral, El"
+45,149,3,Romeral, El
 45,150,6,San Bartolomé de las Abiertas
 45,151,3,San Martín de Montalbán
 45,152,8,San Martín de Pusa
@@ -6946,10 +6946,10 @@
 45,164,7,Sotillo de las Palomas
 45,165,0,Talavera de la Reina
 45,166,3,Tembleque
-45,167,9,"Toboso, El"
+45,167,9,Toboso, El
 45,168,5,Toledo
 45,169,8,Torralba de Oropesa
-45,171,9,"Torre de Esteban Hambrán, La"
+45,171,9,Torre de Esteban Hambrán, La
 45,170,2,Torrecilla de la Jara
 45,172,4,Torrico
 45,173,0,Torrijos
@@ -6960,10 +6960,10 @@
 45,179,6,Valdeverdeja
 45,180,0,Valmojado
 45,181,7,Velada
-45,182,2,"Ventas con Peña Aguilera, Las"
-45,183,8,"Ventas de Retamosa, Las"
-45,184,3,"Ventas de San Julián, Las"
-45,186,9,"Villa de Don Fadrique, La"
+45,182,2,Ventas con Peña Aguilera, Las
+45,183,8,Ventas de Retamosa, Las
+45,184,3,Ventas de San Julián, Las
+45,186,9,Villa de Don Fadrique, La
 45,185,6,Villacañas
 45,187,5,Villafranca de los Caballeros
 45,188,1,Villaluenga de la Sagra
@@ -6977,8 +6977,8 @@
 45,196,7,Villaseca de la Sagra
 45,197,3,Villasequilla
 45,198,9,Villatobas
-45,199,2,"Viso de San Juan, El"
-45,200,6,"Yébenes, Los"
+45,199,2,Viso de San Juan, El
+45,200,6,Yébenes, Los
 45,201,3,Yeles
 45,202,8,Yepes
 45,203,4,Yuncler
@@ -7002,8 +7002,8 @@
 46,16,8,Alcàntera de Xúquer
 46,15,5,Alcàsser
 46,18,0,Alcublas
-46,20,7,"Alcúdia de Crespins, l'"
-46,19,3,"Alcúdia, l'"
+46,20,7,Alcúdia de Crespins, l'
+46,19,3,Alcúdia, l'
 46,21,4,Aldaia
 46,22,9,Alfafar
 46,24,0,Alfara de la Baronia
@@ -7020,7 +7020,7 @@
 46,34,8,Almoines
 46,35,1,Almussafes
 46,36,4,Alpuente
-46,37,0,"Alqueria de la Comtessa, l'"
+46,37,0,Alqueria de la Comtessa, l'
 46,17,4,Alzira
 46,38,6,Andilla
 46,39,9,Anna
@@ -7095,29 +7095,29 @@
 46,113,6,Daimús
 46,114,1,Domeño
 46,115,4,Dos Aguas
-46,116,7,"Eliana, l'"
+46,116,7,Eliana, l'
 46,117,3,Emperador
 46,118,9,Enguera
-46,119,2,"Ènova, l'"
+46,119,2,Ènova, l'
 46,120,6,Estivella
 46,121,3,Estubeny
 46,122,8,Faura
 46,123,4,Favara
 46,126,5,Foios
-46,128,7,"Font de la Figuera, la"
-46,127,1,"Font d'En Carròs, la"
+46,128,7,Font de la Figuera, la
+46,127,1,Font d'En Carròs, la
 46,124,9,Fontanars dels Alforins
 46,125,2,Fortaleny
 46,129,0,Fuenterrobles
 46,131,1,Gandia
 46,902,4,Gátova
 46,130,4,Gavarda
-46,132,6,"Genovés, el"
+46,132,6,Genovés, el
 46,133,2,Gestalgar
 46,134,7,Gilet
 46,135,0,Godella
 46,136,3,Godelleta
-46,137,9,"Granja de la Costera, la"
+46,137,9,Granja de la Costera, la
 46,138,5,Guadasséquies
 46,139,8,Guadassuar
 46,140,2,Guardamar de la Safor
@@ -7131,7 +7131,7 @@
 46,153,7,Llocnou de Sant Jeroni
 46,151,6,Llocnou d'En Fenollet
 46,156,8,Llombai
-46,157,4,"Llosa de Ranes, la"
+46,157,4,Llosa de Ranes, la
 46,150,9,Llutxent
 46,148,3,Loriguilla
 46,149,6,Losa del Obispo
@@ -7159,14 +7159,14 @@
 46,179,9,Navarrés
 46,180,3,Novelé/Novetlè
 46,181,0,Oliva
-46,183,1,"Olleria, l'"
+46,183,1,Olleria, l'
 46,182,5,Olocau
 46,184,6,Ontinyent
 46,185,9,Otos
 46,186,2,Paiporta
 46,187,8,Palma de Gandía
 46,188,4,Palmera
-46,189,7,"Palomar, el"
+46,189,7,Palomar, el
 46,190,1,Paterna
 46,191,8,Pedralba
 46,192,3,Petrés
@@ -7174,15 +7174,15 @@
 46,194,4,Picassent
 46,195,7,Piles
 46,196,0,Pinet
-46,199,5,"Pobla de Farnals, la"
-46,202,1,"Pobla de Vallbona, la"
-46,200,9,"Pobla del Duc, la"
-46,203,7,"Pobla Llarga, la"
+46,199,5,Pobla de Farnals, la
+46,202,1,Pobla de Vallbona, la
+46,200,9,Pobla del Duc, la
+46,203,7,Pobla Llarga, la
 46,197,6,Polinyà de Xúquer
 46,198,2,Potries
 46,205,5,Puçol
 46,201,6,Puebla de San Miguel
-46,204,2,"Puig de Santa Maria, el"
+46,204,2,Puig de Santa Maria, el
 46,101,7,Quart de les Valls
 46,102,2,Quart de Poblet
 46,103,8,Quartell
@@ -7193,7 +7193,7 @@
 46,209,3,Rafelguaraf
 46,210,7,Ráfol de Salem
 46,212,9,Real
-46,211,4,"Real de Gandia, el"
+46,211,4,Real de Gandia, el
 46,213,5,Requena
 46,214,0,Riba-roja de Túria
 46,215,3,Riola
@@ -7248,7 +7248,7 @@
 46,146,1,Xeresa
 46,110,8,Xirivella
 46,261,3,Yátova
-46,262,8,"Yesa, La"
+46,262,8,Yesa, La
 46,263,4,Zarra
 47,1,4,Adalia
 47,2,9,Aguasal
@@ -7280,7 +7280,7 @@
 47,28,4,Cabezón de Valderaduey
 47,29,7,Cabreros del Monte
 47,30,1,Campaspero
-47,31,8,"Campillo, El"
+47,31,8,Campillo, El
 47,32,3,Camporredondo
 47,33,9,Canalejas de Peñafiel
 47,34,4,Canillas de Esgueva
@@ -7347,7 +7347,7 @@
 47,96,7,Morales de Campos
 47,97,3,Mota del Marqués
 47,98,9,Mucientes
-47,99,2,"Mudarra, La"
+47,99,2,Mudarra, La
 47,100,6,Muriel
 47,101,3,Nava del Rey
 47,102,8,Nueva Villa de las Torres
@@ -7356,8 +7356,8 @@
 47,105,2,Olmos de Esgueva
 47,106,5,Olmos de Peñafiel
 47,109,0,Palazuelo de Vedija
-47,110,4,"Parrilla, La"
-47,111,1,"Pedraja de Portillo, La"
+47,110,4,Parrilla, La
+47,111,1,Pedraja de Portillo, La
 47,112,6,Pedrajas de San Esteban
 47,113,2,Pedrosa del Rey
 47,114,7,Peñafiel
@@ -7402,7 +7402,7 @@
 47,154,8,Santibáñez de Valcorba
 47,155,1,Santovenia de Pisuerga
 47,157,0,Sardón de Duero
-47,158,6,"Seca, La"
+47,158,6,Seca, La
 47,159,9,Serrada
 47,160,3,Siete Iglesias de Trabancos
 47,161,0,Simancas
@@ -7420,7 +7420,7 @@
 47,173,9,Traspinedo
 47,174,4,Trigueros del Valle
 47,175,7,Tudela de Duero
-47,176,0,"Unión de Campos, La"
+47,176,0,Unión de Campos, La
 47,177,6,Urones de Castroponce
 47,178,2,Urueña
 47,179,5,Valbuena de Duero
@@ -7474,7 +7474,7 @@
 47,194,0,Viloria
 47,230,9,Wamba
 47,231,6,Zaratán
-47,232,1,"Zarza, La"
+47,232,1,Zarza, La
 48,1,0,Abadiño
 48,2,5,Abanto y Ciérvana-Abanto Zierbena
 48,911,9,Ajangiz
@@ -7609,7 +7609,7 @@
 49,21,9,Benavente
 49,22,4,Benegiles
 49,23,0,Bermillo de Sayago
-49,24,5,"Bóveda de Toro, La"
+49,24,5,Bóveda de Toro, La
 49,25,8,Bretó
 49,26,1,Bretocino
 49,27,7,Brime de Sog
@@ -7640,7 +7640,7 @@
 49,55,1,Cotanes del Monte
 49,56,4,Cubillos
 49,57,0,Cubo de Benavente
-49,58,6,"Cubo de Tierra del Vino, El"
+49,58,6,Cubo de Tierra del Vino, El
 49,59,9,Cuelgamures
 49,61,0,Entrala
 49,62,5,Espadañedo
@@ -7671,14 +7671,14 @@
 49,92,9,Granucillo
 49,93,5,Guarrate
 49,94,0,Hermisende
-49,95,3,"Hiniesta, La"
+49,95,3,Hiniesta, La
 49,96,6,Jambrina
 49,97,2,Justel
 49,98,8,Losacino
 49,99,1,Losacio
 49,100,5,Lubián
 49,101,2,Luelmo
-49,102,7,"Maderal, El"
+49,102,7,Maderal, El
 49,103,3,Madridanos
 49,104,8,Mahide
 49,105,1,Maire de Castroponce
@@ -7719,19 +7719,19 @@
 49,143,5,Palacios de Sanabria
 49,142,9,Palacios del Pan
 49,145,3,Pedralba de la Pradería
-49,146,6,"Pego, El"
+49,146,6,Pego, El
 49,147,2,Peleagonzalo
 49,148,8,Peleas de Abajo
 49,149,1,Peñausende
 49,150,4,Peque
-49,151,1,"Perdigón, El"
+49,151,1,Perdigón, El
 49,152,6,Pereruela
 49,153,2,Perilla de Castro
 49,154,7,Pías
 49,155,0,Piedrahita de Castro
 49,156,3,Pinilla de Toro
 49,157,9,Pino del Oro
-49,158,5,"Piñero, El"
+49,158,5,Piñero, El
 49,160,2,Pobladura de Valderaduey
 49,159,8,Pobladura del Valle
 49,162,4,Porto
@@ -7782,7 +7782,7 @@
 49,214,5,Tábara
 49,216,1,Tapioles
 49,219,6,Toro
-49,220,0,"Torre del Valle, La"
+49,220,0,Torre del Valle, La
 49,221,7,Torregamones
 49,222,2,Torres del Carrizal
 49,223,8,Trabazos
@@ -7856,10 +7856,10 @@
 50,19,1,Alforque
 50,20,5,Alhama de Aragón
 50,21,2,Almochuel
-50,22,7,"Almolda, La"
+50,22,7,Almolda, La
 50,23,3,Almonacid de la Cuba
 50,24,8,Almonacid de la Sierra
-50,25,1,"Almunia de Doña Godina, La"
+50,25,1,Almunia de Doña Godina, La
 50,26,4,Alpartir
 50,27,0,Ambel
 50,28,6,Anento
@@ -7896,8 +7896,8 @@
 50,59,2,Bujaraloz
 50,60,6,Bulbuente
 50,61,3,Bureta
-50,62,8,"Burgo de Ebro, El"
-50,63,4,"Buste, El"
+50,62,8,Burgo de Ebro, El
+50,63,4,Buste, El
 50,64,9,Cabañas de Ebro
 50,65,2,Cabolafuente
 50,66,5,Cadrete
@@ -7927,7 +7927,7 @@
 50,88,3,Cosuenda
 50,89,6,Cuarte de Huerva
 50,90,0,Cubel
-50,91,7,"Cuerlas, Las"
+50,91,7,Cuerlas, Las
 50,94,3,Daroca
 50,95,6,Ejea de los Caballeros
 50,96,9,Embid de Ariza
@@ -7938,11 +7938,11 @@
 50,102,0,Fabara
 50,104,1,Farlete
 50,105,4,Fayón
-50,106,7,"Fayos, Los"
+50,106,7,Fayos, Los
 50,107,3,Figueruelas
 50,108,9,Fombuena
-50,109,2,"Frago, El"
-50,110,6,"Frasno, El"
+50,109,2,Frago, El
+50,110,6,Frasno, El
 50,111,3,Fréscano
 50,113,4,Fuendejalón
 50,114,9,Fuendetodos
@@ -7962,7 +7962,7 @@
 50,129,8,Jaraba
 50,130,2,Jarque de Moncayo
 50,131,9,Jaulín
-50,132,4,"Joyosa, La"
+50,132,4,Joyosa, La
 50,133,0,Lagata
 50,134,5,Langa del Castillo
 50,135,8,Layana
@@ -8011,7 +8011,7 @@
 50,179,7,Moyuela
 50,180,1,Mozota
 50,181,8,Muel
-50,182,3,"Muela, La"
+50,182,3,Muela, La
 50,183,9,Munébrega
 50,184,4,Murero
 50,185,7,Murillo de Gállego
@@ -8034,12 +8034,12 @@
 50,202,9,Paracuellos de la Ribera
 50,203,5,Pastriz
 50,204,0,Pedrola
-50,205,3,"Pedrosas, Las"
+50,205,3,Pedrosas, Las
 50,206,6,Perdiguera
 50,207,2,Piedratajada
 50,208,8,Pina de Ebro
 50,209,1,Pinseque
-50,210,5,"Pintanos, Los"
+50,210,5,Pintanos, Los
 50,211,2,Plasencia de Jalón
 50,212,7,Pleitas
 50,213,3,Plenas
@@ -8048,7 +8048,7 @@
 50,216,4,Pozuelo de Aragón
 50,217,0,Pradilla de Ebro
 50,218,6,Puebla de Albortón
-50,219,9,"Puebla de Alfindén, La"
+50,219,9,Puebla de Alfindén, La
 50,220,3,Puendeluna
 50,221,0,Purujosa
 50,222,5,Quinto
@@ -8123,9 +8123,9 @@
 50,292,0,Villarreal de Huerva
 50,293,6,Villarroya de la Sierra
 50,294,1,Villarroya del Campo
-50,282,2,"Vilueña, La"
+50,282,2,Vilueña, La
 50,295,4,Vistabella
-50,296,7,"Zaida, La"
+50,296,7,Zaida, La
 50,297,3,Zaragoza
 50,298,9,Zuera
 51,1,3,Ceuta
